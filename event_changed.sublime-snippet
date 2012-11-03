@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[changed(integer change)
+{
+	$0
+}]]></content>
+    <tabTrigger>changed</tabTrigger>
+    <scope>source.lsl, source.esl</scope>
+    <description>event</description>
+</snippet>

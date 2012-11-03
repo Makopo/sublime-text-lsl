@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[default
+{
+	$1
+}
+$0]]></content>
+    <tabTrigger>default</tabTrigger>
+    <scope>source.lsl, source.esl</scope>
+    <description>default state</description>
+</snippet>

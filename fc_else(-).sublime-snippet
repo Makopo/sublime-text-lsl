@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[else
+{
+	$1
+}
+$0]]></content>
+    <tabTrigger>else</tabTrigger>
+    <scope>source.lsl, source.esl</scope>
+    <description>else …</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[while ($1)
+{
+	$2
+}
+$0]]></content>
+    <tabTrigger>while</tabTrigger>
+    <scope>source.lsl, source.esl</scope>
+    <description>while …</description>
+</snippet>

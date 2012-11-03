@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[attach(key id)
+{
+	$0
+}]]></content>
+    <tabTrigger>attach</tabTrigger>
+    <scope>source.lsl, source.esl</scope>
+    <description>event</description>
+</snippet>
