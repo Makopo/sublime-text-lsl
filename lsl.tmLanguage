@@ -17,12 +17,60 @@
 	</array>
 	<key>repository</key>
 	<dict>
+		<key>array</key>
+		<dict>
+			<key>begin</key>
+			<string>\[</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.array.begin.lsl</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>\]</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.end.lsl</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>meta.inarray.lsl</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#infunc</string>
+				</dict>
+			</array>
+		</dict>
 		<key>avoid</key>
 		<dict>
 			<key>match</key>
 			<string>\b(ll(CollisionSprite|GodLikeRezObject|Make(Explosion|Fountain|Smoke|Fire)|(Stop)?PointAt|((Refresh|Set)Prim)URL|(Take|Release)Camera|RemoteDataSetRegion|RemoteLoadScript|SetInventoryPermMask|Sound(Preload)?|XorBase64Strings))\b</string>
 			<key>name</key>
 			<string>invalid.deprecated.lsl</string>
+		</dict>
+		<key>begin_end</key>
+		<dict>
+			<key>begin</key>
+			<string>\{</string>
+			<key>end</key>
+			<string>\}</string>
+			<key>name</key>
+			<string>meta.incode.lsl</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#infunc</string>
+				</dict>
+			</array>
 		</dict>
 		<key>comment1</key>
 		<dict>
@@ -36,8 +84,6 @@
 					<string>punctuation.definition.comment.lsl</string>
 				</dict>
 			</dict>
-			<key>comment</key>
-			<string>two_sided_delimiter</string>
 			<key>end</key>
 			<string>\*/</string>
 			<key>name</key>
@@ -53,8 +99,6 @@
 					<string>punctuation.definition.comment.lsl</string>
 				</dict>
 			</dict>
-			<key>comment</key>
-			<string>one_sided_delimiter</string>
 			<key>match</key>
 			<string>(//).*$\n?</string>
 			<key>name</key>
@@ -67,12 +111,157 @@
 			<key>name</key>
 			<string>constant.language.lsl</string>
 		</dict>
+		<key>event</key>
+		<dict>
+			<key>begin</key>
+			<string>state_(entry|exit)|touch(_(start|end))?|(land_)?collision(_(start|end))?|timer|listen|(no_)?sensor|control|print|(not_)?at_(rot_)?target|money|email|run_time_permissions|changed|attach|dataserver|moving_(start|end)|link_message|(on|object)_rez|remote_data|http_re(sponse|quest)</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>support.function.event.lsl</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>\}</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.event.end.lsl</string>
+				</dict>
+			</dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>begin</key>
+					<string>{</string>
+					<key>end</key>
+					<string>(?=})</string>
+					<key>name</key>
+					<string>meta.event.body.lsl</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>#infunc</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
 		<key>flow_control</key>
 		<dict>
 			<key>match</key>
 			<string>\b(jump|return|if|else|for|do|while|state)\b</string>
 			<key>name</key>
 			<string>keyword.control.flow.lsl</string>
+		</dict>
+		<key>functiondef</key>
+		<dict>
+			<key>begin</key>
+			<string>(?:\w+\s+)?(\w+)?\s*\(.*?\)</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.function.begin.lsl</string>
+				</dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function.lsl</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>}</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.function.end.lsl</string>
+				</dict>
+			</dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>begin</key>
+					<string>{</string>
+					<key>end</key>
+					<string>(?=})</string>
+					<key>name</key>
+					<string>meta.function.body.lsl</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>#infunc</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>infunc</key>
+		<dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#begin_end</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#comment1</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#comment2</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#array</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#quated</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#flow_control</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#constant</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#storage_type</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#llconstant</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#avoid</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#llfunction</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#number</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#operator</string>
+				</dict>
+			</array>
 		</dict>
 		<key>llconstant</key>
 		<dict>
@@ -81,17 +270,10 @@
 			<key>name</key>
 			<string>constant.language.ll.lsl</string>
 		</dict>
-		<key>llevent</key>
-		<dict>
-			<key>match</key>
-			<string>\b(state_(entry|exit)|touch(_(start|end))?|(land_)?collision(_(start|end))?|timer|listen|(no_)?sensor|control|print|(not_)?at_(rot_)?target|money|email|run_time_permissions|changed|attach|dataserver|moving_(start|end)|link_message|(on|object)_rez|remote_data|http_re(sponse|quest))\b</string>
-			<key>name</key>
-			<string>support.function.event.lsl</string>
-		</dict>
 		<key>llfunction</key>
 		<dict>
 			<key>match</key>
-			<string>\b(ll(Sin|Cos|Tan|Atan2|Sqrt|Pow|Abs|Fabs|Frand|Floor|Ceil|Round|Vec(Mag|Norm|Dist)|Rot(Between|2(Euler|Fwd|Left|Up))|(Euler|Axes)2Rot|Whisper|(Region|Owner)?Say|Shout|Listen(Control|Remove)?|Sensor(Repeat|Remove)?|Detected(Name|Key|Owner|Type|Pos|Vel|Grab|Rot|Group|LinkNumber)|Die|Ground|Cloud|Wind|(Set|Get)(PrimMediaParams|ObjectDesc|ObjectPermMask|Status|Scale|Color|Alpha|Texture|Pos|Rot|Force|Torque|ObjectName)|(Scale|Offset|Rotate)Texture|(Rot)?Target(Remove)?|(Stop)?MoveToTarget|Apply(Rotational)?Impulse|Set(Buoyancy|HoverHeight|ForceAndTorque|TimerEvent|ScriptState|Damage|TextureAnim|Sound(Queueing|Radius)|Vehicle(Type|(Float|Vector|Rotation)Param)|(Touch|Sit)?Text|Camera(Eye|At)Offset|PrimitiveParams|ParcelMusicURL|ClickAction|Link(Alpha|Color|PrimitiveParams(Fast)?|Texture(Anim)?)|RemoteScriptAccessPin|PayPrice|LocalRot)|Get(Env|PrimitiveParams|Link(PrimitiveParams|Number(OfSides)?|Key|Name)|HTTPHeader|FreeURLs|Object(Details|PrimCount)|Parcel(MaxPrims|Details|Prim(Count|Owners))|Attached|FreeMemory|Region(Name|TimeDilation|FPS|Corner|AgentCount)|Root(Position|Rotation)|UnixTime|(Parcel|Region)Flags|(Wall|GMT)clock|SimulatorHostname|BoundingBox|GeometricCenter|Creator|NumberOf(Prims|NotecardLines|Sides)|Animation(List)?|(Camera|Local)(Pos|Rot)|Vel|Accel|Omega|Time(stamp|OfDay)|(Object|CenterOf)?Mass|Energy|Owner|(Owner)?Key|SunDirection|Texture(Offset|Scale|Rot)|Inventory(Number|Name|Key|Type|Creator|PermMask)|Permissions(Key)?|StartParameter|List(Length|EntryType)|Date|Agent(Size|Info|Language)|LandOwnerAt|NotecardLine|Script(Name|State))|(Get|Reset|GetAndReset)Time|PlaySound(Slave)?|LoopSound(Master|Slave)?|(Trigger|Stop|Preload)Sound|((Get|Delete)Sub|Insert)String|To(Upper|Lower)|Give(InventoryList|Money)|RezObject|(Stop)?LookAt|Sleep|CollisionFilter|(Take|Release)Controls|(AttachTo|DetachFrom)Avatar|InstantMessage|(GetNext)?Email|StopHover|MinEventDelay|RotLookAt|String(Length|Trim)|(Start|Stop)Animation|TargetOmega|RequestPermissions|(Create|Break)Link|BreakAllLinks|(Give|Remove)Inventory|Water|PassTouches|Request(Agent|Inventory)Data|TeleportAgentHome|ModifyLand|CollisionSound|ResetScript|MessageLinked|PushObject|PassCollisions|AxisAngle2Rot|Rot2(Axis|Angle)|A(cos|sin)|AngleBetween|AllowInventoryDrop|SubStringIndex|List2(CSV|Integer|Float|String|Key|Vector|Rot|List(Strided)?)|DeleteSubList|List(Statistics|Sort|Randomize|(Insert|Find|Replace)List)|EdgeOfWorld|AdjustSoundVolume|Key2Name|TriggerSoundLimited|EjectFromLand|(CSV|ParseString)2List|OverMyLand|SameGroup|UnSit|Ground(Slope|Normal|Contour)|ParticleSystem|GroundRepel|(Set|Remove)VehicleFlags|(AvatarOn)?SitTarget|ScriptDanger|Dialog|VolumeDetect|ResetOtherScript|RemoteLoadScriptPin|(Open|Close)RemoteDataChannel|SendRemoteData|RemoteDataReply|(Integer|String)ToBase64|XorBase64StringsCorrect|Log(10)?|Base64To(String|Integer)|ParseStringKeepNulls|RezAtRoot|RequestSimulatorData|ForceMouselook|(Load|Release|(E|Une)scape)URL|ParcelMedia(CommandList|Query)|ModPow|MapDestination|(RemoveFrom|AddTo|Reset)Land(Pass|Ban)List|(Set|Clear)CameraParams|HTTP(Request|Response)|TextBox|DetectedTouch(UV|Face|Pos|(N|Bin)ormal|ST)|(MD5|SHA1|DumpList2)String|Request(Secure)?URL|ClearPrimMedia|LinkParticleSystem|(Get|Request)(Username|DisplayName)|RegionSayTo))\b</string>
+			<string>\b(ll(Sin|Cos|Tan|Atan2|Sqrt|Pow|Abs|Fabs|Frand|Floor|Ceil|Round|Vec(Mag|Norm|Dist)|Rot(Between|2(Euler|Fwd|Left|Up))|(Euler|Axes)2Rot|Whisper|(Region|Owner)?Say|Shout|Listen(Control|Remove)?|Sensor(Repeat|Remove)?|Detected(Name|Key|Owner|Type|Pos|Vel|Grab|Rot|Group|LinkNumber)|Die|Ground|Cloud|Wind|(Set|Get)(PrimMediaParams|ObjectDesc|ObjectPermMask|Status|Scale|Color|Alpha|Texture|Pos|Rot|Force|Torque|ObjectName)|(Scale|Offset|Rotate)Texture|(Rot)?Target(Remove)?|(Stop)?MoveToTarget|Apply(Rotational)?Impulse|Set(Buoyancy|HoverHeight|ForceAndTorque|TimerEvent|ScriptState|Damage|TextureAnim|Sound(Queueing|Radius)|Vehicle(Type|(Float|Vector|Rotation)Param)|(Touch|Sit)?Text|Camera(Eye|At)Offset|PrimitiveParams|ParcelMusicURL|ClickAction|Link(Alpha|Color|PrimitiveParams(Fast)?|Texture(Anim)?)|RemoteScriptAccessPin|PayPrice|LocalRot)|Get(Env|PrimitiveParams|Link(PrimitiveParams|Number(OfSides)?|Key|Name)|HTTPHeader|FreeURLs|Object(Details|PrimCount)|Parcel(MaxPrims|Details|Prim(Count|Owners))|Attached|FreeMemory|Region(Name|TimeDilation|FPS|Corner|AgentCount)|Root(Position|Rotation)|UnixTime|(Parcel|Region)Flags|(Wall|GMT)clock|SimulatorHostname|BoundingBox|GeometricCenter|Creator|NumberOf(Prims|NotecardLines|Sides)|Animation(List)?|(Camera|Local)(Pos|Rot)|Vel|Accel|Omega|Time(stamp|OfDay)|(Object|CenterOf)?Mass|Energy|Owner|(Owner)?Key|SunDirection|Texture(Offset|Scale|Rot)|Inventory(Number|Name|Key|Type|Creator|PermMask)|Permissions(Key)?|StartParameter|List(Length|EntryType)|Date|Agent(Size|Info|Language)|LandOwnerAt|NotecardLine|Script(Name|State))|(Get|Reset|GetAndReset)Time|PlaySound(Slave)?|LoopSound(Master|Slave)?|(Trigger|Stop|Preload)Sound|((Get|Delete)Sub|Insert)String|To(Upper|Lower)|Give(InventoryList|Money)|RezObject|(Stop)?LookAt|Sleep|CollisionFilter|(Take|Release)Controls|(AttachTo|DetachFrom)Avatar|InstantMessage|(GetNext)?Email|StopHover|MinEventDelay|RotLookAt|String(Length|Trim)|(Start|Stop)Animation|TargetOmega|RequestPermissions|(Create|Break)Link|BreakAllLinks|(Give|Remove)Inventory|Water|PassTouches|Request(Agent|Inventory)Data|TeleportAgent(Home)?|ModifyLand|CollisionSound|ResetScript|MessageLinked|PushObject|PassCollisions|AxisAngle2Rot|Rot2(Axis|Angle)|A(cos|sin)|AngleBetween|AllowInventoryDrop|SubStringIndex|List2(CSV|Integer|Float|String|Key|Vector|Rot|List(Strided)?)|DeleteSubList|List(Statistics|Sort|Randomize|(Insert|Find|Replace)List)|EdgeOfWorld|AdjustSoundVolume|Key2Name|TriggerSoundLimited|EjectFromLand|(CSV|ParseString)2List|OverMyLand|SameGroup|UnSit|Ground(Slope|Normal|Contour)|ParticleSystem|GroundRepel|(Set|Remove)VehicleFlags|(AvatarOn)?SitTarget|ScriptDanger|Dialog|VolumeDetect|ResetOtherScript|RemoteLoadScriptPin|(Open|Close)RemoteDataChannel|SendRemoteData|RemoteDataReply|(Integer|String)ToBase64|XorBase64StringsCorrect|Log(10)?|Base64To(String|Integer)|ParseStringKeepNulls|RezAtRoot|RequestSimulatorData|ForceMouselook|(Load|Release|(E|Une)scape)URL|ParcelMedia(CommandList|Query)|ModPow|MapDestination|(RemoveFrom|AddTo|Reset)Land(Pass|Ban)List|(Set|Clear)CameraParams|HTTP(Request|Response)|TextBox|DetectedTouch(UV|Face|Pos|(N|Bin)ormal|ST)|(MD5|SHA1|DumpList2)String|Request(Secure)?URL|ClearPrimMedia|LinkParticleSystem|(Get|Request)(Username|DisplayName)|RegionSayTo))\b</string>
 			<key>name</key>
 			<string>support.function.ll.lsl</string>
 		</dict>
@@ -139,6 +321,13 @@
 				</dict>
 			</array>
 		</dict>
+		<key>operator</key>
+		<dict>
+			<key>match</key>
+			<string>[\=\+\-%&amp;&lt;&gt;^|\*!]</string>
+			<key>name</key>
+			<string>keyword.operator.lsl</string>
+		</dict>
 		<key>quated</key>
 		<dict>
 			<key>begin</key>
@@ -173,6 +362,55 @@
 				</dict>
 			</array>
 		</dict>
+		<key>state</key>
+		<dict>
+			<key>begin</key>
+			<string>(?:state)\s+\w+|default</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>support.class.state.begin.lsl</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>\}</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>support.class.state.end.lsl</string>
+				</dict>
+			</dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>begin</key>
+					<string>{</string>
+					<key>end</key>
+					<string>(?=})</string>
+					<key>name</key>
+					<string>meta.state.body.lsl</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>#comment1</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#comment2</string>
+						</dict>
+						<dict>
+							<key>include</key>
+							<string>#event</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
 		<key>storage_type</key>
 		<dict>
 			<key>match</key>
@@ -194,15 +432,7 @@
 				</dict>
 				<dict>
 					<key>include</key>
-					<string>#quated</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#flow_control</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#constant</string>
+					<string>#state</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -210,23 +440,27 @@
 				</dict>
 				<dict>
 					<key>include</key>
-					<string>#llevent</string>
+					<string>#quated</string>
 				</dict>
 				<dict>
 					<key>include</key>
-					<string>#llconstant</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#avoid</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#llfunction</string>
+					<string>#constant</string>
 				</dict>
 				<dict>
 					<key>include</key>
 					<string>#number</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#operator</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#array</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#functiondef</string>
 				</dict>
 			</array>
 		</dict>
