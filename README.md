@@ -31,14 +31,9 @@ The easiest way to install this is with [Package Control](http://wbond.net/subli
 
  * If you just went and installed Package Control, you probably need to restart Sublime Text 2 before doing this next bit.
  * Bring up the Command Palette (Command+Shift+p on OS X, Control+Shift+p on Linux/Windows).
-<<<<<<< HEAD
  * Select "Package Control: Add Repository" and then type "https://github.com/Makopo/sublime-text-lsl.git" in the bottom textfield.
  * Select "Package Control: Install Package" (it'll take a few seconds)
  * Select "sublime-text-lsl"(not sublime-text2-lsl) when the list appears.
-=======
- * Select "Package Control: Install Package" (it'll take a few seconds)
- * Select Git when the list appears.
->>>>>>> 6b27f1c867f16be269fd0e832a0c88056d55c22c
 
 Package Control will automatically keep Git up to date with the latest version.
 
