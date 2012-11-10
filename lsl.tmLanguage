@@ -133,6 +133,8 @@
 					<string>punctuation.definition.event.end.lsl</string>
 				</dict>
 			</dict>
+			<key>name</key>
+			<string>meta.event.body.lsl</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -186,6 +188,8 @@
 					<string>punctuation.definition.function.end.lsl</string>
 				</dict>
 			</dict>
+			<key>name</key>
+			<string>meta.function.lsl</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -252,6 +256,10 @@
 				<dict>
 					<key>include</key>
 					<string>#llfunction</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#userfunction</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -384,6 +392,8 @@
 					<string>support.class.state.end.lsl</string>
 				</dict>
 			</dict>
+			<key>name</key>
+			<string>meta.state.lsl</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -417,6 +427,19 @@
 			<string>\b(integer|float|string|key|vector|quaternion|rotation|list)\b</string>
 			<key>name</key>
 			<string>storage.type.lsl</string>
+		</dict>
+		<key>userfunction</key>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function.lsl</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(\w+?)\s*\(.*?\)</string>
 		</dict>
 		<key>value</key>
 		<dict>
