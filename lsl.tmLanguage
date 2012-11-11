@@ -134,7 +134,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.event.body.lsl</string>
+			<string>meta.event.lsl</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -379,7 +379,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>support.class.state.begin.lsl</string>
+					<string>entity.name.class.state.begin.lsl</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -389,7 +389,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>support.class.state.end.lsl</string>
+					<string>punctuation.definition.state.end.lsl</string>
 				</dict>
 			</dict>
 			<key>name</key>
@@ -435,7 +435,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.lsl</string>
+					<string>meta.function-call.lsl</string>
 				</dict>
 			</dict>
 			<key>match</key>
