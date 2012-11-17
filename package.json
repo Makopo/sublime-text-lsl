@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.3",
 	"package_name_map": {
-		"sublim-text-lsl": "LSL"
+		"sublime-text-lsl": "LSL"
 	},
 	"packages": [
 		{
