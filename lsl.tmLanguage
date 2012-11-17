@@ -156,6 +156,21 @@
 			<array>
 				<dict>
 					<key>begin</key>
+					<string>\(</string>
+					<key>end</key>
+					<string>\)</string>
+					<key>name</key>
+					<string>meta.event.parameters.lsl</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>#storage_type</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>begin</key>
 					<string>{</string>
 					<key>end</key>
 					<string>(?=})</string>
@@ -181,7 +196,7 @@
 		<key>functiondef</key>
 		<dict>
 			<key>begin</key>
-			<string>(?:\w+\s+)?(\w+)?\s*\(.*?\)</string>
+			<string>(?:\w+\s+)?(\w+)?\s*(?=\(.*?\))</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>0</key>
@@ -209,6 +224,21 @@
 			<string>meta.function.lsl</string>
 			<key>patterns</key>
 			<array>
+				<dict>
+					<key>begin</key>
+					<string>\(</string>
+					<key>end</key>
+					<string>\)</string>
+					<key>name</key>
+					<string>meta.function.parameters.lsl</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>#storage_type</string>
+						</dict>
+					</array>
+				</dict>
 				<dict>
 					<key>begin</key>
 					<string>{</string>
