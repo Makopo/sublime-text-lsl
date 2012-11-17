@@ -11,7 +11,7 @@
 				"*": [
 					{
 						"version": "0.5",
-						"url": "http://github.com/Makopo/sublime-text-lsl/archive/master.zip"
+						"url": "http://github.com/Makopo/sublime-text-lsl/zipball/master"
 					}
 				]
 			}
