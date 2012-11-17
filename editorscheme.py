@@ -1,4 +1,4 @@
-import sublime, sublime_plugin, os
+import sublime, sublime_plugin
 
 class ChangeEditorSchemeCommand(sublime_plugin.WindowCommand):
 	_is_checked = False
@@ -10,7 +10,7 @@ class ChangeEditorSchemeCommand(sublime_plugin.WindowCommand):
 	def run(self):
 		s = sublime.load_settings("lsl.sublime-settings")
 		if not self._is_checked:
-			s.set("color_scheme", os.path.abspath(os.path.dirname(__file__)) + "/LLViewer.tmTheme")
+			s.set("color_scheme", "Packages/LSL/lsl.tmTheme")
 		else:
 			s.erase("color_scheme")
 		sublime.save_settings("lsl.sublime-settings")
