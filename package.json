@@ -16,5 +16,8 @@
 				]
 			}
 		}
-	]
+	],
+	"renamed_packages": {
+		"sublime-text-lsl": "LSL"
+	}
 }
