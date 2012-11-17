@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>LLViewer</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#F4F4F4</string>
+				<key>caret</key>
+				<string>#000000</string>
+				<key>foreground</key>
+				<string>#000000</string>
+				<key>invisibles</key>
+				<string>#BFBFBF</string>
+				<key>lineHighlight</key>
+				<string>#BFBFBF</string>
+				<key>selection</key>
+				<string>#8BC5B0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>sections</string>
+			<key>scope</key>
+			<string>entity.name.class.state.begin.lsl, constant.language.state.lsl</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#801a4d</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>data types</string>
+			<key>scope</key>
+			<string>storage.type.lsl</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#006600</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>events</string>
+			<key>scope</key>
+			<string>support.function.event.lsl</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#004d80</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>comment</string>
+			<key>scope</key>
+			<string>comment.block.lsl, comment.line.double-slash.lsl</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cd4d26</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>string literals</string>
+			<key>scope</key>
+			<string>string.quoted.double.lsl</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#006600</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>functions</string>
+			<key>scope</key>
+			<string>support.function.ll.lsl</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#820124</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>integer constants</string>
+			<key>scope</key>
+			<string>constant.language.integer.lsl, constant.language.ll.integer.lsl</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#242687</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>string constants</string>
+			<key>scope</key>
+			<string>constant.language.string.lsl, constant.language.ll.string.lsl</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#336699</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>float constants</string>
+			<key>scope</key>
+			<string>constant.language.ll.float.lsl</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4c1a80</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>compound constants</string>
+			<key>scope</key>
+			<string>constant.language.ll.compound.lsl</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#774477</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>flow control keywords</string>
+			<key>scope</key>
+			<string>keyword.control.flow.lsl</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0000cd</string>
+			</dict>
+		</dict>
+	</array>
+	<key>uuid</key>
+	<string>501D5F7E-7248-4F79-9EA1-895F97463371</string>
+</dict>
+</plist>

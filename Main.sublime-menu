@@ -1,0 +1,23 @@
+[
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "LSL",
+                        "children":
+                        [
+                            { "command": "change_editor_scheme", "caption": "Use Viewer Theme", "checkbox": true }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
