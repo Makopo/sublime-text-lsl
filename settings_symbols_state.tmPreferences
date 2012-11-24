@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>symbols</string>
 	<key>scope</key>
-	<string>entity.name.class.state.begin.lsl</string>
+	<string>entity.name.class.state.begin.lsl, entity.name.class.state.begin.ossl</string>
 	<key>settings</key>
 	<dict>
 		<key>showInSymbolList</key>

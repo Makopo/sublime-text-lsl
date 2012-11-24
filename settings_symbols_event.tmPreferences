@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>symbols</string>
 	<key>scope</key>
-	<string>support.function.event.lsl</string>
+	<string>support.function.event.lsl, support.function.event.ossl</string>
 	<key>settings</key>
 	<dict>
 		<key>showInSymbolList</key>

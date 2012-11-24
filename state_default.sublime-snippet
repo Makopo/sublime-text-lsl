@@ -5,6 +5,6 @@
 }
 $0]]></content>
     <tabTrigger>default</tabTrigger>
-    <scope>source.lsl - meta.state.lsl</scope>
+    <scope>source.lsl - meta.state.lsl, source.ossl - meta.state.ossl</scope>
     <description>default state</description>
 </snippet>

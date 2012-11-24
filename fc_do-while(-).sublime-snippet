@@ -6,6 +6,6 @@
 while ($1);
 $0]]></content>
     <tabTrigger>do</tabTrigger>
-    <scope>meta.event.body.lsl, meta.function.body.lsl</scope>
+    <scope>meta.event.body.lsl, meta.function.body.lsl, meta.event.body.ossl, meta.function.body.ossl</scope>
     <description>do … while …</description>
 </snippet>

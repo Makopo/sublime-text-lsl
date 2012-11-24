@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>general</string>
 	<key>scope</key>
-	<string>source.lsl</string>
+	<string>source.lsl, source.ossl</string>
 	<key>settings</key>
 	<dict>
 		<key>shellVariables</key>

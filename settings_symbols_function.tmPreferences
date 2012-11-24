@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>symbols</string>
 	<key>scope</key>
-	<string>punctuation.definition.function.begin.lsl</string>
+	<string>punctuation.definition.function.begin.lsl, punctuation.definition.function.begin.ossl</string>
 	<key>settings</key>
 	<dict>
 		<key>showInSymbolList</key>
