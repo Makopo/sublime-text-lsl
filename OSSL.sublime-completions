@@ -1008,6 +1008,7 @@
                 { "trigger": "llGetScale", "contents": "llGetScale()" },
                 { "trigger": "llGetScriptName", "contents": "llGetScriptName()" },
                 { "trigger": "llGetScriptState", "contents": "llGetScriptState(${1:string script})" },
+                { "trigger": "llGetSimStats", "contents": "llGetSimStats(${1:integer stat_type})" },
                 { "trigger": "llGetSimulatorHostname", "contents": "llGetSimulatorHostname()" },
                 { "trigger": "llGetSPMaxMemory", "contents": "llGetSPMaxMemory()" },
                 { "trigger": "llGetStartParameter", "contents": "llGetStartParameter()" },
