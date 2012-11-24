@@ -1,26 +1,26 @@
-LSL Bundle for Sublime Text 2
+LSL/OSSL Bundle for Sublime Text 2
 ==========
 
-# Current compatible version
+# Current supported language
 
-* LSL : Second Life V3.4.0
-* OSSL: Not yet supported
-
-# Syntax Indentation
-
-Based on LSL Style Guide in [Second Life Wiki](http://wiki.secondlife.com/wiki/LSL_Style_Guide) (method two).
+* LSL [\*.lsl]: Second Life V3.4.1
+* OSSL [\*.ossl]: OpenSimulator v0.7.4 and dev master r/21068(17th November, 2012) **New!**
+  - Including mod\*, os\*, wl\*(LightShare) functions
 
 # Features
 
 * More quick completion of functions & events.
 * More strict syntax detection - if you miss something, the rest will colored oddly.
-* You can even use Second Life Viewer styled theme. **New!**
+* You can even use Second Life Viewer styled theme.
 * Compatible with [TextMate scoping rules](http://manual.macromates.com/en/language_grammars#naming_convertions).
 * No too-old lslint support, no Commands, no Macros, no Templates ... 
 
+# Syntax Indentation
+
+Based on LSL Style Guide in [Second Life Wiki](http://wiki.secondlife.com/wiki/LSL_Style_Guide) (method two).
+
 # In Future ...
 
-* OSSL support
 * LSL Style Guide (method one) support
 
 # Installation
@@ -42,7 +42,7 @@ https://raw.github.com/Makopo/sublime-text-lsl/master/package.json
  * Select "Package Control: Install Package" (it'll take a few seconds)
  * Type and select "LSL" when the list appears.
 
-Package Control will automatically keep LSL Bundle up to date with the latest version.
+Package Control will automatically keep LSL/OSSL Bundle up to date with the latest version.
 
 ### Using Git
 
@@ -64,9 +64,9 @@ While inside the `Packages` directory, clone the theme repository using the comm
 
 ### Second Life Viewer Theme
 
-You can use the bundled theme for only .lsl files to the same look-and-feel with inworld editor.
+You can use the bundled theme for only .lsl or .ossl files to the same look-and-feel with inworld editor.
 
-To activate it, use the menu item `Preferences -> Package Settings -> LSL -> Use Viewer Theme`.
+To activate it, use the menu item `Preferences -> Package Settings -> LSL/OSSL -> Use Viewer Theme`.
 
 The same steps to deactivate it.
 

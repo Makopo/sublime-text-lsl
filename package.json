@@ -3,7 +3,7 @@
 	"packages": [
 		{
 			"name": "LSL",
-			"description": "LSL Bundle for Sublime Text 2. LSL(Linden Scripting Language) is used for Second Life in-world scripting. Compatible with Second Life Viewer v3.4.0",
+			"description": "Syntax definitions for LSL(Linden Scripting Language) in Second Life and OSSL(OpenSimulator Scripting Language) in OpenSimulator.",
 			"author": "Makopoppo",
 			"homepage": "https://github.com/Makopo/sublime-text-lsl",
 			"last_modified": "2012-11-17 16:20:00",
