@@ -306,10 +306,6 @@
 				</dict>
 				<dict>
 					<key>include</key>
-					<string>#userfunction</string>
-				</dict>
-				<dict>
-					<key>include</key>
 					<string>#number</string>
 				</dict>
 				<dict>
