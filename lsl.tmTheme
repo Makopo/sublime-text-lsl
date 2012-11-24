@@ -27,7 +27,7 @@
 			<key>name</key>
 			<string>sections</string>
 			<key>scope</key>
-			<string>entity.name.class.state.begin.lsl, constant.language.state.lsl</string>
+			<string>entity.name.class.state.begin, constant.language.state</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -38,7 +38,7 @@
 			<key>name</key>
 			<string>data types</string>
 			<key>scope</key>
-			<string>storage.type.lsl</string>
+			<string>storage.type</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -49,7 +49,7 @@
 			<key>name</key>
 			<string>events</string>
 			<key>scope</key>
-			<string>support.function.event.lsl</string>
+			<string>support.function.event</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -60,7 +60,7 @@
 			<key>name</key>
 			<string>comment</string>
 			<key>scope</key>
-			<string>comment.block.lsl, comment.line.double-slash.lsl</string>
+			<string>comment.block, comment.line.double-slash</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -71,7 +71,7 @@
 			<key>name</key>
 			<string>string literals</string>
 			<key>scope</key>
-			<string>string.quoted.double.lsl</string>
+			<string>string.quoted.double</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -82,7 +82,7 @@
 			<key>name</key>
 			<string>functions</string>
 			<key>scope</key>
-			<string>support.function.ll.lsl</string>
+			<string>support.function.ll, support.function.ossl</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -93,7 +93,7 @@
 			<key>name</key>
 			<string>integer constants</string>
 			<key>scope</key>
-			<string>constant.language.integer.lsl, constant.language.ll.integer.lsl</string>
+			<string>constant.language.integer, constant.language.ll.integer, constant.language.ossl.integer</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -104,7 +104,7 @@
 			<key>name</key>
 			<string>string constants</string>
 			<key>scope</key>
-			<string>constant.language.string.lsl, constant.language.ll.string.lsl</string>
+			<string>constant.language.string, constant.language.ll.string</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -115,7 +115,7 @@
 			<key>name</key>
 			<string>float constants</string>
 			<key>scope</key>
-			<string>constant.language.ll.float.lsl</string>
+			<string>constant.language.ll.float</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -126,7 +126,7 @@
 			<key>name</key>
 			<string>compound constants</string>
 			<key>scope</key>
-			<string>constant.language.ll.compound.lsl</string>
+			<string>constant.language.ll.compound</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -137,7 +137,7 @@
 			<key>name</key>
 			<string>flow control keywords</string>
 			<key>scope</key>
-			<string>keyword.control.flow.lsl</string>
+			<string>keyword.control.flow</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

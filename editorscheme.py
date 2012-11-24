@@ -8,12 +8,16 @@ class ChangeEditorSchemeCommand(sublime_plugin.WindowCommand):
 		self._is_checked = s.has("color_scheme")
 
 	def run(self):
-		s = sublime.load_settings("lsl.sublime-settings")
+		sl = sublime.load_settings("lsl.sublime-settings")
+		ossl = sublime.load_settings("ossl.sublime-settings")
 		if not self._is_checked:
-			s.set("color_scheme", "Packages/LSL/lsl.tmTheme")
+			sl.set("color_scheme", "Packages/LSL/lsl.tmTheme")
+			ossl.set("color_scheme", "Packages/LSL/lsl.tmTheme")
 		else:
-			s.erase("color_scheme")
+			sl.erase("color_scheme")
+			ossl.erase("color_scheme")
 		sublime.save_settings("lsl.sublime-settings")
+		sublime.save_settings("ossl.sublime-settings")
 		self._is_checked = not self._is_checked
 
 	def is_checked(self):

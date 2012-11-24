@@ -10,7 +10,7 @@
                 "children":
                 [
                     {
-                        "caption": "LSL",
+                        "caption": "LSL/OSSL",
                         "children":
                         [
                             { "command": "change_editor_scheme", "caption": "Use Viewer Theme", "checkbox": true }
