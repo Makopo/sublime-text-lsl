@@ -40,11 +40,11 @@ Package Control will automatically keep LSL/OSSL Bundle up to date with the late
 
 ### Using Git
 
-Alternatively, if you are a git user, you can install the theme and keep up to date by cloning the repo directly into your `Packages` directory in the Sublime Text 2 application settings area.
+Alternatively, if you are a git user, you can install the plugin and keep up to date by cloning the repo directly into your `Packages` directory in the Sublime Text 2 application settings area.
 
 You can locate your Sublime Text 2 `Packages` directory by using the menu item `Preferences -> Browse Packages...`.
 
-While inside the `Packages` directory, clone the theme repository using the command below:
+While inside the `Packages` directory, clone the plugin repository using the command below:
 
     git clone https://github.com/Makopo/sublime-text-lsl LSL
 
