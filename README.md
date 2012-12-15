@@ -4,7 +4,7 @@ LSL/OSSL Bundle for Sublime Text 2
 # Current supported language
 
 * LSL [\*.lsl]: Second Life V3.4.1
-* OSSL [\*.ossl]: OpenSimulator v0.7.4 and dev master r/21068(17th November, 2012) **New!**
+* OSSL [\*.ossl]: OpenSimulator v0.7.4 and dev master r/21068(17th November, 2012)
   - Including mod\*, os\*, wl\*(LightShare) functions
 
 # Features
@@ -17,11 +17,11 @@ LSL/OSSL Bundle for Sublime Text 2
 
 # Syntax Indentation
 
-Based on LSL Style Guide in [Second Life Wiki](http://wiki.secondlife.com/wiki/LSL_Style_Guide) (method two).
+* BSD Style (default)
+* K&R Style **New!**
 
-# In Future ...
-
-* LSL Style Guide (method one) support
+See [LSL Style Guide](http://wiki.secondlife.com/wiki/LSL_Style_Guide) for coding samples.
+(method one = K&R Style, method two = BSD style)
 
 # Installation
 
@@ -65,4 +65,12 @@ To activate it, use the menu item `Preferences -> Package Settings -> LSL/OSSL -
 The same steps to deactivate it.
 
 Note that you need to have this bundle in "LSL" package directory to use it.
+
+### Changing Snippet Insertion Style
+
+You can change insertion style of snippets from default BSD style to K&R style.
+
+To activate it, use the menu item `Preferences -> Package Settings -> LSL/OSSL -> K&R Style`.
+
+The same steps to deactivate it.
 

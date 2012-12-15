@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[at_rot_target(integer handle, rotation targetrot, rotation ourrot)
-{
+    <content><![CDATA[at_rot_target(integer handle, rotation targetrot, rotation ourrot)$LSL_SPACE_OR_NEWLINE{
 	$0
 }]]></content>
     <tabTrigger>at_rot_target</tabTrigger>

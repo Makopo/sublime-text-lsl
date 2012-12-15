@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[else
-{
+    <content><![CDATA[else$LSL_SPACE_OR_NEWLINE{
 	$1
 }
 $0]]></content>

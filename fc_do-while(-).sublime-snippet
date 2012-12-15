@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[do
-{
+    <content><![CDATA[do$LSL_SPACE_OR_NEWLINE{
 	$2
 }
 while ($1);

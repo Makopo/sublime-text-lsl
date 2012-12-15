@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[run_time_permissions(integer perm)
-{
+    <content><![CDATA[run_time_permissions(integer perm)$LSL_SPACE_OR_NEWLINE{
 	$0
 }]]></content>
     <tabTrigger>run_time_permissions</tabTrigger>

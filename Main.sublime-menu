@@ -13,7 +13,8 @@
                         "caption": "LSL/OSSL",
                         "children":
                         [
-                            { "command": "change_editor_scheme", "caption": "Use Viewer Theme", "checkbox": true }
+                            { "command": "change_editor_scheme", "caption": "Use Viewer Theme", "checkbox": false },
+                            { "command": "change_style", "caption": "K&R Style", "checkbox": false }
                         ]
                     }
                 ]

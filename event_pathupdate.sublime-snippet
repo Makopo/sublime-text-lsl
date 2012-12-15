@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[path_update(integer type, list reserved)
-{
+    <content><![CDATA[path_update(integer type, list reserved)$LSL_SPACE_OR_NEWLINE{
 	$0
 }]]></content>
     <tabTrigger>path_update</tabTrigger>

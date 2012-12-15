@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[http_request(key request_id, string method, string body)
-{
+    <content><![CDATA[http_request(key request_id, string method, string body)$LSL_SPACE_OR_NEWLINE{
 	$0
 }]]></content>
     <tabTrigger>http_request</tabTrigger>

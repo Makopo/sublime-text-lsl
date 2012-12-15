@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[money(key id, integer amount)
-{
+    <content><![CDATA[money(key id, integer amount)$LSL_SPACE_OR_NEWLINE{
 	$0
 }]]></content>
     <tabTrigger>money</tabTrigger>

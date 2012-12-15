@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[transaction_result(key id, integer success, string data)
-{
+    <content><![CDATA[transaction_result(key id, integer success, string data)$LSL_SPACE_OR_NEWLINE{
 	$0
 }]]></content>
     <tabTrigger>transaction_result</tabTrigger>

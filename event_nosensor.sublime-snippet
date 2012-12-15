@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[no_sensor()
-{
+    <content><![CDATA[no_sensor()$LSL_SPACE_OR_NEWLINE{
 	$0
 }]]></content>
     <tabTrigger>no_sensor</tabTrigger>

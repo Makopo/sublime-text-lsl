@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[object_rez(key id)
-{
+    <content><![CDATA[object_rez(key id)$LSL_SPACE_OR_NEWLINE{
 	$0
 }]]></content>
     <tabTrigger>object_rez</tabTrigger>

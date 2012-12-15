@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[email(string time, string address, string subject, string message, integer num_left)
-{
+    <content><![CDATA[email(string time, string address, string subject, string message, integer num_left)$LSL_SPACE_OR_NEWLINE{
 	$0
 }]]></content>
     <tabTrigger>email</tabTrigger>

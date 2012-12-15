@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[control(key id, integer level, integer edge)
-{
+    <content><![CDATA[control(key id, integer level, integer edge)$LSL_SPACE_OR_NEWLINE{
 	$0
 }]]></content>
     <tabTrigger>control</tabTrigger>

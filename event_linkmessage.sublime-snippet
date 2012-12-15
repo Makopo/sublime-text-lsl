@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[link_message(integer sender_num, integer num, string str, key id)
-{
+    <content><![CDATA[link_message(integer sender_num, integer num, string str, key id)$LSL_SPACE_OR_NEWLINE{
 	$0
 }]]></content>
     <tabTrigger>link_message</tabTrigger>

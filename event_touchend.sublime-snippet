@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[touch_end(integer num_detected)
-{
+    <content><![CDATA[touch_end(integer num_detected)$LSL_SPACE_OR_NEWLINE{
 	$0
 }]]></content>
     <tabTrigger>touch_end</tabTrigger>

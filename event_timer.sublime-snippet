@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[timer()
-{
+    <content><![CDATA[timer()$LSL_SPACE_OR_NEWLINE{
 	$0
 }]]></content>
     <tabTrigger>timer</tabTrigger>

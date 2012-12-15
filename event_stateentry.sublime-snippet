@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[state_entry()
-{
+    <content><![CDATA[state_entry()$LSL_SPACE_OR_NEWLINE{
 	$0
 }]]></content>
     <tabTrigger>state_entry</tabTrigger>

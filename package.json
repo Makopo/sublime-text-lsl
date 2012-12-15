@@ -6,11 +6,11 @@
 			"description": "Syntax definitions for LSL(Linden Scripting Language) in Second Life and OSSL(OpenSimulator Scripting Language) in OpenSimulator.",
 			"author": "Makopoppo",
 			"homepage": "https://github.com/Makopo/sublime-text-lsl",
-			"last_modified": "2012-11-17 16:20:00",
+			"last_modified": "2012-12-15 20:40:00",
 			"platforms": {
 				"*": [
 					{
-						"version": "0.5",
+						"version": "0.9",
 						"url": "https://nodeload.github.com/Makopo/sublime-text-lsl/zip/master"
 					}
 				]

@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[listen(integer channel, string name, key id, string message)
-{
+    <content><![CDATA[listen(integer channel, string name, key id, string message)$LSL_SPACE_OR_NEWLINE{
 	$0
 }]]></content>
     <tabTrigger>listen</tabTrigger>

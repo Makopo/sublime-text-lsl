@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[changed(integer change)
-{
+    <content><![CDATA[changed(integer change)$LSL_SPACE_OR_NEWLINE{
 	$0
 }]]></content>
     <tabTrigger>changed</tabTrigger>

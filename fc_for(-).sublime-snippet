@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[for ($1; $2; $3)
-{ 
+    <content><![CDATA[for ($1; $2; $3)$LSL_SPACE_OR_NEWLINE{
 	$4
 }
 $0]]></content>

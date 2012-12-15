@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[attach(key id)
-{
+    <content><![CDATA[attach(key id)$LSL_SPACE_OR_NEWLINE{
 	$0
 }]]></content>
     <tabTrigger>attach</tabTrigger>

@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[land_collision_end(vector pos)
-{
+    <content><![CDATA[land_collision_end(vector pos)$LSL_SPACE_OR_NEWLINE{
 	$0
 }]]></content>
     <tabTrigger>land_collision_end</tabTrigger>
