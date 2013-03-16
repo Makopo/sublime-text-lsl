@@ -18,7 +18,7 @@ LSL/OSSL Bundle for Sublime Text 2
 # Syntax Indentation
 
 * BSD Style (default)
-* K&R Style **New!**
+* K&R Style
 
 See [LSL Style Guide](http://wiki.secondlife.com/wiki/LSL_Style_Guide) for coding samples.
 (method one = K&R Style, method two = BSD style)

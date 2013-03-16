@@ -471,7 +471,7 @@
 		<key>state</key>
 		<dict>
 			<key>begin</key>
-			<string>(?:state)\s+\w+|default</string>
+			<string>(?:state)\s+\w+|default\b</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>0</key>
