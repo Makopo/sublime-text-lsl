@@ -302,6 +302,10 @@
 				</dict>
 				<dict>
 					<key>include</key>
+					<string>#reserved</string>
+				</dict>
+				<dict>
+					<key>include</key>
 					<string>#llfunction</string>
 				</dict>
 				<dict>
@@ -436,6 +440,13 @@
 				</dict>
 			</array>
 		</dict>
+		<key>reserved</key>
+		<dict>
+			<key>match</key>
+			<string>\b(event|print)\b</string>
+			<key>name</key>
+			<string>variable.language.lsl</string>
+		</dict>
 		<key>state</key>
 		<dict>
 			<key>begin</key>
@@ -521,6 +532,10 @@
 				<dict>
 					<key>include</key>
 					<string>#constant</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#reserved</string>
 				</dict>
 				<dict>
 					<key>include</key>
