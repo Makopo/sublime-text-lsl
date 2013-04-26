@@ -131,7 +131,7 @@
 		<key>event</key>
 		<dict>
 			<key>begin</key>
-			<string>state_(entry|exit)|touch(_(start|end))?|(land_)?collision(_(start|end))?|timer|listen|(no_)?sensor|control|(not_)?at_(rot_)?target|money|email|run_time_permissions|changed|attach|dataserver|moving_(start|end)|link_message|(on|object)_rez|remote_data|http_re(sponse|quest)|path_update|transaction_result</string>
+			<string>^\s*(state_(entry|exit)|touch(_(start|end))?|(land_)?collision(_(start|end))?|timer|listen|(no_)?sensor|control|(not_)?at_(rot_)?target|money|email|run_time_permissions|changed|attach|dataserver|moving_(start|end)|link_message|(on|object)_rez|remote_data|http_re(sponse|quest)|path_update|transaction_result)\b</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>0</key>
@@ -450,7 +450,7 @@
 		<key>state</key>
 		<dict>
 			<key>begin</key>
-			<string>(?:state)\s+\w+|default\b</string>
+			<string>^\s*((?:state)\s+\w+|default)\b</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>0</key>
