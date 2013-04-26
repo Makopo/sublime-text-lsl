@@ -3,7 +3,7 @@ LSL/OSSL Bundle for Sublime Text 2
 
 # Current supported language
 
-* LSL [\*.lsl]: Second Life V3.4.1
+* LSL [\*.lsl]: Second Live Server 13.04.12.273874 (Second Life RC Magnum 13.04.19.274352)
 * OSSL [\*.ossl]: OpenSimulator v0.7.4 and dev master r/21068(17th November, 2012)
   - Including mod\*, os\*, wl\*(LightShare) functions
 
