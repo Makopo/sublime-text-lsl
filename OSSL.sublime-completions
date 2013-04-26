@@ -250,6 +250,7 @@
         { "trigger": "osForceDropAttachmentAt", "contents": "osForceDropAttachmentAt(${1:vector pos}, ${2:rotation rot})" },
         { "trigger": "osListenRegex", "contents": "osListenRegex(${1:int channelID}, ${2:string name}, ${3:string ID}, ${4:string msg}, ${5:int regexBitfield})" },
         { "trigger": "osRegexIsMatch", "contents": "osRegexIsMatch(${1:string input}, ${2:string pattern})" },
+        { "trigger": "osGetPhysicsEngineType", "contents": "osGetPhysicsEngineType()" },
         // LSL
                 "state ",
                 "integer ",
