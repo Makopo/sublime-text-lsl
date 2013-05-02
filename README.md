@@ -88,16 +88,27 @@ Simply hit Command + B to check the syntax of currently opened lsl/ossl script.
 
 Currently it is not supported for os/mod/wl functions.
 
+#### non-ascii system issue
+
 If you have lsl/ossl script in the path conatins non-ascii (eg. UTF-8) characters, the check may fail.
 
-You may workaround this issue by replacing line 130 in "Packages/Default/exec.py".
+You might want to avoid placing your scripts in such a path, or if you can't,
+
+You may workaround this issue by inserting a line after line 99 in "Packages/Default/exec.py".
 
 ```python
-            def foo(element):
-                try:
-                    element = element.encode(self.encoding)
-                except UnicodeDecodeError:
-                    pass
-                return element
-            print "Running " + " ".join(map(foo, cmd))
+        cmd = [c.encode(sys.getfilesystemencoding()) for c in cmd]
 ```
+
+Additionally if your system encoding isn't UTF-8, you may need to modify "Packages/LSL/LSL.sublime-build".
+
+```python
+	"windows":
+	{
+		"encoding": "cp932",
+		"cmd": ["$packages\\LSL\\windows\\lslint.exe", "-p", "$file"]
+	},
+```
+
+This example above is for Japanese version of Windows. Change the corresponding block(windows/linux/osx) with your environment.
+
