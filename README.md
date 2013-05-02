@@ -13,7 +13,8 @@ LSL/OSSL Bundle for Sublime Text 2
 * More strict syntax detection - if you miss something, the rest will colored oddly.
 * You can even use Second Life Viewer styled theme.
 * Compatible with [TextMate scoping rules](http://manual.macromates.com/en/language_grammars#naming_convertions).
-* No too-old lslint support, no Commands, no Macros, no Templates ... 
+* lslint as build system(Command + B). **New!**
+* No Commands, no Macros, no Templates ... 
 
 # Syntax Indentation
 
@@ -74,3 +75,29 @@ To activate it, use the menu item `Preferences -> Package Settings -> LSL/OSSL -
 
 The same steps to deactivate it.
 
+### lslint Build System
+
+You can run lslint as LSL/OSSL build system.
+
+lslint is originated by http://w-hat.com.
+
+I added some features on it for use as build command in Sublime Text.
+https://github.com/Makopo/lslint
+
+Simply hit Command + B to check the syntax of currently opened lsl/ossl script.
+
+Currently it is not supported for os/mod/wl functions.
+
+If you have lsl/ossl script in the path conatins non-ascii (eg. UTF-8) characters, the check may fail.
+
+You may workaround this issue by replacing line 130 in "Packages/Default/exec.py".
+
+```python
+            def foo(element):
+                try:
+                    element = element.encode(self.encoding)
+                except UnicodeDecodeError:
+                    pass
+                return element
+            print "Running " + " ".join(map(foo, cmd))
+```
