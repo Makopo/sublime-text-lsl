@@ -3,11 +3,11 @@ LSL/OSSL Bundle for Sublime Text 2
 
 # Current supported language
 
-* LSL [\*.lsl]: Second Live Server 13.05.14.275813
+* LSL [\*.lsl]: Second Live Server 13.06.06.277104
 * OSSL [\*.ossl]: OpenSimulator v0.7.5-rc1
   - Including mod\*, os\*, wl\*(LightShare) functions
 
-kwdb version 0.0.20130616000
+kwdb version 0.0.20130619001
 
 # Features
 
@@ -116,5 +116,5 @@ This example above is for Japanese version of Windows. Change the corresponding 
 
 ## About Keyword Database
 
-This bundle uses [kwdb](https://code.google.com/p/kwdb/) as the source of LSL/OSSL funcion/event/constant names. The LSL/OSSL keywords in .tmLanguage and .sublime-completions are automatically generated from kwdb.xml in kwdb. Thus, if you find any flaw in the keyword, please firstly search for the keyword you want to use in [kwdb.xml](https://code.google.com/p/kwdb/source/browse/database/kwdb.xml). Then compare kwdb version at the top of this readme with that in kwdb.xml. If you find mine is way behind of kwdb.xml, please be patient or poke me @makopo in Twitter or send an inworld IM to Mako Nozaki.
+This bundle uses [kwdb](https://code.google.com/p/kwdb/) as the source of LSL/OSSL funcion/event/constant names. The LSL/OSSL keywords in .tmLanguage and .sublime-completions are automatically generated from kwdb.xml in kwdb. I have the automation tool in [another project(kwdb_to_sublime)](https://github.com/Makopo/kwdb_to_sublime). Thus, if you find any flaw in the keyword, please firstly search for the keyword you want to use in [kwdb.xml](https://code.google.com/p/kwdb/source/browse/database/kwdb.xml). Then compare kwdb version at the top of this readme with that in kwdb.xml. If you find mine is way behind of kwdb.xml, please be patient or poke me @makopo in Twitter or send an inworld IM to Mako Nozaki.
 
