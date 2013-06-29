@@ -9,6 +9,8 @@ LSL/OSSL Bundle for Sublime Text
 
 kwdb version 0.0.20130627001
 
+**I try to update the keyword list as soon as kwdb update them, however, I sometimes may not be able to do that. Please refrain from requesting maintenance for at least 1 month after the kwdb have higher version than the version above. If you want to make an urgent request, please use Twitter @makopo or SL inworld IM to Mako Nozaki.**
+
 # Features
 
 * More quick completion of functions & events.
