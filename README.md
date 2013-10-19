@@ -17,7 +17,7 @@ kwdb version 0.0.20131008000
 * More strict syntax detection - if you miss something, the rest will colored oddly.
 * You can even use Second Life Viewer styled theme.
 * Compatible with [TextMate scoping rules](http://manual.macromates.com/en/language_grammars#naming_convertions).
-* lslint as build system(Command + B).
+* lslint as build system(F7, Ctrl or Command + B).
 * No Commands, no Macros, no Templates ... 
 
 # Syntax Indentation
@@ -89,9 +89,31 @@ lslint is originated by http://w-hat.com.
 I added some features on it for use as build command in Sublime Text.
 https://github.com/Makopo/lslint
 
-Simply hit Command + B to check the syntax of currently opened lsl/ossl script.
+Simply hit **F7 or Ctrl(Command) + B** to check the syntax of currently opened lsl/ossl script.
 
 Currently it is not supported for os/mod/wl functions.
+
+If you want to change the key bindings, use "build" command for it in your Default.sublime-keymap. Following example assigns Command + L to lslint.
+
+```json
+[
+	{
+		"keys": ["super+l"],
+		"command": "build",
+		"context":[
+			{ "key": "selector", "operator": "equal", "operand": "source.lsl" }
+		]
+	},
+	{
+		"keys": ["super+l"],
+		"command": "build",
+		"context":[
+			{ "key": "selector", "operator": "equal", "operand": "source.ossl" }
+		]
+	}
+]
+```
+
 
 #### non-ascii system issue
 
