@@ -35,7 +35,7 @@ v1.3.2 or later works with the latest Sublime Text 3 as well.
 
 ### Using Sublime Package Control
 
-The easiest way to install this is with [Package Control](http://wbond.net/sublime\_packages/package\_control).
+The easiest way to install this is with [Package Control](https://sublime.wbond.net).
 
  * If you just went and installed Package Control, you probably need to restart Sublime Text 2 before doing this next bit.
  * Bring up the Command Palette (Command+Shift+p on OS X, Control+Shift+p on Linux/Windows).
