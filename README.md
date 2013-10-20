@@ -14,7 +14,7 @@ kwdb version 0.0.20131008000
 # Features
 
 * More quick completion of functions & events.
-* More strict syntax detection - if you miss something, the rest will colored oddly.
+* More strict syntax detection - if you miss something, the rest will be colored oddly.
 * You can even use Second Life Viewer styled theme.
 * Compatible with [TextMate scoping rules](http://manual.macromates.com/en/language_grammars#naming_convertions).
 * lslint as build system(F7, Ctrl or Command + B).
