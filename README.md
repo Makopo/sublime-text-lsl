@@ -18,7 +18,7 @@ kwdb version 0.0.20131008000
 * You can even use Second Life Viewer styled theme.
 * Compatible with [TextMate scoping rules](http://manual.macromates.com/en/language_grammars#naming_convertions).
 * lslint as build system(F7, Ctrl or Command + B).
-* No Commands, no Macros, no Templates ... 
+* No Commands, no Macros, no Templates ...
 
 # Syntax Indentation
 

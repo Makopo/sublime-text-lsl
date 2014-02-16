@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <!--
 NOTE: Following definitions are from kwdb (https://code.google.com/p/kwdb/).
-      If you have any question about the avoid/event/function/constant definitions, 
+      If you have any question about the avoid/event/function/constant definitions,
        please check the kwdb source and inquire of the kwdb maintener first.
        If kwdb have updated and mine is still old, then please poke me.
 
