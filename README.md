@@ -22,11 +22,11 @@ kwdb version 0.0.20131008000
 
 # Syntax Indentation
 
-* BSD Style (default)
-* K&R Style
+* [Allman Style](http://en.wikipedia.org/wiki/Indent_style#Allman_style) (default)
+* [K&R Style](http://en.wikipedia.org/wiki/Indent_style#K.26R_style)
 
 See [LSL Style Guide](http://wiki.secondlife.com/wiki/LSL_Style_Guide) for coding samples.
-(method one = K&R Style, method two = BSD style)
+(method one = K&R Style, method two = Allman style)
 
 # Installation
 
@@ -74,7 +74,7 @@ Note that you need to have this bundle in "LSL" package directory to use it.
 
 ### Changing Snippet Insertion Style
 
-You can change insertion style of snippets from default BSD style to K&R style.
+You can change insertion style of snippets from default Allman style to K&R style.
 
 To activate it, use the menu item `Preferences -> Package Settings -> LSL/OSSL -> K&R Style`.
 
