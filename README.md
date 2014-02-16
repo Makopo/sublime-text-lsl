@@ -45,7 +45,8 @@ See [LSL Style Guide](http://wiki.secondlife.com/wiki/LSL_Style_Guide) for codin
 # Installation
 
 This bundle is designed to work with the latest version of [Sublime Text 2](http://www.sublimetext.com/2).
-v1.3.2 or later will work with [Sublime Text 3](http://www.sublimetext.com/3) as well.
+
+[v1.3.2](https://github.com/makopo/sublime-text-lsl/releases/tag/1.3.2) or later will work with [Sublime Text 3](http://www.sublimetext.com/3) as well.
 
 ### Using Sublime Package Control
 
