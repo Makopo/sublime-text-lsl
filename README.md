@@ -104,7 +104,7 @@ lslint is originated by http://w-hat.com.
 I added some features on it for use as build command in Sublime Text.
 https://github.com/Makopo/lslint
 
-Simply hit **F7 or Ctrl(Command) + B** to check the syntax of currently opened lsl/ossl script.
+Simply hit <kbd>F7</kbd> or <kbd>Ctrl</kbd><kbd>B</kbd> or <kbd>Command</kbd><kbd>B</kbd> to check the syntax of currently opened lsl/ossl script.
 
 Currently it is not supported for os/mod/wl functions.
 
