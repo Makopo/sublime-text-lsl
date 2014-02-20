@@ -31,7 +31,7 @@ LSL/OSSL Bundle for Sublime Text
 * Stricter syntax detection - if you miss something, the rest will be colored oddly.
 * You can even use Second Life Viewer styled theme.
 * Compatible with [TextMate scoping rules](http://manual.macromates.com/en/language_grammars#naming_convertions).
-* [lslint](https://github.com/Makopo/lslint) as build system(F7, Ctrl or Command + B).
+* [lslint](https://github.com/Makopo/lslint) as build system(<kbd>F7</kbd>, <kbd>Ctrl</kbd><kbd>B</kbd> or <kbd>Command</kbd><kbd>B</kbd>).
 * No Commands, no Macros, no Templates ...
 
 # Syntax Indentation
@@ -53,7 +53,7 @@ This bundle is designed to work with the latest version of [Sublime Text 2](http
 The easiest way to install this is via [Package Control](https://sublime.wbond.net).
 
  * If you just went and installed Package Control, you probably need to restart Sublime Text before doing this next bit.
- * Bring up the Command Palette (Command+Shift+p on OS X, Control+Shift+p on Linux/Windows).
+ * Bring up the Command Palette (<kbd>Command</kbd><kbd>Shift</kbd><kbd>P</kbd> on OS X, <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd> on Linux/Windows).
  * Select "Package Control: Install Package" (it'll take a few seconds)
  * Type and select "LSL" when the list appears.
 
@@ -108,7 +108,7 @@ Simply hit **F7 or Ctrl(Command) + B** to check the syntax of currently opened l
 
 Currently it is not supported for os/mod/wl functions.
 
-If you want to change the key bindings, use "build" command for it in your Default.sublime-keymap. Following example assigns Command + L to lslint.
+If you want to change the key bindings, use "build" command for it in your Default.sublime-keymap. Following example assigns <kbd>Command</kbd><kbd>L</kbd> to lslint.
 
 ```json
 [
