@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetPrimitiveParams(${1:list params})]]></content>
+    <tabTrigger>llGetPrimitiveParams</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

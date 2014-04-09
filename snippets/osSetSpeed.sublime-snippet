@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osSetSpeed(${1:key UUID}, ${2:float SpeedModifier})]]></content>
+    <tabTrigger>osSetSpeed</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

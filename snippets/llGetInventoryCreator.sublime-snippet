@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetInventoryCreator(${1:string item})]]></content>
+    <tabTrigger>llGetInventoryCreator</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

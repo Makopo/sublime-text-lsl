@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llRotateTexture(${1:float angle}, ${2:integer face});]]></content>
+    <tabTrigger>llRotateTexture</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

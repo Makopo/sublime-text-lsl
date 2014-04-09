@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PSYS_SRC_BURST_PART_COUNT]]></content>
+    <tabTrigger>PSYS_SRC_BURST_PART_COUNT</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (15)</description>
+</snippet>

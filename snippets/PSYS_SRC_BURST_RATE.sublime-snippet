@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PSYS_SRC_BURST_RATE]]></content>
+    <tabTrigger>PSYS_SRC_BURST_RATE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (13)</description>
+</snippet>

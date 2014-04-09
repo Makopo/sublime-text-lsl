@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llCloseRemoteDataChannel(${1:key channel});]]></content>
+    <tabTrigger>llCloseRemoteDataChannel</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

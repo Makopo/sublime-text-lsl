@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[TYPE_KEY]]></content>
+    <tabTrigger>TYPE_KEY</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (4)</description>
+</snippet>

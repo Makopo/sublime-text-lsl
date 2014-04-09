@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osForceAttachToAvatar(${1:integer attachment})]]></content>
+    <tabTrigger>osForceAttachToAvatar</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

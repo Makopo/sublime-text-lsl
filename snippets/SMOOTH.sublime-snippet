@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[SMOOTH]]></content>
+    <tabTrigger>SMOOTH</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x10 = 16)</description>
+</snippet>

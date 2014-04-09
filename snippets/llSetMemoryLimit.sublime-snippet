@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSetMemoryLimit(${1:integer limit})]]></content>
+    <tabTrigger>llSetMemoryLimit</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

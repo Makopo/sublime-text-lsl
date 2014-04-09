@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llForceMouselook(${1:integer boolean});]]></content>
+    <tabTrigger>llForceMouselook</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

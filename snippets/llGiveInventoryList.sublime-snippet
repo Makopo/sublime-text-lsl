@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGiveInventoryList(${1:key target}, ${2:string folder}, ${3:list inventory})]]></content>
+    <tabTrigger>llGiveInventoryList</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

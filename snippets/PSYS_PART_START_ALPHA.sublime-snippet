@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PSYS_PART_START_ALPHA]]></content>
+    <tabTrigger>PSYS_PART_START_ALPHA</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (2)</description>
+</snippet>

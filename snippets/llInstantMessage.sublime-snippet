@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llInstantMessage(${1:key agent}, ${2:string message});]]></content>
+    <tabTrigger>llInstantMessage</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

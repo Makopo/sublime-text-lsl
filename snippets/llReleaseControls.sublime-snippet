@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llReleaseControls();]]></content>
+    <tabTrigger>llReleaseControls</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

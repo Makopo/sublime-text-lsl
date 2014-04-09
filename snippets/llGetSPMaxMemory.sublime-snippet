@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetSPMaxMemory()]]></content>
+    <tabTrigger>llGetSPMaxMemory</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llVecNorm(${1:vector v})]]></content>
+    <tabTrigger>llVecNorm</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

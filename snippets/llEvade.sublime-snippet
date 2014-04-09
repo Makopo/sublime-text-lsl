@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llEvade(${1:key target}, ${2:list options});]]></content>
+    <tabTrigger>llEvade</tabTrigger>
+    <scope>source.lsl</scope>
+    <description>function</description>
+</snippet>

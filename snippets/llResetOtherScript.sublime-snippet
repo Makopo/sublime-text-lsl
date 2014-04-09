@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llResetOtherScript(${1:string script});]]></content>
+    <tabTrigger>llResetOtherScript</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

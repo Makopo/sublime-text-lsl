@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[STATUS_DIE_AT_EDGE, ${1:integer boolean}]]></content>
+    <tabTrigger>STATUS_DIE_AT_EDGE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x80 = 128)</description>
+</snippet>

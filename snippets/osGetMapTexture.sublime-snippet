@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osGetMapTexture()]]></content>
+    <tabTrigger>osGetMapTexture</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

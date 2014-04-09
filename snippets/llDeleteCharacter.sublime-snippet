@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llDeleteCharacter();]]></content>
+    <tabTrigger>llDeleteCharacter</tabTrigger>
+    <scope>source.lsl</scope>
+    <description>function</description>
+</snippet>

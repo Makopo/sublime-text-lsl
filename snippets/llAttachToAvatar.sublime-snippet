@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llAttachToAvatar(${1:integer attach_point});]]></content>
+    <tabTrigger>llAttachToAvatar</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

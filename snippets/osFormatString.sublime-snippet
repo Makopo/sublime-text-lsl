@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osFormatString(${1:string str}, ${2:list strings})]]></content>
+    <tabTrigger>osFormatString</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

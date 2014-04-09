@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetAgentList(${1:integer scope}, ${2:list options})]]></content>
+    <tabTrigger>llGetAgentList</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

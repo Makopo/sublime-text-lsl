@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetLinkKey(${1:integer link})]]></content>
+    <tabTrigger>llGetLinkKey</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

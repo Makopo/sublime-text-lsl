@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetRootPosition()]]></content>
+    <tabTrigger>llGetRootPosition</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

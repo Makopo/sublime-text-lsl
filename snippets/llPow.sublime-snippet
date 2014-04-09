@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llPow(${1:float base}, ${2:float exponent})]]></content>
+    <tabTrigger>llPow</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

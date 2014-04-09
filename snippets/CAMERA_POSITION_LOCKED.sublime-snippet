@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[CAMERA_POSITION_LOCKED, ${1:integer boolean}]]></content>
+    <tabTrigger>CAMERA_POSITION_LOCKED</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (21)</description>
+</snippet>

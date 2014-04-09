@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[WL_REFRACT_SCALE_ABOVE]]></content>
+    <tabTrigger>WL_REFRACT_SCALE_ABOVE</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

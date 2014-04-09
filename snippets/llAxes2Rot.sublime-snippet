@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llAxes2Rot(${1:vector fwd}, ${2:vector left}, ${3:vector up})]]></content>
+    <tabTrigger>llAxes2Rot</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

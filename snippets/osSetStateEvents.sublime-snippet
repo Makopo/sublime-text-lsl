@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osSetStateEvents(${1:integer events})]]></content>
+    <tabTrigger>osSetStateEvents</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

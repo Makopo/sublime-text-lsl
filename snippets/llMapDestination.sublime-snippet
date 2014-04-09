@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llMapDestination(${1:string sim_name}, ${2:vector pos}, ${3:vector look_at});]]></content>
+    <tabTrigger>llMapDestination</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

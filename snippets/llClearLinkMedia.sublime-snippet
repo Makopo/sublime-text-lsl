@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llClearLinkMedia(${1:integer link}, ${2:integer face});]]></content>
+    <tabTrigger>llClearLinkMedia</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

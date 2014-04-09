@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[FRICTION]]></content>
+    <tabTrigger>FRICTION</tabTrigger>
+    <scope>source.lsl</scope>
+    <description>integer (0x2 = 2)</description>
+</snippet>

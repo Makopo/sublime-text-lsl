@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llStringLength(${1:string src})]]></content>
+    <tabTrigger>llStringLength</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

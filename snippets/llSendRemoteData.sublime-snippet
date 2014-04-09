@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSendRemoteData(${1:key channel}, ${2:string dst}, ${3:integer idata}, ${4:string sdata})]]></content>
+    <tabTrigger>llSendRemoteData</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[OBJECT_UNKNOWN_DETAIL]]></content>
+    <tabTrigger>OBJECT_UNKNOWN_DETAIL</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (-1)</description>
+</snippet>

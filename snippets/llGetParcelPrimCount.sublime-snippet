@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetParcelPrimCount(${1:vector pos}, ${2:integer category}, ${3:integer boolean});]]></content>
+    <tabTrigger>llGetParcelPrimCount</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

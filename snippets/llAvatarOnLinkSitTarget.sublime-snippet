@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llAvatarOnLinkSitTarget(${1:integer link})]]></content>
+    <tabTrigger>llAvatarOnLinkSitTarget</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

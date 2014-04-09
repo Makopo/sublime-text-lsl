@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSetLinkTexture(${1:integer link}, ${2:string texture}, ${3:integer face});]]></content>
+    <tabTrigger>llSetLinkTexture</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

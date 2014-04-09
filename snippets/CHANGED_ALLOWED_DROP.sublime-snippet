@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[CHANGED_ALLOWED_DROP]]></content>
+    <tabTrigger>CHANGED_ALLOWED_DROP</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x40 = 64)</description>
+</snippet>

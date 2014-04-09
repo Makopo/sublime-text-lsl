@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetInventoryName(${1:integer type}, ${2:integer number})]]></content>
+    <tabTrigger>llGetInventoryName</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

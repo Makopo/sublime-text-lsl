@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llReleaseURL(${1:string url});]]></content>
+    <tabTrigger>llReleaseURL</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

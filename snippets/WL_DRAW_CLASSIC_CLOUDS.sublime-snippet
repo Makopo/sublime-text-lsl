@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[WL_DRAW_CLASSIC_CLOUDS]]></content>
+    <tabTrigger>WL_DRAW_CLASSIC_CLOUDS</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

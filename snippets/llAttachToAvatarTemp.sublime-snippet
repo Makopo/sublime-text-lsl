@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llAttachToAvatarTemp(${1:integer attach_point});]]></content>
+    <tabTrigger>llAttachToAvatarTemp</tabTrigger>
+    <scope>source.lsl</scope>
+    <description>function</description>
+</snippet>

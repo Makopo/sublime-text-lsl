@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[AGENT_WALKING]]></content>
+    <tabTrigger>AGENT_WALKING</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x80 = 128)</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llTakeControls(${1:integer controls}, ${2:integer boolean}, ${3:integer boolean});]]></content>
+    <tabTrigger>llTakeControls</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSetSoundQueueing(${1:integer boolean});]]></content>
+    <tabTrigger>llSetSoundQueueing</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGiveMoney(${1:key agent}, ${2:integer amount})]]></content>
+    <tabTrigger>llGiveMoney</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

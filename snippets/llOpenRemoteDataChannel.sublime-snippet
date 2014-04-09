@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llOpenRemoteDataChannel();]]></content>
+    <tabTrigger>llOpenRemoteDataChannel</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

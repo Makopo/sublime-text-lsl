@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetListLength(${1:list src})]]></content>
+    <tabTrigger>llGetListLength</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

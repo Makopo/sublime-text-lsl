@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSetRot(${1:rotation rot});]]></content>
+    <tabTrigger>llSetRot</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

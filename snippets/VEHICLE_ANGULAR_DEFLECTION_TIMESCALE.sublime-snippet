@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[VEHICLE_ANGULAR_DEFLECTION_TIMESCALE]]></content>
+    <tabTrigger>VEHICLE_ANGULAR_DEFLECTION_TIMESCALE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (33)</description>
+</snippet>

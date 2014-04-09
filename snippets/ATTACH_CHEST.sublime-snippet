@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ATTACH_CHEST]]></content>
+    <tabTrigger>ATTACH_CHEST</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (1)</description>
+</snippet>

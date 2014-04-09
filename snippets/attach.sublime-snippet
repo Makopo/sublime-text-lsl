@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[attach(key ${1:id})$LSL_SPACE_OR_NEWLINE{
+	$0
+}]]></content>
+	<tabTrigger>attach</tabTrigger>
+	<scope>source.lsl, source.ossl</scope>
+	<description>event</description>
+</snippet>
+

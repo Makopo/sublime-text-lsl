@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[VEHICLE_TYPE_SLED]]></content>
+    <tabTrigger>VEHICLE_TYPE_SLED</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (1)</description>
+</snippet>

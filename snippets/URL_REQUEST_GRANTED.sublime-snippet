@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[URL_REQUEST_GRANTED]]></content>
+    <tabTrigger>URL_REQUEST_GRANTED</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>string (&quot;URL_REQUEST_GRANTED&quot;)</description>
+</snippet>

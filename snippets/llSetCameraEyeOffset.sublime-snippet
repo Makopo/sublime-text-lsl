@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSetCameraEyeOffset(${1:vector offset});]]></content>
+    <tabTrigger>llSetCameraEyeOffset</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

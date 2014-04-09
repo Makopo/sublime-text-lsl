@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[RC_GET_LINK_NUM]]></content>
+    <tabTrigger>RC_GET_LINK_NUM</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x4 = 4)</description>
+</snippet>

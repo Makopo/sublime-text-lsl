@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osMovePen(${1:string drawList}, ${2:integer x}, ${3:integer y})]]></content>
+    <tabTrigger>osMovePen</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

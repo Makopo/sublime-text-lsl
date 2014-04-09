@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[LINK_SET]]></content>
+    <tabTrigger>LINK_SET</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (-1)</description>
+</snippet>

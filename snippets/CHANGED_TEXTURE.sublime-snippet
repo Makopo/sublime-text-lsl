@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[CHANGED_TEXTURE]]></content>
+    <tabTrigger>CHANGED_TEXTURE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x10 = 16)</description>
+</snippet>

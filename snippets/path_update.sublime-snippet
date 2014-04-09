@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[path_update(integer ${1:type}, list ${2:reserved})$LSL_SPACE_OR_NEWLINE{
+	$0
+}]]></content>
+	<tabTrigger>path_update</tabTrigger>
+	<scope>source.lsl</scope>
+	<description>event</description>
+</snippet>

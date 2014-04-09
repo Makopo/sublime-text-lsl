@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llClearPrimMedia(${1:integer face});]]></content>
+    <tabTrigger>llClearPrimMedia</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

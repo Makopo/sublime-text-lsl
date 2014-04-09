@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[INVENTORY_NOTECARD]]></content>
+    <tabTrigger>INVENTORY_NOTECARD</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (7)</description>
+</snippet>

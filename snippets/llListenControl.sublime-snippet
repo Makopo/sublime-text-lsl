@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llListenControl(${1:integer handle}, ${2:integer boolean});]]></content>
+    <tabTrigger>llListenControl</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

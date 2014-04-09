@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llDetectedType(${1:integer number})]]></content>
+    <tabTrigger>llDetectedType</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

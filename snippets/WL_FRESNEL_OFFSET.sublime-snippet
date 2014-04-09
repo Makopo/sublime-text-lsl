@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[WL_FRESNEL_OFFSET]]></content>
+    <tabTrigger>WL_FRESNEL_OFFSET</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

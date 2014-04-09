@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llPassCollisions(${1:integer boolean});]]></content>
+    <tabTrigger>llPassCollisions</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

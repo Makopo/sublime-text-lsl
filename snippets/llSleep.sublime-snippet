@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSleep(${1:float sec});]]></content>
+    <tabTrigger>llSleep</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

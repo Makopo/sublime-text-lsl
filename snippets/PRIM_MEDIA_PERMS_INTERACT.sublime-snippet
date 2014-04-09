@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PRIM_MEDIA_PERMS_INTERACT]]></content>
+    <tabTrigger>PRIM_MEDIA_PERMS_INTERACT</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (13)</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llListFindList(${1:list src}, ${2:list test})]]></content>
+    <tabTrigger>llListFindList</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

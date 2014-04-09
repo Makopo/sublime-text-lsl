@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llApplyRotationalImpulse(${1:vector force}, ${2:integer boolean});]]></content>
+    <tabTrigger>llApplyRotationalImpulse</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

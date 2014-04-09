@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llVecDist(${1:vector a}, ${2:vector b})]]></content>
+    <tabTrigger>llVecDist</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

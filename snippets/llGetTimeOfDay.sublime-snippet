@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetTimeOfDay()]]></content>
+    <tabTrigger>llGetTimeOfDay</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osIsNpc(${1:key npc})]]></content>
+    <tabTrigger>osIsNpc</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

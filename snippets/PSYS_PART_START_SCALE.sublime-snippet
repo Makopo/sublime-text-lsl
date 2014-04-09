@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PSYS_PART_START_SCALE]]></content>
+    <tabTrigger>PSYS_PART_START_SCALE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (5)</description>
+</snippet>

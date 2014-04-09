@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osAvatarPlayAnimation(${1:string avatar}, ${2:string animation})]]></content>
+    <tabTrigger>osAvatarPlayAnimation</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

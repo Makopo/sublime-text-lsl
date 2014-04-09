@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[LIST_STAT_MIN]]></content>
+    <tabTrigger>LIST_STAT_MIN</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (1)</description>
+</snippet>

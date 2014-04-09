@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llAxisAngle2Rot(${1:vector axis}, ${2:float angle})]]></content>
+    <tabTrigger>llAxisAngle2Rot</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

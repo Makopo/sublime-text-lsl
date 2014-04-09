@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[STATUS_ROTATE_Y, ${1:integer boolean}]]></content>
+    <tabTrigger>STATUS_ROTATE_Y</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x4 = 4)</description>
+</snippet>

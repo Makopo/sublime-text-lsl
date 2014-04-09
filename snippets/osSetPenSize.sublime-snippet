@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osSetPenSize(${1:string drawList}, ${2:integer penSize})]]></content>
+    <tabTrigger>osSetPenSize</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

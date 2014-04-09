@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PSYS_SRC_PATTERN_EXPLODE]]></content>
+    <tabTrigger>PSYS_SRC_PATTERN_EXPLODE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (2)</description>
+</snippet>

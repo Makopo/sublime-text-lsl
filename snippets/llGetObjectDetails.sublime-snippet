@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetObjectDetails(${1:key id}, ${2:list params})]]></content>
+    <tabTrigger>llGetObjectDetails</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llStopSound();]]></content>
+    <tabTrigger>llStopSound</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

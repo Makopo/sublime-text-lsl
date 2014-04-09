@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llDeleteSubString(${1:string src}, ${2:integer start}, ${3:integer end})]]></content>
+    <tabTrigger>llDeleteSubString</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

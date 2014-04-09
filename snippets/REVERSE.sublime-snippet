@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[REVERSE]]></content>
+    <tabTrigger>REVERSE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x4 = 4)</description>
+</snippet>

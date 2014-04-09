@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osMin(${1:float a}, ${2:float b})]]></content>
+    <tabTrigger>osMin</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

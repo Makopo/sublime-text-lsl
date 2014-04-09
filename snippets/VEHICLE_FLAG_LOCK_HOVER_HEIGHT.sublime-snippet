@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[VEHICLE_FLAG_LOCK_HOVER_HEIGHT]]></content>
+    <tabTrigger>VEHICLE_FLAG_LOCK_HOVER_HEIGHT</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

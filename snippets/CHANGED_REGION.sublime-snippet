@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[CHANGED_REGION]]></content>
+    <tabTrigger>CHANGED_REGION</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x100 = 256)</description>
+</snippet>

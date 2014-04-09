@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSetLinkCamera(${1:integer link}, ${2:vector eye}, ${3:vector at});]]></content>
+    <tabTrigger>llSetLinkCamera</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

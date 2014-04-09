@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osConsoleCommand(${1:string Command})]]></content>
+    <tabTrigger>osConsoleCommand</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

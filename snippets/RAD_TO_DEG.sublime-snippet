@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[RAD_TO_DEG]]></content>
+    <tabTrigger>RAD_TO_DEG</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>float (57.29578)</description>
+</snippet>

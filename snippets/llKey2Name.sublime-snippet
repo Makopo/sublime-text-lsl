@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llKey2Name(${1:key id})]]></content>
+    <tabTrigger>llKey2Name</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

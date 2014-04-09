@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[STATS_PENDING_DOWNLOADS]]></content>
+    <tabTrigger>STATS_PENDING_DOWNLOADS</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[OS_NPC_SENSE_AS_AGENT]]></content>
+    <tabTrigger>OS_NPC_SENSE_AS_AGENT</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

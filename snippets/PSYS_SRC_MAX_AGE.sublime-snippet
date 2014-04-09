@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PSYS_SRC_MAX_AGE]]></content>
+    <tabTrigger>PSYS_SRC_MAX_AGE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (19)</description>
+</snippet>

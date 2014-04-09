@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[RC_GET_NORMAL]]></content>
+    <tabTrigger>RC_GET_NORMAL</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x1 = 1)</description>
+</snippet>

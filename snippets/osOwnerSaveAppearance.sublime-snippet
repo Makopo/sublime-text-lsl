@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osOwnerSaveAppearance(${1:string notecard})]]></content>
+    <tabTrigger>osOwnerSaveAppearance</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

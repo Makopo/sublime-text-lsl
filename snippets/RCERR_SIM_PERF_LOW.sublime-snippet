@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[RCERR_SIM_PERF_LOW]]></content>
+    <tabTrigger>RCERR_SIM_PERF_LOW</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (-2)</description>
+</snippet>

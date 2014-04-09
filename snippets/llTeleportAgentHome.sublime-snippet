@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llTeleportAgentHome(${1:key agent});]]></content>
+    <tabTrigger>llTeleportAgentHome</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

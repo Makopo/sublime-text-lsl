@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[STATS_PHYSICS_FPS]]></content>
+    <tabTrigger>STATS_PHYSICS_FPS</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

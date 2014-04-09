@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[TOUCH_INVALID_VECTOR]]></content>
+    <tabTrigger>TOUCH_INVALID_VECTOR</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>vector (&lt;0.0, 0.0, 0.0&gt;)</description>
+</snippet>

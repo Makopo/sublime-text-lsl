@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSetVehicleRotationParam(${1:integer param}, ${2:rotation rot});]]></content>
+    <tabTrigger>llSetVehicleRotationParam</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

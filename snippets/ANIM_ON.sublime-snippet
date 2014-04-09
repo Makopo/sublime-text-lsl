@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ANIM_ON]]></content>
+    <tabTrigger>ANIM_ON</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x1 = 1)</description>
+</snippet>

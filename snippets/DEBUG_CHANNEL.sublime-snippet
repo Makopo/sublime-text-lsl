@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[DEBUG_CHANNEL]]></content>
+    <tabTrigger>DEBUG_CHANNEL</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x7FFFFFFF = 2147483647)</description>
+</snippet>

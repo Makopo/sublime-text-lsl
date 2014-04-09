@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llPreloadSound(${1:string sound});]]></content>
+    <tabTrigger>llPreloadSound</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

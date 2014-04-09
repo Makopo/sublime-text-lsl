@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llBreakLink(${1:integer link)});]]></content>
+    <tabTrigger>llBreakLink</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

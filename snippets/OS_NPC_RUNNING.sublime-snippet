@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[OS_NPC_RUNNING]]></content>
+    <tabTrigger>OS_NPC_RUNNING</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

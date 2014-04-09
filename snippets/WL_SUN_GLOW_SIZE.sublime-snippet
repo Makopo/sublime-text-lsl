@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[WL_SUN_GLOW_SIZE]]></content>
+    <tabTrigger>WL_SUN_GLOW_SIZE</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

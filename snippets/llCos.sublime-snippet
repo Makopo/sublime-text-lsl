@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llCos(${1:float theta})]]></content>
+    <tabTrigger>llCos</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

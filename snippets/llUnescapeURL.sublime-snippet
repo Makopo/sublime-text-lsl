@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llUnescapeURL(${1:string url})]]></content>
+    <tabTrigger>llUnescapeURL</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

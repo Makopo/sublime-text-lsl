@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llListReplaceList(${1:list dst}, ${2:list src}, ${3:integer start}, ${4:integer end})]]></content>
+    <tabTrigger>llListReplaceList</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

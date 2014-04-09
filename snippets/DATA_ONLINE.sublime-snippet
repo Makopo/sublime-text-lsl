@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[DATA_ONLINE]]></content>
+    <tabTrigger>DATA_ONLINE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (1)</description>
+</snippet>

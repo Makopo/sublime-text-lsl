@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PARCEL_COUNT_SELECTED]]></content>
+    <tabTrigger>PARCEL_COUNT_SELECTED</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (4)</description>
+</snippet>

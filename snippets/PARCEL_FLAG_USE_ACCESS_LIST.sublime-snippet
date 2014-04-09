@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PARCEL_FLAG_USE_ACCESS_LIST]]></content>
+    <tabTrigger>PARCEL_FLAG_USE_ACCESS_LIST</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x200 = 512)</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetPermissionsKey()]]></content>
+    <tabTrigger>llGetPermissionsKey</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

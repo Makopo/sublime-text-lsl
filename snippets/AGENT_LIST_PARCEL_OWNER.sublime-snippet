@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[AGENT_LIST_PARCEL_OWNER]]></content>
+    <tabTrigger>AGENT_LIST_PARCEL_OWNER</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (2)</description>
+</snippet>

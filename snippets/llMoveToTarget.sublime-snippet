@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llMoveToTarget(${1:vector target}, ${2:float tau});]]></content>
+    <tabTrigger>llMoveToTarget</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

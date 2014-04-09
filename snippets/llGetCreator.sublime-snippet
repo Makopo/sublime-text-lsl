@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetCreator()]]></content>
+    <tabTrigger>llGetCreator</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

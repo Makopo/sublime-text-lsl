@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetEnergy()]]></content>
+    <tabTrigger>llGetEnergy</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

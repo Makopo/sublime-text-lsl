@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llEjectFromLand(${1:key agent});]]></content>
+    <tabTrigger>llEjectFromLand</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetNextEmail(${1:string address}, ${2:string subject});]]></content>
+    <tabTrigger>llGetNextEmail</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

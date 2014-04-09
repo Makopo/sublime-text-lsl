@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llResetLandBanList();]]></content>
+    <tabTrigger>llResetLandBanList</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

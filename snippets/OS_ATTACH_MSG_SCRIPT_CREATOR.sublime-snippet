@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[OS_ATTACH_MSG_SCRIPT_CREATOR]]></content>
+    <tabTrigger>OS_ATTACH_MSG_SCRIPT_CREATOR</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llDetectedGrab(${1:integer number})]]></content>
+    <tabTrigger>llDetectedGrab</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

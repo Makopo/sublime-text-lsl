@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PARCEL_FLAG_LOCAL_SOUND_ONLY]]></content>
+    <tabTrigger>PARCEL_FLAG_LOCAL_SOUND_ONLY</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x8000 = 32768)</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSetScriptState(${1:string script}, ${2:integer boolean});]]></content>
+    <tabTrigger>llSetScriptState</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

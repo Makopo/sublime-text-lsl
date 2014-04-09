@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[STATS_OTHER_MS]]></content>
+    <tabTrigger>STATS_OTHER_MS</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

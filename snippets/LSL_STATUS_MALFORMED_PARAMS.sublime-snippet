@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[LSL_STATUS_MALFORMED_PARAMS]]></content>
+    <tabTrigger>LSL_STATUS_MALFORMED_PARAMS</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

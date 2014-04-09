@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llStopAnimation(${1:string anim});]]></content>
+    <tabTrigger>llStopAnimation</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

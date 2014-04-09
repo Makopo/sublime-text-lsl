@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llAbs(${1:integer val})]]></content>
+    <tabTrigger>llAbs</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

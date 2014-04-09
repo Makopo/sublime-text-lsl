@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[STATS_IN_PACKETS_PER_SECOND]]></content>
+    <tabTrigger>STATS_IN_PACKETS_PER_SECOND</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

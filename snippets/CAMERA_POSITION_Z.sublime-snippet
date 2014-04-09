@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[CAMERA_POSITION_Z]]></content>
+    <tabTrigger>CAMERA_POSITION_Z</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[LINK_THIS]]></content>
+    <tabTrigger>LINK_THIS</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (-4)</description>
+</snippet>

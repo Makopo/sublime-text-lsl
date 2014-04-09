@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[MASK_OWNER]]></content>
+    <tabTrigger>MASK_OWNER</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (1)</description>
+</snippet>

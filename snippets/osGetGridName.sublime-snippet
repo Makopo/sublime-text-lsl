@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osGetGridName()]]></content>
+    <tabTrigger>osGetGridName</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

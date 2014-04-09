@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[TRUE]]></content>
+    <tabTrigger>TRUE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer boolean (1)</description>
+</snippet>

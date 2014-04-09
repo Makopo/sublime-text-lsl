@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llMinEventDelay(${1:float delay});]]></content>
+    <tabTrigger>llMinEventDelay</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

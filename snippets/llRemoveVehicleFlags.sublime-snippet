@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llRemoveVehicleFlags(${1:integer flags});]]></content>
+    <tabTrigger>llRemoveVehicleFlags</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

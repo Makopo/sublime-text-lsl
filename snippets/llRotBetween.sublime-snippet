@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llRotBetween(${1:vector start}, ${2:vector end})]]></content>
+    <tabTrigger>llRotBetween</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSensorRemove();]]></content>
+    <tabTrigger>llSensorRemove</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetPrimMediaParams(${1:integer face}, ${2:list params})]]></content>
+    <tabTrigger>llGetPrimMediaParams</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

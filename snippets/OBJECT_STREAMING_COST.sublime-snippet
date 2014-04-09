@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[OBJECT_STREAMING_COST]]></content>
+    <tabTrigger>OBJECT_STREAMING_COST</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (15)</description>
+</snippet>

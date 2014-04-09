@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetRegionCorner()]]></content>
+    <tabTrigger>llGetRegionCorner</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

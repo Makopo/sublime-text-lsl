@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[CONTROL_UP]]></content>
+    <tabTrigger>CONTROL_UP</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x10 = 16)</description>
+</snippet>

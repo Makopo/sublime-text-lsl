@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osNpcSay(${1:key npc}, ${2:string message})]]></content>
+    <tabTrigger>osNpcSay</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

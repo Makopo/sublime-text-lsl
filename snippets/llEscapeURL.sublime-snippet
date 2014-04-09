@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llEscapeURL(${1:string url})]]></content>
+    <tabTrigger>llEscapeURL</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

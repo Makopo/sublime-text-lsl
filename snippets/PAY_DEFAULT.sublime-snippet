@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PAY_DEFAULT]]></content>
+    <tabTrigger>PAY_DEFAULT</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (-2)</description>
+</snippet>

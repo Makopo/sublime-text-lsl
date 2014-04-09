@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llRemoveFromLandBanList(${1:key agent});]]></content>
+    <tabTrigger>llRemoveFromLandBanList</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGroundNormal(${1:vector offset})]]></content>
+    <tabTrigger>llGroundNormal</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

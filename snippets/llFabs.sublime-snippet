@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llFabs(${1:float val})]]></content>
+    <tabTrigger>llFabs</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llCSV2List(${1:string src})]]></content>
+    <tabTrigger>llCSV2List</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

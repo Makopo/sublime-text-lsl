@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PARCEL_FLAG_ALLOW_GROUP_SCRIPTS]]></content>
+    <tabTrigger>PARCEL_FLAG_ALLOW_GROUP_SCRIPTS</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x02000000 = 33554432)</description>
+</snippet>

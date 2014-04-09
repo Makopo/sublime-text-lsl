@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PERM_ALL]]></content>
+    <tabTrigger>PERM_ALL</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x7FFFFFFF = 2147483647)</description>
+</snippet>

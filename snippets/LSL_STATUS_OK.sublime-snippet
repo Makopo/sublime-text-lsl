@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[LSL_STATUS_OK]]></content>
+    <tabTrigger>LSL_STATUS_OK</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

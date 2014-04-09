@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[lsGetWindlightScene(${1:list rules})]]></content>
+    <tabTrigger>lsGetWindlightScene</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

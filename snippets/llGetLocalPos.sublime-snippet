@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetLocalPos()]]></content>
+    <tabTrigger>llGetLocalPos</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

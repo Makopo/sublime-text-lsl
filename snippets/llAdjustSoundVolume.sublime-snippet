@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llAdjustSoundVolume(${1:float volume});]]></content>
+    <tabTrigger>llAdjustSoundVolume</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[AGENT_ON_OBJECT]]></content>
+    <tabTrigger>AGENT_ON_OBJECT</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x20 = 32)</description>
+</snippet>

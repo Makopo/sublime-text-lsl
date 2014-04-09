@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llScriptDanger(${1:vector pos})]]></content>
+    <tabTrigger>llScriptDanger</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

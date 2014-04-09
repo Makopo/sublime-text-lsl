@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llTriggerSoundLimited(${1:string sound}, ${2:float volume}, ${3:vector top_north_east}, ${4:vector bottom_south_west});]]></content>
+    <tabTrigger>llTriggerSoundLimited</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

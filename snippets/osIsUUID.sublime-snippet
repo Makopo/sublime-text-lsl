@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osIsUUID(${1:string thing})]]></content>
+    <tabTrigger>osIsUUID</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

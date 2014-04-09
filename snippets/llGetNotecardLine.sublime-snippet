@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetNotecardLine(${1:string name}, ${2:integer line})]]></content>
+    <tabTrigger>llGetNotecardLine</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

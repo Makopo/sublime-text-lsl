@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetHTTPHeader(${1:key request_id}, ${2:string header})]]></content>
+    <tabTrigger>llGetHTTPHeader</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

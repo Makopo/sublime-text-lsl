@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[REGION_FLAG_RESTRICT_PUSHOBJECT]]></content>
+    <tabTrigger>REGION_FLAG_RESTRICT_PUSHOBJECT</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x400000 = 4194304)</description>
+</snippet>

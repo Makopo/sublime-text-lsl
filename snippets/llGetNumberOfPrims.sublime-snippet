@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetNumberOfPrims()]]></content>
+    <tabTrigger>llGetNumberOfPrims</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

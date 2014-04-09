@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llLookAt(${1:vector target}, ${2:float strength}, ${3:float damping});]]></content>
+    <tabTrigger>llLookAt</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

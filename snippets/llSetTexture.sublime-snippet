@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSetTexture(${1:string texture}, ${2:integer face});]]></content>
+    <tabTrigger>llSetTexture</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llListenRemove(${1:integer handle});]]></content>
+    <tabTrigger>llListenRemove</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llInsertString(${1:string dst}, ${2:integer pos}, ${3:string src})]]></content>
+    <tabTrigger>llInsertString</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

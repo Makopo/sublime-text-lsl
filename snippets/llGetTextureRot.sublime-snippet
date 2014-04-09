@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetTextureRot(${1:integer face})]]></content>
+    <tabTrigger>llGetTextureRot</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

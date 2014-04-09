@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llParticleSystem(${1:list rules});]]></content>
+    <tabTrigger>llParticleSystem</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

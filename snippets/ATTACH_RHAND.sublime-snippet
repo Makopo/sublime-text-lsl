@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ATTACH_RHAND]]></content>
+    <tabTrigger>ATTACH_RHAND</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (6)</description>
+</snippet>

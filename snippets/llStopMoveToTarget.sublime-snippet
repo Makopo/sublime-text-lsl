@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llStopMoveToTarget();]]></content>
+    <tabTrigger>llStopMoveToTarget</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

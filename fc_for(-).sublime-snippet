@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[for ($1; $2; $3)$LSL_SPACE_OR_NEWLINE{
-	$4
-}
-$0]]></content>
-    <tabTrigger>for</tabTrigger>
-    <scope>meta.event.body.lsl, meta.function.body.lsl, meta.event.body.ossl, meta.function.body.ossl</scope>
-    <description>for …</description>
-</snippet>

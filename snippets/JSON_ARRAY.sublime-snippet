@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[JSON_ARRAY]]></content>
+    <tabTrigger>JSON_ARRAY</tabTrigger>
+    <scope>source.lsl</scope>
+    <description>string (&quot;&amp;#xFDD2;&quot;)</description>
+</snippet>

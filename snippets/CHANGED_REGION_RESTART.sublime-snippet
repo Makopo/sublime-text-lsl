@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[CHANGED_REGION_RESTART]]></content>
+    <tabTrigger>CHANGED_REGION_RESTART</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

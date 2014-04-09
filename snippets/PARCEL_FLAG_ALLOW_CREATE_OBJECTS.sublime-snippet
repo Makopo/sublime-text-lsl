@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PARCEL_FLAG_ALLOW_CREATE_OBJECTS]]></content>
+    <tabTrigger>PARCEL_FLAG_ALLOW_CREATE_OBJECTS</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x40 = 64)</description>
+</snippet>

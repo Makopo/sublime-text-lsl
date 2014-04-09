@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llVecMag(${1:vector v})]]></content>
+    <tabTrigger>llVecMag</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

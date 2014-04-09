@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llResetLandPassList();]]></content>
+    <tabTrigger>llResetLandPassList</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

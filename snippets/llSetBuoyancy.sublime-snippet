@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSetBuoyancy(${1:float buoyancy});]]></content>
+    <tabTrigger>llSetBuoyancy</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

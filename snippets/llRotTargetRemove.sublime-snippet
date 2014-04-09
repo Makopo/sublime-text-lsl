@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llRotTargetRemove(${1:integer handle});]]></content>
+    <tabTrigger>llRotTargetRemove</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

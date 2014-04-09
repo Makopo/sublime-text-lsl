@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[CONTROL_ML_LBUTTON]]></content>
+    <tabTrigger>CONTROL_ML_LBUTTON</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x40000000 = 1073741824)</description>
+</snippet>

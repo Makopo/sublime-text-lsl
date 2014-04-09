@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llDie();]]></content>
+    <tabTrigger>llDie</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

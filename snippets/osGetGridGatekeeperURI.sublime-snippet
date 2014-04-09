@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osGetGridGatekeeperURI()]]></content>
+    <tabTrigger>osGetGridGatekeeperURI</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

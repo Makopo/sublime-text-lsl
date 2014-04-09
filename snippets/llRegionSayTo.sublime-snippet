@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llRegionSayTo(${1:key target}, ${2:integer channel}, ${3:string message});]]></content>
+    <tabTrigger>llRegionSayTo</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

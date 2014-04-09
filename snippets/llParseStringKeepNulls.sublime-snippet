@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llParseStringKeepNulls(${1:string src}, ${2:list separators}, ${3:list spacers})]]></content>
+    <tabTrigger>llParseStringKeepNulls</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

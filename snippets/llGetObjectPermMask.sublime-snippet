@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetObjectPermMask(${1:integer mask})]]></content>
+    <tabTrigger>llGetObjectPermMask</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetSimStats(${1:integer stat_type})]]></content>
+    <tabTrigger>llGetSimStats</tabTrigger>
+    <scope>source.lsl</scope>
+    <description>function</description>
+</snippet>

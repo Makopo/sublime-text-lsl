@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[listen(integer ${1:channel}, string ${2:name}, key ${3:id}, string ${4:message})$LSL_SPACE_OR_NEWLINE{
+	$0
+}]]></content>
+	<tabTrigger>listen</tabTrigger>
+	<scope>source.lsl, source.ossl</scope>
+	<description>event</description>
+</snippet>

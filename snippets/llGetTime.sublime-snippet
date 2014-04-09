@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetTime()]]></content>
+    <tabTrigger>llGetTime</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

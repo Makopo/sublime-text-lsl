@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osCauseDamage(${1:string avatar}, ${2:float damage})]]></content>
+    <tabTrigger>osCauseDamage</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

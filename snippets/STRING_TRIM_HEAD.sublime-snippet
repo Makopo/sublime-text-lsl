@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[STRING_TRIM_HEAD]]></content>
+    <tabTrigger>STRING_TRIM_HEAD</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (1)</description>
+</snippet>

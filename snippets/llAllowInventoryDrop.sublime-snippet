@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llAllowInventoryDrop(${1:integer boolean});]]></content>
+    <tabTrigger>llAllowInventoryDrop</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

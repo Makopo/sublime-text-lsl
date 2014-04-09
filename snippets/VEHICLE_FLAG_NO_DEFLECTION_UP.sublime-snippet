@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[VEHICLE_FLAG_NO_DEFLECTION_UP]]></content>
+    <tabTrigger>VEHICLE_FLAG_NO_DEFLECTION_UP</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x1 = 1)</description>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[CAMERA_ACTIVE, ${1:integer boolean}]]></content>
+    <tabTrigger>CAMERA_ACTIVE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (12)</description>
+</snippet>
+

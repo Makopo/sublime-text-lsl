@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetTimestamp()]]></content>
+    <tabTrigger>llGetTimestamp</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

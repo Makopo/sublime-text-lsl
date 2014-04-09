@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llBase64ToString(${1:string str})]]></content>
+    <tabTrigger>llBase64ToString</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[CAMERA_FOCUS, ${1:vector position}]]></content>
+    <tabTrigger>CAMERA_FOCUS</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (17)</description>
+</snippet>

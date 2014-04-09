@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetAnimation(${1:key agent})]]></content>
+    <tabTrigger>llGetAnimation</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

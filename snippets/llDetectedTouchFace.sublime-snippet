@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llDetectedTouchFace(${1:integer number})]]></content>
+    <tabTrigger>llDetectedTouchFace</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[VEHICLE_RANGE_BLOCK]]></content>
+    <tabTrigger>VEHICLE_RANGE_BLOCK</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

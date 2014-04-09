@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llParcelMediaCommandList(${1:list commands});]]></content>
+    <tabTrigger>llParcelMediaCommandList</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

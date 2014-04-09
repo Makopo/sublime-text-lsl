@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSetPrimitiveParams(${1:list rules});]]></content>
+    <tabTrigger>llSetPrimitiveParams</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSetVelocity(${1:vector force}, ${2:integer boolean});]]></content>
+    <tabTrigger>llSetVelocity</tabTrigger>
+    <scope>source.lsl</scope>
+    <description>function</description>
+</snippet>

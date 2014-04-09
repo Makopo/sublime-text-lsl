@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSetAlpha(${1:float alpha}, {2:integer face});]]></content>
+    <tabTrigger>llSetAlpha</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

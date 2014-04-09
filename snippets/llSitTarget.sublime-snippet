@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSitTarget(${1:vector offset}, ${2:rotation rot});]]></content>
+    <tabTrigger>llSitTarget</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

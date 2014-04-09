@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osForceAttachToAvatarFromInventory(${1:string itemName}, ${2:integer attachment})]]></content>
+    <tabTrigger>osForceAttachToAvatarFromInventory</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osSetFontName(${1:string drawList}, ${2:string fontName})]]></content>
+    <tabTrigger>osSetFontName</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

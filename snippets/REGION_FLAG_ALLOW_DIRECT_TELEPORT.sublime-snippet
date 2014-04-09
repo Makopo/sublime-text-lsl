@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[REGION_FLAG_ALLOW_DIRECT_TELEPORT]]></content>
+    <tabTrigger>REGION_FLAG_ALLOW_DIRECT_TELEPORT</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x100000 = 1048576)</description>
+</snippet>

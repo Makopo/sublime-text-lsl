@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetMassMKS()]]></content>
+    <tabTrigger>llGetMassMKS</tabTrigger>
+    <scope>source.lsl</scope>
+    <description>function</description>
+</snippet>

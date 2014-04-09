@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osCauseHealing(${1:string avatar}, ${2:float healing})]]></content>
+    <tabTrigger>osCauseHealing</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

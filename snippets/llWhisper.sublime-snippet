@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llWhisper(${1:integer channel}, ${2:string message});]]></content>
+    <tabTrigger>llWhisper</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[OBJECT_SERVER_COST]]></content>
+    <tabTrigger>OBJECT_SERVER_COST</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (14)</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osSetTerrainTextureHeight(${1:integer corner}, ${2:float low}, ${3:float high})]]></content>
+    <tabTrigger>osSetTerrainTextureHeight</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

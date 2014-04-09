@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[VEHICLE_FLAG_NO_DEFLECTION]]></content>
+    <tabTrigger>VEHICLE_FLAG_NO_DEFLECTION</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[CHANGED_TELEPORT]]></content>
+    <tabTrigger>CHANGED_TELEPORT</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x200 = 512)</description>
+</snippet>

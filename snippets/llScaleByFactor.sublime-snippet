@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llScaleByFactor(${1:float scaling_factor})]]></content>
+    <tabTrigger>llScaleByFactor</tabTrigger>
+    <scope>source.lsl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llJsonValueType(${1:string json}, ${2:list specifiers})]]></content>
+    <tabTrigger>llJsonValueType</tabTrigger>
+    <scope>source.lsl</scope>
+    <description>function</description>
+</snippet>

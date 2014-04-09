@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[AGENT_TYPING]]></content>
+    <tabTrigger>AGENT_TYPING</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x200 = 512)</description>
+</snippet>

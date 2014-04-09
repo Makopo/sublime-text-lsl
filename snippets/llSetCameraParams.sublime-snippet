@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSetCameraParams(${1:list rules});]]></content>
+    <tabTrigger>llSetCameraParams</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

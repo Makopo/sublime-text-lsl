@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetTextureOffset(${1:integer face})]]></content>
+    <tabTrigger>llGetTextureOffset</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

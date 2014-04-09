@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[INVENTORY_OBJECT]]></content>
+    <tabTrigger>INVENTORY_OBJECT</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (6)</description>
+</snippet>

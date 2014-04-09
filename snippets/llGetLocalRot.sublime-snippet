@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetLocalRot()]]></content>
+    <tabTrigger>llGetLocalRot</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

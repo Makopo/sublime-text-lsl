@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PSYS_SRC_TEXTURE]]></content>
+    <tabTrigger>PSYS_SRC_TEXTURE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (12)</description>
+</snippet>

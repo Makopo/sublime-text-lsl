@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[AGENT_BY_LEGACY_NAME]]></content>
+    <tabTrigger>AGENT_BY_LEGACY_NAME</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x1 = 1 = AGENT)</description>
+</snippet>

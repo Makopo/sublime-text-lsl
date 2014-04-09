@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[CLICK_ACTION_BUY]]></content>
+    <tabTrigger>CLICK_ACTION_BUY</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (2)</description>
+</snippet>

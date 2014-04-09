@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSetVehicleType(${1:integer type});]]></content>
+    <tabTrigger>llSetVehicleType</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

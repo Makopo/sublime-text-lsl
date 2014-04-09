@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[VEHICLE_FLAG_HOVER_WATER_ONLY]]></content>
+    <tabTrigger>VEHICLE_FLAG_HOVER_WATER_ONLY</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x4 = 4)</description>
+</snippet>

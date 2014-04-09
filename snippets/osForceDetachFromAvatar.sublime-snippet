@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osForceDetachFromAvatar()]]></content>
+    <tabTrigger>osForceDetachFromAvatar</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

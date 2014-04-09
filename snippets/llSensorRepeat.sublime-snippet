@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSensorRepeat(${1:string name}, ${2:key id}, ${3:integer type}, ${4:float range}, ${5:float arc}, ${6:float rate});]]></content>
+    <tabTrigger>llSensorRepeat</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

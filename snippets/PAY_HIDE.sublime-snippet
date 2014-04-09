@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PAY_HIDE]]></content>
+    <tabTrigger>PAY_HIDE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (-1)</description>
+</snippet>

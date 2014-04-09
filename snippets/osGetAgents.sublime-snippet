@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osGetAgents()]]></content>
+    <tabTrigger>osGetAgents</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

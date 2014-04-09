@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[LAND_REVERT]]></content>
+    <tabTrigger>LAND_REVERT</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (5)</description>
+</snippet>

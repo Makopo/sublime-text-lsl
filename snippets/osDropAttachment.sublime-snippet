@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osDropAttachment()]]></content>
+    <tabTrigger>osDropAttachment</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

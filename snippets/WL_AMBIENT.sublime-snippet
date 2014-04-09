@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[WL_AMBIENT]]></content>
+    <tabTrigger>WL_AMBIENT</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

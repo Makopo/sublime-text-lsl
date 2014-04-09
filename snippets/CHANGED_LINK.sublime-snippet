@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[CHANGED_LINK]]></content>
+    <tabTrigger>CHANGED_LINK</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x20 = 32)</description>
+</snippet>

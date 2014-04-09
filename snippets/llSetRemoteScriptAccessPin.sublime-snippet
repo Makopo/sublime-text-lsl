@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSetRemoteScriptAccessPin(${1:integer pin});]]></content>
+    <tabTrigger>llSetRemoteScriptAccessPin</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

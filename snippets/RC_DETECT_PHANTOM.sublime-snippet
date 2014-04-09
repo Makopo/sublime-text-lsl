@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[RC_DETECT_PHANTOM, ${1:integer boolean}]]></content>
+    <tabTrigger>RC_DETECT_PHANTOM</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (1)</description>
+</snippet>

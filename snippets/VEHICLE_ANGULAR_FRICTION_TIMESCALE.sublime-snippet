@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[VEHICLE_ANGULAR_FRICTION_TIMESCALE]]></content>
+    <tabTrigger>VEHICLE_ANGULAR_FRICTION_TIMESCALE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (17)</description>
+</snippet>

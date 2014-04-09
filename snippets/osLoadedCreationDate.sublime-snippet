@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osLoadedCreationDate()]]></content>
+    <tabTrigger>osLoadedCreationDate</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

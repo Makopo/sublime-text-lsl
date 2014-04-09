@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llDetectedPos(${1:integer number})]]></content>
+    <tabTrigger>llDetectedPos</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[INVENTORY_NONE]]></content>
+    <tabTrigger>INVENTORY_NONE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (-1)</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llVolumeDetect(${1:integer boolean});]]></content>
+    <tabTrigger>llVolumeDetect</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

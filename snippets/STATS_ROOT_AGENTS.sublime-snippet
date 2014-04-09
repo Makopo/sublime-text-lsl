@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[STATS_ROOT_AGENTS]]></content>
+    <tabTrigger>STATS_ROOT_AGENTS</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

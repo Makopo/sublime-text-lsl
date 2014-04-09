@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[CONTROL_ROT_RIGHT]]></content>
+    <tabTrigger>CONTROL_ROT_RIGHT</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x200 = 512)</description>
+</snippet>

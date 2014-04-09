@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[VEHICLE_REFERENCE_FRAME]]></content>
+    <tabTrigger>VEHICLE_REFERENCE_FRAME</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (44)</description>
+</snippet>

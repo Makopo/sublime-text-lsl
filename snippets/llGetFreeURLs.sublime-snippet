@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetFreeURLs()]]></content>
+    <tabTrigger>llGetFreeURLs</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

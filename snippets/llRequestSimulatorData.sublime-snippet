@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llRequestSimulatorData(${1:string region}, ${2:integer data})]]></content>
+    <tabTrigger>llRequestSimulatorData</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

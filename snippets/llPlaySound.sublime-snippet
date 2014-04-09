@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llPlaySound(${1:string sound}, ${2:float volume});]]></content>
+    <tabTrigger>llPlaySound</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

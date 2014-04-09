@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llRound(${1:float val})]]></content>
+    <tabTrigger>llRound</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

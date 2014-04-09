@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llManageEstateAccess(${1:integer action}, ${2:key agent})]]></content>
+    <tabTrigger>llManageEstateAccess</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

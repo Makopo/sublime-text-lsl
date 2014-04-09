@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osNpcTouch(${1:key npcLSL_Key}, ${2:key object_key}, ${3:integer link_num})]]></content>
+    <tabTrigger>osNpcTouch</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

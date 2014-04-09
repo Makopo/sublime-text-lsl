@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llCollisionFilter(${1:string name}, ${2:key id}, ${3:integer boolean});]]></content>
+    <tabTrigger>llCollisionFilter</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osNpcSaveAppearance(${1:key npc}, ${2:string notecard})]]></content>
+    <tabTrigger>osNpcSaveAppearance</tabTrigger>
+    <scope>source.ossl</scope>
+    <description>function</description>
+</snippet>

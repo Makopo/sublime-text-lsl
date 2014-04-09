@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[CONTROL_BACK]]></content>
+    <tabTrigger>CONTROL_BACK</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x2 = 2)</description>
+</snippet>

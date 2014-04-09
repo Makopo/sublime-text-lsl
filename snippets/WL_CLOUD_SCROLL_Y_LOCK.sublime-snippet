@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[WL_CLOUD_SCROLL_Y_LOCK]]></content>
+    <tabTrigger>WL_CLOUD_SCROLL_Y_LOCK</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

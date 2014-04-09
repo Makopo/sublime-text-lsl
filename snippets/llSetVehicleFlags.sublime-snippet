@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSetVehicleFlags(${1:integer flags});]]></content>
+    <tabTrigger>llSetVehicleFlags</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

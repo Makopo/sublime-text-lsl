@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[AGENT_AWAY]]></content>
+    <tabTrigger>AGENT_AWAY</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x40 = 64)</description>
+</snippet>

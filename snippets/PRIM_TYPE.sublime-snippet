@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PRIM_TYPE]]></content>
+    <tabTrigger>PRIM_TYPE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (9)</description>
+</snippet>

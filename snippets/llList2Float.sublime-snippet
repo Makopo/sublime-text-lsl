@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llList2Float(${1:list src}, ${2:integer index})]]></content>
+    <tabTrigger>llList2Float</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

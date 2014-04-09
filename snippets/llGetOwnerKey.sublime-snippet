@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetOwnerKey(${1:key id})]]></content>
+    <tabTrigger>llGetOwnerKey</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>function</description>
+</snippet>

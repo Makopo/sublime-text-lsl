@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[JSON_INVALID]]></content>
+    <tabTrigger>JSON_INVALID</tabTrigger>
+    <scope>source.lsl</scope>
+    <description>string (&quot;&amp;#xFDD0;&quot;)</description>
+</snippet>

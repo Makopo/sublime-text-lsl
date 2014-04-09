@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ATTACH_RSHOULDER]]></content>
+    <tabTrigger>ATTACH_RSHOULDER</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (4)</description>
+</snippet>

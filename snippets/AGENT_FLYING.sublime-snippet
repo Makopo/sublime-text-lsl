@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[AGENT_FLYING]]></content>
+    <tabTrigger>AGENT_FLYING</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x1 = 1)</description>
+</snippet>

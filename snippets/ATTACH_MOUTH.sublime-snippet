@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ATTACH_MOUTH]]></content>
+    <tabTrigger>ATTACH_MOUTH</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (11)</description>
+</snippet>
