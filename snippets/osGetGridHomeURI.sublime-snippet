@@ -2,5 +2,5 @@
     <content><![CDATA[osGetGridHomeURI()]]></content>
     <tabTrigger>osGetGridHomeURI</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

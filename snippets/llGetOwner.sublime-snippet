@@ -2,6 +2,6 @@
     <content><![CDATA[llGetOwner()]]></content>
     <tabTrigger>llGetOwner</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(key) function</description>
 </snippet>
 

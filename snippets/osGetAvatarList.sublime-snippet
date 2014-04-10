@@ -2,5 +2,5 @@
     <content><![CDATA[osGetAvatarList()]]></content>
     <tabTrigger>osGetAvatarList</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(list) function</description>
 </snippet>

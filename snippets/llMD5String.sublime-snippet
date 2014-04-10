@@ -2,5 +2,5 @@
     <content><![CDATA[llMD5String(${1:string src}, ${2:integer nonce})]]></content>
     <tabTrigger>llMD5String</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

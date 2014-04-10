@@ -2,5 +2,5 @@
     <content><![CDATA[llListStatistics(${1:integer operation}, ${2:list src})]]></content>
     <tabTrigger>llListStatistics</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(float) function</description>
 </snippet>

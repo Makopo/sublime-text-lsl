@@ -2,5 +2,5 @@
     <content><![CDATA[llGetStaticPath(${1:vector start}, ${2:vector end}, ${3:float radius}, ${4:list params})]]></content>
     <tabTrigger>llGetStaticPath</tabTrigger>
     <scope>source.lsl</scope>
-    <description>function</description>
+    <description>(list) function</description>
 </snippet>

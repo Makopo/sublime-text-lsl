@@ -2,5 +2,5 @@
     <content><![CDATA[llGetAnimationList(${1:key agent})]]></content>
     <tabTrigger>llGetAnimationList</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(list) function</description>
 </snippet>

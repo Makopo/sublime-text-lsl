@@ -2,5 +2,5 @@
     <content><![CDATA[osWindActiveModelPluginName()]]></content>
     <tabTrigger>osWindActiveModelPluginName</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

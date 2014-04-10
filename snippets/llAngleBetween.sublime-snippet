@@ -2,5 +2,5 @@
     <content><![CDATA[llAngleBetween(${1:rotation a}, ${2:rotation b})]]></content>
     <tabTrigger>llAngleBetween</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(float) function</description>
 </snippet>

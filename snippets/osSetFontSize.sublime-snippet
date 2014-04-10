@@ -2,5 +2,5 @@
     <content><![CDATA[osSetFontSize(${1:string drawList}, ${2:integer fontSize})]]></content>
     <tabTrigger>osSetFontSize</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

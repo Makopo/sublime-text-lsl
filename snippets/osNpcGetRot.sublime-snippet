@@ -2,5 +2,5 @@
     <content><![CDATA[osNpcGetRot(${1:key npc})]]></content>
     <tabTrigger>osNpcGetRot</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(rotation) function</description>
 </snippet>

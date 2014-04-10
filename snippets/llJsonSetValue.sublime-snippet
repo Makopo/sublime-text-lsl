@@ -2,5 +2,5 @@
     <content><![CDATA[llJsonSetValue(${1:string json}; ${2:list specifiers}, ${3:string newValue})]]></content>
     <tabTrigger>llJsonSetValue</tabTrigger>
     <scope>source.lsl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

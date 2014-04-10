@@ -2,5 +2,5 @@
     <content><![CDATA[osGetAgentIP(${1:string agent})]]></content>
     <tabTrigger>osGetAgentIP</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

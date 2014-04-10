@@ -2,5 +2,5 @@
     <content><![CDATA[osLoadedCreationTime()]]></content>
     <tabTrigger>osLoadedCreationTime</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

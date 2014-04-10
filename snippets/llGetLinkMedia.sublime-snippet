@@ -2,5 +2,5 @@
     <content><![CDATA[llGetLinkMedia(${1:integer link}, ${2:integer face}, ${3:list params})]]></content>
     <tabTrigger>llGetLinkMedia</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(list) function</description>
 </snippet>

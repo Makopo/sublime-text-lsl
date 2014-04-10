@@ -2,5 +2,5 @@
     <content><![CDATA[llAcos(${1:float val})]]></content>
     <tabTrigger>llAcos</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(float) function</description>
 </snippet>

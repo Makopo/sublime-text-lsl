@@ -2,5 +2,5 @@
     <content><![CDATA[osGetGridCustom(${1:string id})]]></content>
     <tabTrigger>osGetGridCustom</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

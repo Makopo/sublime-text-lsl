@@ -2,5 +2,5 @@
     <content><![CDATA[llGetPermissions()]]></content>
     <tabTrigger>llGetPermissions</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(integer) function</description>
 </snippet>

@@ -2,5 +2,5 @@
     <content><![CDATA[osGetGridNick()]]></content>
     <tabTrigger>osGetGridNick</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

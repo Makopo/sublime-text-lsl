@@ -2,5 +2,5 @@
     <content><![CDATA[llDetectedVel(${1:integer number})]]></content>
     <tabTrigger>llDetectedVel</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(vector) function</description>
 </snippet>

@@ -2,5 +2,5 @@
     <content><![CDATA[osGetScriptEngineName()]]></content>
     <tabTrigger>osGetScriptEngineName</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

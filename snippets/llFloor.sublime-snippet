@@ -2,5 +2,5 @@
     <content><![CDATA[llFloor(${1:float val})]]></content>
     <tabTrigger>llFloor</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(integer) function</description>
 </snippet>

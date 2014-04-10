@@ -2,5 +2,5 @@
     <content><![CDATA[llTan(${1:float theta})]]></content>
     <tabTrigger>llTan</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(float) function</description>
 </snippet>

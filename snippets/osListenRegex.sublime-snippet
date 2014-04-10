@@ -2,5 +2,5 @@
     <content><![CDATA[osListenRegex(${1:integer channelID}, ${2:string name}, ${3:string ID}, ${4:string msg}, ${5:integer regexBitfield})]]></content>
     <tabTrigger>osListenRegex</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(integer) function</description>
 </snippet>

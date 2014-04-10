@@ -2,5 +2,5 @@
     <content><![CDATA[llList2ListStrided(${1:list src}, ${2:integer start}, ${3:integer end}, ${4:integer stride})]]></content>
     <tabTrigger>llList2ListStrided</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(list) function</description>
 </snippet>

@@ -2,5 +2,5 @@
     <content><![CDATA[llTransferLindenDollars(${1:key destination}, ${2:integer amount})]]></content>
     <tabTrigger>llTransferLindenDollars</tabTrigger>
     <scope>source.lsl</scope>
-    <description>function</description>
+    <description>(key) function</description>
 </snippet>

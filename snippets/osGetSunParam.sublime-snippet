@@ -2,5 +2,5 @@
     <content><![CDATA[osGetSunParam(${1:string param})]]></content>
     <tabTrigger>osGetSunParam</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(float) function</description>
 </snippet>

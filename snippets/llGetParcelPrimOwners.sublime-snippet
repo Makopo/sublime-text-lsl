@@ -2,5 +2,5 @@
     <content><![CDATA[llGetParcelPrimOwners(${1:vector pos})]]></content>
     <tabTrigger>llGetParcelPrimOwners</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(list) function</description>
 </snippet>

@@ -2,5 +2,5 @@
     <content><![CDATA[osGetTerrainHeight(${1:integer x}, ${2:integer y})]]></content>
     <tabTrigger>osGetTerrainHeight</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(float) function</description>
 </snippet>

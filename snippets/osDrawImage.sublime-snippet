@@ -2,5 +2,5 @@
     <content><![CDATA[osDrawImage(${1:string drawList}, ${2:integer width}, ${3:integer height}, ${4:string imageUrl})]]></content>
     <tabTrigger>osDrawImage</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

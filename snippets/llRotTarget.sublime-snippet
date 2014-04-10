@@ -2,5 +2,5 @@
     <content><![CDATA[llRotTarget(${1:rotation rot}, ${float error})]]></content>
     <tabTrigger>llRotTarget</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(integer) function</description>
 </snippet>

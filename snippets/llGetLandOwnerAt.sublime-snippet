@@ -2,5 +2,5 @@
     <content><![CDATA[llGetLandOwnerAt(${1:vector pos})]]></content>
     <tabTrigger>llGetLandOwnerAt</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(key) function</description>
 </snippet>

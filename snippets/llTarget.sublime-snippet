@@ -2,5 +2,5 @@
     <content><![CDATA[llTarget(${1:vector pos}, ${2:float range})]]></content>
     <tabTrigger>llTarget</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(integer) function</description>
 </snippet>

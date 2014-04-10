@@ -2,5 +2,5 @@
     <content><![CDATA[llList2Vector(${1:list src}, ${2:integer index})]]></content>
     <tabTrigger>llList2Vector</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(vector) function</description>
 </snippet>

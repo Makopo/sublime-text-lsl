@@ -2,5 +2,5 @@
     <content><![CDATA[osAvatarName2Key(${1:string firstname}, ${2:string lastname})]]></content>
     <tabTrigger>osAvatarName2Key</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

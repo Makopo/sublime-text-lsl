@@ -2,5 +2,5 @@
     <content><![CDATA[osGetHealth(${1:string avatar})]]></content>
     <tabTrigger>osGetHealth</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(float) function</description>
 </snippet>

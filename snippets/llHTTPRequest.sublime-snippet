@@ -2,5 +2,5 @@
     <content><![CDATA[llHTTPRequest(${1:string url}, ${2:list params}, ${3:string body})]]></content>
     <tabTrigger>llHTTPRequest</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(key) function</description>
 </snippet>

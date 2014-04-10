@@ -2,5 +2,5 @@
     <content><![CDATA[llGetGMTclock()]]></content>
     <tabTrigger>llGetGMTclock</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(float) function</description>
 </snippet>

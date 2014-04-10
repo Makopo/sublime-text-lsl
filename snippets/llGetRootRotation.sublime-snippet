@@ -2,5 +2,5 @@
     <content><![CDATA[llGetRootRotation()]]></content>
     <tabTrigger>llGetRootRotation</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(rotation) function</description>
 </snippet>

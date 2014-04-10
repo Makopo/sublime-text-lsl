@@ -2,5 +2,5 @@
     <content><![CDATA[osGetAgents()]]></content>
     <tabTrigger>osGetAgents</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(list) function</description>
 </snippet>

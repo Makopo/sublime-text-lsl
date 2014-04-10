@@ -2,5 +2,5 @@
     <content><![CDATA[osSetPenColor(${1:string drawList}, ${2:string color})]]></content>
     <tabTrigger>osSetPenColor</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

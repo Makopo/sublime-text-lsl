@@ -2,5 +2,5 @@
     <content><![CDATA[osSetPenCap(${1:string drawList}, ${2:string direction}, ${3:string type})]]></content>
     <tabTrigger>osSetPenCap</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

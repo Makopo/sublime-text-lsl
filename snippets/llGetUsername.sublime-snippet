@@ -2,5 +2,5 @@
     <content><![CDATA[llGetUsername(${1:key id})]]></content>
     <tabTrigger>llGetUsername</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

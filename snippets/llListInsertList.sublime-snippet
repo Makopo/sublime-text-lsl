@@ -2,5 +2,5 @@
     <content><![CDATA[llListInsertList(${1:list dst}, ${2:list src}, ${3:integer start})]]></content>
     <tabTrigger>llListInsertList</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(list) function</description>
 </snippet>

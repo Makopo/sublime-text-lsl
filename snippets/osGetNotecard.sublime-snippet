@@ -2,5 +2,5 @@
     <content><![CDATA[osGetNotecard(${1:string name})]]></content>
     <tabTrigger>osGetNotecard</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

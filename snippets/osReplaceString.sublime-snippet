@@ -2,5 +2,5 @@
     <content><![CDATA[osReplaceString(${1:string src}, ${2:string pattern}, ${3:string replace}, ${4:integer count}, ${5:integer start})]]></content>
     <tabTrigger>osReplaceString</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

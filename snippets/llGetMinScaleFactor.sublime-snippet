@@ -2,5 +2,5 @@
     <content><![CDATA[llGetMinScaleFactor()]]></content>
     <tabTrigger>llGetMinScaleFactor</tabTrigger>
     <scope>source.lsl</scope>
-    <description>function</description>
+    <description>(float) function</description>
 </snippet>

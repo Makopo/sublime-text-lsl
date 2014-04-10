@@ -2,5 +2,5 @@
     <content><![CDATA[osGetCurrentSunHour()]]></content>
     <tabTrigger>osGetCurrentSunHour</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(float) function</description>
 </snippet>

@@ -2,5 +2,5 @@
     <content><![CDATA[osList2Double(${1:list src}, ${2:integer index})]]></content>
     <tabTrigger>osList2Double</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(float) function</description>
 </snippet>

@@ -2,5 +2,5 @@
     <content><![CDATA[osSetDynamicTextureURL(${1:string dynamicID}, ${2:string contentType}, ${3:string url}, ${4:string extraParams}, ${5:integer timer})]]></content>
     <tabTrigger>osSetDynamicTextureURL</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

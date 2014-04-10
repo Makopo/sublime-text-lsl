@@ -2,5 +2,5 @@
     <content><![CDATA[osDrawRectangle(${1:string drawList}, ${2:integer width}, ${3:integer height})]]></content>
     <tabTrigger>osDrawRectangle</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

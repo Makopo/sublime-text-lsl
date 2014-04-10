@@ -2,5 +2,5 @@
     <content><![CDATA[osMax(${1:float a}, ${2:float b})]]></content>
     <tabTrigger>osMax</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(float) function</description>
 </snippet>

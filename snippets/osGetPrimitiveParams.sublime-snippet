@@ -2,5 +2,5 @@
     <content><![CDATA[osGetPrimitiveParams(${1:key prim}, ${2:list rules})]]></content>
     <tabTrigger>osGetPrimitiveParams</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(list) function</description>
 </snippet>

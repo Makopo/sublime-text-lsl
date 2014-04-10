@@ -2,5 +2,5 @@
     <content><![CDATA[llSqrt(${1:float val})]]></content>
     <tabTrigger>llSqrt</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(float) function</description>
 </snippet>

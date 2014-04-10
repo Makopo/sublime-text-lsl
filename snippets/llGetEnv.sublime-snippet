@@ -2,5 +2,5 @@
     <content><![CDATA[llGetEnv(${1:string name})]]></content>
     <tabTrigger>llGetEnv</tabTrigger>
     <scope>source.lsl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

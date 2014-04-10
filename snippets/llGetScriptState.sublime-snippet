@@ -2,5 +2,5 @@
     <content><![CDATA[llGetScriptState(${1:string script})]]></content>
     <tabTrigger>llGetScriptState</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(integer) function</description>
 </snippet>

@@ -2,5 +2,5 @@
     <content><![CDATA[llSetLinkMedia(${1:integer link}, ${2:integer face}, ${3:list params});]]></content>
     <tabTrigger>llSetLinkMedia</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(integer) function</description>
 </snippet>

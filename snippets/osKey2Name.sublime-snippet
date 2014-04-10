@@ -2,5 +2,5 @@
     <content><![CDATA[osKey2Name(${1:string id})]]></content>
     <tabTrigger>osKey2Name</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

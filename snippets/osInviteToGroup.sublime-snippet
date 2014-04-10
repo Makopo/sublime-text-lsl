@@ -2,5 +2,5 @@
     <content><![CDATA[osInviteToGroup(${1:key agentId})]]></content>
     <tabTrigger>osInviteToGroup</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(integer) function</description>
 </snippet>

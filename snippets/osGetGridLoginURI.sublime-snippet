@@ -2,5 +2,5 @@
     <content><![CDATA[osGetGridLoginURI()]]></content>
     <tabTrigger>osGetGridLoginURI</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

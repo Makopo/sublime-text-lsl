@@ -2,5 +2,5 @@
     <content><![CDATA[llGetLinkPrimitiveParams(${1:integer link}, ${2:list params})]]></content>
     <tabTrigger>llGetLinkPrimitiveParams</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(list) function</description>
 </snippet>

@@ -2,5 +2,5 @@
     <content><![CDATA[osRegionRestart(${1:float seconds})]]></content>
     <tabTrigger>osRegionRestart</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(integer) function</description>
 </snippet>

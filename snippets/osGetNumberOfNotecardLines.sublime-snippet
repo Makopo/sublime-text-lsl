@@ -2,5 +2,5 @@
     <content><![CDATA[osGetNumberOfNotecardLines(${1:string name})]]></content>
     <tabTrigger>osGetNumberOfNotecardLines</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(integer) function</description>
 </snippet>

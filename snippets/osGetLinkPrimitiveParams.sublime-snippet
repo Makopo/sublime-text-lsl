@@ -2,5 +2,5 @@
     <content><![CDATA[osGetLinkPrimitiveParams(${1:integer linknumber}, ${2:list rules})]]></content>
     <tabTrigger>osGetLinkPrimitiveParams</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(list) function</description>
 </snippet>

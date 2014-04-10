@@ -2,5 +2,5 @@
     <content><![CDATA[llGenerateKey()]]></content>
     <tabTrigger>llGenerateKey</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(key) function</description>
 </snippet>

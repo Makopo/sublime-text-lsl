@@ -2,5 +2,5 @@
     <content><![CDATA[osUnixTimeToTimestamp(${1:integer time})]]></content>
     <tabTrigger>osUnixTimeToTimestamp</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

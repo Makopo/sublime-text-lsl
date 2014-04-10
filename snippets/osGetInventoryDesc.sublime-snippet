@@ -2,5 +2,5 @@
     <content><![CDATA[osGetInventoryDesc(${1:string item})]]></content>
     <tabTrigger>osGetInventoryDesc</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

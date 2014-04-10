@@ -2,5 +2,5 @@
     <content><![CDATA[osGetRezzingObject()]]></content>
     <tabTrigger>osGetRezzingObject</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(key) function</description>
 </snippet>

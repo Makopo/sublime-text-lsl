@@ -2,5 +2,5 @@
     <content><![CDATA[llSubStringIndex(${1:string src}, ${2:string pattern})]]></content>
     <tabTrigger>llSubStringIndex</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(integer) function</description>
 </snippet>

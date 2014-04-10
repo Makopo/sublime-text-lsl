@@ -2,5 +2,5 @@
     <content><![CDATA[llAsin(${1:float val})]]></content>
     <tabTrigger>llAsin</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(float) function</description>
 </snippet>

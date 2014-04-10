@@ -2,5 +2,5 @@
     <content><![CDATA[osEjectFromGroup(${1:key agentId})]]></content>
     <tabTrigger>osEjectFromGroup</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(integer) function</description>
 </snippet>

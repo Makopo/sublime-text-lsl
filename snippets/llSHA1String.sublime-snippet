@@ -3,5 +3,5 @@
     <content><![CDATA[llSHA1String(${1:string src})]]></content>
     <tabTrigger>llSHA1String</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

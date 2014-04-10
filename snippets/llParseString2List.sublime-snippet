@@ -2,5 +2,5 @@
     <content><![CDATA[llParseString2List(${1:string src}, ${2:list separators}, ${3:list spacers})]]></content>
     <tabTrigger>llParseString2List</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(list) function</description>
 </snippet>

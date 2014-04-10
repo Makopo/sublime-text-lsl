@@ -2,5 +2,5 @@
     <content><![CDATA[llGetParcelMusicURL()]]></content>
     <tabTrigger>llGetParcelMusicURL</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

@@ -2,5 +2,5 @@
     <content><![CDATA[llRot2Axis(${1:rotation rot})]]></content>
     <tabTrigger>llRot2Axis</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(vector) function</description>
 </snippet>

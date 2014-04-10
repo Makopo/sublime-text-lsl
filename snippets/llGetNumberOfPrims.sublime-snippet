@@ -2,5 +2,5 @@
     <content><![CDATA[llGetNumberOfPrims()]]></content>
     <tabTrigger>llGetNumberOfPrims</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(integer) function</description>
 </snippet>

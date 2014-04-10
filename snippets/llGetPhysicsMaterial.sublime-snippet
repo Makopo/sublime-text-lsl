@@ -2,5 +2,5 @@
     <content><![CDATA[llGetPhysicsMaterial()]]></content>
     <tabTrigger>llGetPhysicsMaterial</tabTrigger>
     <scope>source.lsl</scope>
-    <description>function</description>
+    <description>(list) function</description>
 </snippet>

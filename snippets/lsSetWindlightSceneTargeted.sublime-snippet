@@ -2,5 +2,5 @@
     <content><![CDATA[lsSetWindlightSceneTargeted(${1:list rules}, ${2:key target})]]></content>
     <tabTrigger>lsSetWindlightSceneTargeted</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(integer) function</description>
 </snippet>

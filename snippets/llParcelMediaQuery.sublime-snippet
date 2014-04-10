@@ -2,5 +2,5 @@
     <content><![CDATA[llParcelMediaQuery(${1:list query})]]></content>
     <tabTrigger>llParcelMediaQuery</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(list) function</description>
 </snippet>

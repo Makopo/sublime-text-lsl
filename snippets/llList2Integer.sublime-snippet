@@ -2,5 +2,5 @@
     <content><![CDATA[llList2Integer(${1:list src}, ${2:integer index})]]></content>
     <tabTrigger>llList2Integer</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(integer) function</description>
 </snippet>

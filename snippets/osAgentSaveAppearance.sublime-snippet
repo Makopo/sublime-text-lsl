@@ -2,5 +2,5 @@
     <content><![CDATA[osAgentSaveAppearance(${1:key agentId}, ${2:string notecard})]]></content>
     <tabTrigger>osAgentSaveAppearance</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(key) function</description>
 </snippet>

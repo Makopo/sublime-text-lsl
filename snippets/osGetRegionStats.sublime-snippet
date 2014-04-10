@@ -2,5 +2,5 @@
     <content><![CDATA[osGetRegionStats()]]></content>
     <tabTrigger>osGetRegionStats</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(list) function</description>
 </snippet>

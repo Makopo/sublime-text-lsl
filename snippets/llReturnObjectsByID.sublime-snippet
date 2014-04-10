@@ -2,5 +2,5 @@
     <content><![CDATA[llReturnObjectsByID(${1:list objects})]]></content>
     <tabTrigger>llReturnObjectsByID</tabTrigger>
     <scope>source.lsl</scope>
-    <description>function</description>
+    <description>(integer) function</description>
 </snippet>

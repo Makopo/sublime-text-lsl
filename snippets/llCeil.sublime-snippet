@@ -2,5 +2,5 @@
     <content><![CDATA[llCeil(${1:float val})]]></content>
     <tabTrigger>llCeil</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(integer) function</description>
 </snippet>

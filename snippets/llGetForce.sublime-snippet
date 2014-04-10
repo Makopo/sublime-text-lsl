@@ -2,5 +2,5 @@
     <content><![CDATA[llGetForce()]]></content>
     <tabTrigger>llGetForce</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(vector) function</description>
 </snippet>

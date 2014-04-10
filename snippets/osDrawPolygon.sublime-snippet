@@ -2,5 +2,5 @@
     <content><![CDATA[osDrawPolygon(${1:string drawList}, ${2:list x}, ${3:list y})]]></content>
     <tabTrigger>osDrawPolygon</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(string) function</description>
 </snippet>

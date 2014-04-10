@@ -2,5 +2,5 @@
     <content><![CDATA[osGetWindParam(${1:string plugin}, ${2:string param})]]></content>
     <tabTrigger>osGetWindParam</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(float) function</description>
 </snippet>

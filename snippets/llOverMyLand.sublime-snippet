@@ -2,5 +2,5 @@
     <content><![CDATA[llOverMyLand(${1:key id})]]></content>
     <tabTrigger>llOverMyLand</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(integer) function</description>
 </snippet>

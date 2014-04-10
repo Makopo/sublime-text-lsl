@@ -2,5 +2,5 @@
     <content><![CDATA[llDetectedGroup(${1:integer number})]]></content>
     <tabTrigger>llDetectedGroup</tabTrigger>
     <scope>source.lsl, source.ossl</scope>
-    <description>function</description>
+    <description>(integer) function</description>
 </snippet>

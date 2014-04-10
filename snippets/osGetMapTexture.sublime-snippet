@@ -2,5 +2,5 @@
     <content><![CDATA[osGetMapTexture()]]></content>
     <tabTrigger>osGetMapTexture</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(key) function</description>
 </snippet>

@@ -2,5 +2,5 @@
     <content><![CDATA[osGetSimulatorMemory()]]></content>
     <tabTrigger>osGetSimulatorMemory</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(integer) function</description>
 </snippet>

@@ -2,5 +2,5 @@
     <content><![CDATA[osGetNumberOfAttachments(${1:key avatar}, ${2:list attachmentPoints})]]></content>
     <tabTrigger>osGetNumberOfAttachments</tabTrigger>
     <scope>source.ossl</scope>
-    <description>function</description>
+    <description>(list) function</description>
 </snippet>
