@@ -3,7 +3,7 @@
 	$0
 }]]></content>
 	<tabTrigger>collision</tabTrigger>
-	<scope>source.lsl, source.ossl</scope>
+	<scope>meta.state.body.lsl - meta.event.lsl, meta.state.body.ossl - meta.event.ossl</scope>
 	<description>event</description>
 </snippet>
 
