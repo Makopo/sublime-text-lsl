@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[llGetObjectPermMask(${1:integer mask})]]></content>
     <tabTrigger>llGetObjectPermMask</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>(integer) function</description>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[osMessageObject(${1:key objectUUID}, ${2:string message})]]></content>
     <tabTrigger>osMessageObject</tabTrigger>
-    <scope>source.ossl</scope>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>
 </snippet>

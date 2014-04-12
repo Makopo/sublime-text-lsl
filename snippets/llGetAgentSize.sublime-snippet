@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[llGetAgentSize(${1:key agent})]]></content>
     <tabTrigger>llGetAgentSize</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>(vector) function</description>
 </snippet>

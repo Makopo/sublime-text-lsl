@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[llDeleteSubList(${1:list src}, ${2:integer start}, ${3:integer end})]]></content>
     <tabTrigger>llDeleteSubList</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>(list) function</description>
 </snippet>

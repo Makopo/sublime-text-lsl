@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[llStringTrim(${1:string src}, ${2:integer trim})]]></content>
     <tabTrigger>llStringTrim</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>(string) function</description>
 </snippet>
 

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[llEuler2Rot(${1:vector v})]]></content>
     <tabTrigger>llEuler2Rot</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>(rotation) function</description>
 </snippet>

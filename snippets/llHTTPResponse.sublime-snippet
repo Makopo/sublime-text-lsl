@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[llHTTPResponse(${1:key request_id}, ${2:integer status}, ${3:string body});]]></content>
     <tabTrigger>llHTTPResponse</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>
 </snippet>

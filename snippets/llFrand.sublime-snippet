@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[llFrand(${1:float mag})]]></content>
     <tabTrigger>llFrand</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>(float) function</description>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[llFleeFrom(${1:vector position}, ${2:float distance}, ${3:list options});]]></content>
     <tabTrigger>llFleeFrom</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>function</description>
 </snippet>

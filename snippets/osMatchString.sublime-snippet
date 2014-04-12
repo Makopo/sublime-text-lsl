@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[osMatchString(${1:string src}, ${2:string pattern}, ${3:integer start})]]></content>
     <tabTrigger>osMatchString</tabTrigger>
-    <scope>source.ossl</scope>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>(list) function</description>
 </snippet>

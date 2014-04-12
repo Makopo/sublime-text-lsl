@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[llReturnObjectsByOwner(${1:key owner}, ${2:integer scope})]]></content>
     <tabTrigger>llReturnObjectsByOwner</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>(integer) function</description>
 </snippet>

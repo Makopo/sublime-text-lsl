@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[llGetStaticPath(${1:vector start}, ${2:vector end}, ${3:float radius}, ${4:list params})]]></content>
     <tabTrigger>llGetStaticPath</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>(list) function</description>
 </snippet>

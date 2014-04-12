@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[llGetObjectDetails(${1:key id}, ${2:list params})]]></content>
     <tabTrigger>llGetObjectDetails</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>(list) function</description>
 </snippet>

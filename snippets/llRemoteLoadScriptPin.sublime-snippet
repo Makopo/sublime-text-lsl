@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[llRemoteLoadScriptPin(${1:key target}, ${2:string name}, ${3:integer pin}, ${4:integer boolean}, ${5:integer start_param});]]></content>
     <tabTrigger>llRemoteLoadScriptPin</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>
 </snippet>

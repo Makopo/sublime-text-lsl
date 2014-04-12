@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[osSetEstateSunSettings(${1:bool sunFixed}, ${2:float sunHour})]]></content>
     <tabTrigger>osSetEstateSunSettings</tabTrigger>
-    <scope>source.ossl</scope>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>
 </snippet>

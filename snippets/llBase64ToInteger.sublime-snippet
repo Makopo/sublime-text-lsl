@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[llBase64ToInteger(${1:string str})]]></content>
     <tabTrigger>llBase64ToInteger</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>(integer) function</description>
 </snippet>

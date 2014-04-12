@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[llModPow(${1:integer a}, ${2:integer b}, ${3:integer c})]]></content>
     <tabTrigger>llModPow</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[llHTTPRequest(${1:string url}, ${2:list params}, ${3:string body})]]></content>
     <tabTrigger>llHTTPRequest</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>(key) function</description>
 </snippet>

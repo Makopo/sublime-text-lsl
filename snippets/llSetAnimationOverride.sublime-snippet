@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[llSetAnimationOverride(${1:string anim_state}, ${2:string anim});]]></content>
     <tabTrigger>llSetAnimationOverride</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>function</description>
 </snippet>

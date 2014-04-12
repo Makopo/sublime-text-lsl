@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[osSetDynamicTextureURLBlend(${1:string dynamicID}, ${2:string contentType}, ${3:string url}, ${4:string extraParams}, ${5:integer timer}, ${6:integer alpha})]]></content>
     <tabTrigger>osSetDynamicTextureURLBlend</tabTrigger>
-    <scope>source.ossl</scope>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>(string) function</description>
 </snippet>

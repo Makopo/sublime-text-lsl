@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[llGetEnv(${1:string name})]]></content>
     <tabTrigger>llGetEnv</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>(string) function</description>
 </snippet>

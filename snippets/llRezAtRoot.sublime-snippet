@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[llRezAtRoot(${1:string inventory}, ${2:vector position}, ${3:vector velocity}, ${4:rotation rot}, ${5:integer param});]]></content>
     <tabTrigger>llRezAtRoot</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>
 </snippet>
