@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[collision_end(integer ${1:index})$LSL_SPACE_OR_NEWLINE{
+	<content><![CDATA[collision_end(integer ${1:num_detected})$LSL_SPACE_OR_NEWLINE{
 	$0
 }]]></content>
 	<tabTrigger>collision_end</tabTrigger>
