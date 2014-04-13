@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PERM_TRANSFER]]></content>
+    <tabTrigger>PERM_TRANSFER</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x2000 = 8192)</description>
+</snippet>

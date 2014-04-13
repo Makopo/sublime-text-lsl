@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSetPhysicsMaterial(${1:integer mask}, ${2:float gravity_multiplier}, ${3:float restitution}, ${4:float friction}, ${5:float density});]]></content>
+    <tabTrigger>llSetPhysicsMaterial</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
+    <description>function</description>
+</snippet>

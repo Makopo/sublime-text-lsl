@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[CAMERA_DISTANCE, ${1:float meters}]]></content>
+    <tabTrigger>CAMERA_DISTANCE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (7)</description>
+</snippet>

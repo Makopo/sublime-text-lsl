@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[AGENT_ALWAYS_RUN]]></content>
+    <tabTrigger>AGENT_ALWAYS_RUN</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x1000 = 4096)</description>
+</snippet>

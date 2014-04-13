@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[jump ${1:target};]]></content>
+    <tabTrigger>jump</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>flow control</description>
+</snippet>

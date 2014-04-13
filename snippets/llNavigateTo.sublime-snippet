@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llNavigateTo(${1:vector pos}, ${2:list options});]]></content>
+    <tabTrigger>llNavigateTo</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
+    <description>function</description>
+</snippet>

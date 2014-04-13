@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[VEHICLE_LINEAR_DEFLECTION_TIMESCALE]]></content>
+    <tabTrigger>VEHICLE_LINEAR_DEFLECTION_TIMESCALE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (29)</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ATTACH_LULEG]]></content>
+    <tabTrigger>ATTACH_LULEG</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (26)</description>
+</snippet>

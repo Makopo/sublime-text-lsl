@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osNpcGetPos(${1:key npc})]]></content>
+    <tabTrigger>osNpcGetPos</tabTrigger>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>function</description>
+</snippet>

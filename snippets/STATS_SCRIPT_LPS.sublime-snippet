@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[STATS_SCRIPT_LPS]]></content>
+    <tabTrigger>STATS_SCRIPT_LPS</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[OS_NPC_LAND_AT_TARGET]]></content>
+    <tabTrigger>OS_NPC_LAND_AT_TARGET</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

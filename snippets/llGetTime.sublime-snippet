@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetTime()]]></content>
+    <tabTrigger>llGetTime</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>(float) function</description>
+</snippet>

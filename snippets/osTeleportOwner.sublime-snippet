@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osTeleportOwner(${1:string regionName}, ${2:vector position}, ${3:vector lookat})]]></content>
+    <tabTrigger>osTeleportOwner</tabTrigger>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>function</description>
+</snippet>

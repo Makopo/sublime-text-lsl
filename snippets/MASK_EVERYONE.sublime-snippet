@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[MASK_EVERYONE]]></content>
+    <tabTrigger>MASK_EVERYONE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (3)</description>
+</snippet>

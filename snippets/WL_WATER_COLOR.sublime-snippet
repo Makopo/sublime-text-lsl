@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[WL_WATER_COLOR]]></content>
+    <tabTrigger>WL_WATER_COLOR</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

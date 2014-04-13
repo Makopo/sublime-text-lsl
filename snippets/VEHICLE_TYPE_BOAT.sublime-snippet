@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[VEHICLE_TYPE_BOAT]]></content>
+    <tabTrigger>VEHICLE_TYPE_BOAT</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (3)</description>
+</snippet>

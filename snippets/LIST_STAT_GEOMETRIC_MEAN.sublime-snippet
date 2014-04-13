@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[LIST_STAT_GEOMETRIC_MEAN]]></content>
+    <tabTrigger>LIST_STAT_GEOMETRIC_MEAN</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (9)</description>
+</snippet>

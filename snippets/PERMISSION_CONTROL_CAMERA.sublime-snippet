@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PERMISSION_CONTROL_CAMERA]]></content>
+    <tabTrigger>PERMISSION_CONTROL_CAMERA</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x800 = 2048)</description>
+</snippet>

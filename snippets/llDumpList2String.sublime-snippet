@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llDumpList2String(${1:list src}, ${2:string separator})]]></content>
+    <tabTrigger>llDumpList2String</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>(string) function</description>
+</snippet>

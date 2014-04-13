@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ATTACH_LLARM]]></content>
+    <tabTrigger>ATTACH_LLARM</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (21)</description>
+</snippet>

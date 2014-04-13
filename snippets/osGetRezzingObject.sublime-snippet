@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osGetRezzingObject()]]></content>
+    <tabTrigger>osGetRezzingObject</tabTrigger>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>(key) function</description>
+</snippet>

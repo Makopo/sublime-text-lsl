@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[HTTP_VERIFY_CERT, ${1:integer boolean}]]></content>
+    <tabTrigger>HTTP_VERIFY_CERT</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (3)</description>
+</snippet>

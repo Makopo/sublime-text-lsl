@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[RC_REJECT_LAND]]></content>
+    <tabTrigger>RC_REJECT_LAND</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x8 = 8)</description>
+</snippet>

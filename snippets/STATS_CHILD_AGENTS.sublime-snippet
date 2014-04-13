@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[STATS_CHILD_AGENTS]]></content>
+    <tabTrigger>STATS_CHILD_AGENTS</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

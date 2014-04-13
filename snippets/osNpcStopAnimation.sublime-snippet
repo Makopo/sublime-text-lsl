@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osNpcStopAnimation(${1:key npc}, ${2:string animation})]]></content>
+    <tabTrigger>osNpcStopAnimation</tabTrigger>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>function</description>
+</snippet>

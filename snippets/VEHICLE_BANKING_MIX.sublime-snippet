@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[VEHICLE_BANKING_MIX]]></content>
+    <tabTrigger>VEHICLE_BANKING_MIX</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (39)</description>
+</snippet>

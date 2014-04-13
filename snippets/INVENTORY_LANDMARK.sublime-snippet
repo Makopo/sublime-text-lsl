@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[INVENTORY_LANDMARK]]></content>
+    <tabTrigger>INVENTORY_LANDMARK</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (3)</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[REGION_FLAG_BLOCK_FLY]]></content>
+    <tabTrigger>REGION_FLAG_BLOCK_FLY</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x80000 = 524288)</description>
+</snippet>

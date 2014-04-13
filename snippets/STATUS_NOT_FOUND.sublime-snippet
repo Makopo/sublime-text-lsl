@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[STATUS_NOT_FOUND]]></content>
+    <tabTrigger>STATUS_NOT_FOUND</tabTrigger>
+    <scope>source.lsl</scope>
+    <description>integer (1003)</description>
+</snippet>

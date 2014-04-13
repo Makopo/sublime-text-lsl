@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[OS_LISTEN_REGEX_NAME]]></content>
+    <tabTrigger>OS_LISTEN_REGEX_NAME</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

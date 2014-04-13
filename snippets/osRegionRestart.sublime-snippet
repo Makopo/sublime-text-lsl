@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osRegionRestart(${1:float seconds})]]></content>
+    <tabTrigger>osRegionRestart</tabTrigger>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>(integer) function</description>
+</snippet>

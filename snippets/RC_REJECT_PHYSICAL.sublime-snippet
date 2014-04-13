@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[RC_REJECT_PHYSICAL]]></content>
+    <tabTrigger>RC_REJECT_PHYSICAL</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x2 = 2)</description>
+</snippet>

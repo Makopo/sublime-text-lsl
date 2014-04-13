@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[OBJECT_GROUP]]></content>
+    <tabTrigger>OBJECT_GROUP</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (7)</description>
+</snippet>

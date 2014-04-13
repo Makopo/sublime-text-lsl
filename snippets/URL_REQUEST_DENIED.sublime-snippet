@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[URL_REQUEST_DENIED]]></content>
+    <tabTrigger>URL_REQUEST_DENIED</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>string (&quot;URL_REQUEST_DENIED&quot;)</description>
+</snippet>

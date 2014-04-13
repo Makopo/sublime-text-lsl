@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[AGENT_LIST_REGION]]></content>
+    <tabTrigger>AGENT_LIST_REGION</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (4)</description>
+</snippet>

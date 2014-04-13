@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osSetTerrainTexture(${1:integer level}, ${2:key texture})]]></content>
+    <tabTrigger>osSetTerrainTexture</tabTrigger>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>function</description>
+</snippet>

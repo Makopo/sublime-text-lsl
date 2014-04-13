@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osInviteToGroup(${1:key agentId})]]></content>
+    <tabTrigger>osInviteToGroup</tabTrigger>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>(integer) function</description>
+</snippet>

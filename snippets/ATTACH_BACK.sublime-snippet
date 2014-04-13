@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ATTACH_BACK]]></content>
+    <tabTrigger>ATTACH_BACK</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (9)</description>
+</snippet>

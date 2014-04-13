@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llRequestPermissions(${1:key agent}, ${2:integer permissions})]]></content>
+    <tabTrigger>llRequestPermissions</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>function</description>
+</snippet>

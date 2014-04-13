@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osNpcCreate(${1:string user}, ${2:string name}, ${3:vector position}, ${4:string notecard})]]></content>
+    <tabTrigger>osNpcCreate</tabTrigger>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>(key) function</description>
+</snippet>

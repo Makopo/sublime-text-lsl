@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osLoadedCreationTime()]]></content>
+    <tabTrigger>osLoadedCreationTime</tabTrigger>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>(string) function</description>
+</snippet>

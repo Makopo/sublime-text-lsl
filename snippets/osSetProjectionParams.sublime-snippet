@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osSetProjectionParams(${1:bool projection}, ${2:key texture}, ${3:float fov}, ${4:float focus}, ${5:float amb})]]></content>
+    <tabTrigger>osSetProjectionParams</tabTrigger>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>function</description>
+</snippet>

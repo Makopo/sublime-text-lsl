@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ROTATE]]></content>
+    <tabTrigger>ROTATE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x20 = 32)</description>
+</snippet>

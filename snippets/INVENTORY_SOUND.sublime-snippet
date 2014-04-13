@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[INVENTORY_SOUND]]></content>
+    <tabTrigger>INVENTORY_SOUND</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (1)</description>
+</snippet>

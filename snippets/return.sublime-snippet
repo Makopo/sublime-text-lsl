@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[return ${1:value};]]></content>
+    <tabTrigger>return</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>flow control</description>
+</snippet>

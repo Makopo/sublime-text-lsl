@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llOverMyLand(${1:key id})]]></content>
+    <tabTrigger>llOverMyLand</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>(integer) function</description>
+</snippet>

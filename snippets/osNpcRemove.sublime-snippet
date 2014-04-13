@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osNpcRemove(${1:key npc})]]></content>
+    <tabTrigger>osNpcRemove</tabTrigger>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>function</description>
+</snippet>

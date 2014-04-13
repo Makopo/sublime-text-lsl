@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ATTACH_HUD_BOTTOM_LEFT]]></content>
+    <tabTrigger>ATTACH_HUD_BOTTOM_LEFT</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (36)</description>
+</snippet>

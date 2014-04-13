@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osNpcGetOwner(${1:key npc})]]></content>
+    <tabTrigger>osNpcGetOwner</tabTrigger>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>(key) function</description>
+</snippet>

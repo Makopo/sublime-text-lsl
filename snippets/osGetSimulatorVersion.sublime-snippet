@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osGetSimulatorVersion()]]></content>
+    <tabTrigger>osGetSimulatorVersion</tabTrigger>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>(string) function</description>
+</snippet>

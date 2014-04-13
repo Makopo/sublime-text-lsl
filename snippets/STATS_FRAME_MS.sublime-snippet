@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[STATS_FRAME_MS]]></content>
+    <tabTrigger>STATS_FRAME_MS</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

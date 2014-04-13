@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llTargetRemove(${1:integer handle});]]></content>
+    <tabTrigger>llTargetRemove</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PARCEL_MEDIA_COMMAND_LOOP]]></content>
+    <tabTrigger>PARCEL_MEDIA_COMMAND_LOOP</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (3)</description>
+</snippet>

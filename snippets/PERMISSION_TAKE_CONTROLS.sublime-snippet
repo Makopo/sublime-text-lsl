@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PERMISSION_TAKE_CONTROLS]]></content>
+    <tabTrigger>PERMISSION_TAKE_CONTROLS</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x4 = 4)</description>
+</snippet>

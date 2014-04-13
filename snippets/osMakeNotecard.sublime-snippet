@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osMakeNotecard(${1:string notecardName}, ${2:list contents})]]></content>
+    <tabTrigger>osMakeNotecard</tabTrigger>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>function</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[remote_data(integer ${1:event_type}, key ${2:channel}, key ${3:message_id}, string ${4:sender}, integer ${5:idata}, string ${6:sdata})$LSL_SPACE_OR_NEWLINE{
+    $0
+}]]></content>
+    <tabTrigger>remote_data</tabTrigger>
+    <scope>meta.state.body.lsl - meta.event.lsl, meta.state.body.ossl - meta.event.ossl</scope>
+    <description>event</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llAcos(${1:float val})]]></content>
+    <tabTrigger>llAcos</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>(float) function</description>
+</snippet>

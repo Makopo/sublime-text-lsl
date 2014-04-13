@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[OBJECT_PHANTOM]]></content>
+    <tabTrigger>OBJECT_PHANTOM</tabTrigger>
+    <scope>source.lsl</scope>
+    <description>integer (22)</description>
+</snippet>

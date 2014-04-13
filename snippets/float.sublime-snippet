@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[float]]></content>
+    <tabTrigger>float</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>type</description>
+</snippet>

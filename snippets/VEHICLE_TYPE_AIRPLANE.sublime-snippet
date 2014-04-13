@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[VEHICLE_TYPE_AIRPLANE]]></content>
+    <tabTrigger>VEHICLE_TYPE_AIRPLANE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (4)</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PARCEL_FLAG_ALLOW_DAMAGE]]></content>
+    <tabTrigger>PARCEL_FLAG_ALLOW_DAMAGE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x20 = 32)</description>
+</snippet>

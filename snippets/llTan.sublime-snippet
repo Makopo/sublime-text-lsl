@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llTan(${1:float theta})]]></content>
+    <tabTrigger>llTan</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>(float) function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[WL_SCENE_GAMMA]]></content>
+    <tabTrigger>WL_SCENE_GAMMA</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

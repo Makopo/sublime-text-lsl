@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[LIST_STAT_SUM]]></content>
+    <tabTrigger>LIST_STAT_SUM</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (6)</description>
+</snippet>

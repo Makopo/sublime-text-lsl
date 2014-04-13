@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[STATUS_PHYSICS, ${1:integer boolean}]]></content>
+    <tabTrigger>STATUS_PHYSICS</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x1 = 1)</description>
+</snippet>

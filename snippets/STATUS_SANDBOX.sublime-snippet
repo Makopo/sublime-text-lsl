@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[STATUS_SANDBOX, ${1:integer boolean}]]></content>
+    <tabTrigger>STATUS_SANDBOX</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x20 = 32)</description>
+</snippet>

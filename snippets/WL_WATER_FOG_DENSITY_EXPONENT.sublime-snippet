@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[WL_WATER_FOG_DENSITY_EXPONENT]]></content>
+    <tabTrigger>WL_WATER_FOG_DENSITY_EXPONENT</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

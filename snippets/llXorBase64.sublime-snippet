@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llXorBase64(${1:string a}, ${2:string b})]]></content>
+    <tabTrigger>llXorBase64</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
+    <description>(string) function</description>
+</snippet>

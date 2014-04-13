@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[default$LSL_SPACE_OR_NEWLINE{
+	$0
+}]]></content>
+	<tabTrigger>default</tabTrigger>
+	<scope>source.lsl, source.ossl</scope>
+	<description>state</description>
+</snippet>
+

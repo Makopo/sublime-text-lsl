@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[JSON_TRUE]]></content>
+    <tabTrigger>JSON_TRUE</tabTrigger>
+    <scope>source.lsl</scope>
+    <description>string (&quot;&amp;#xFDD6;&quot;)</description>
+</snippet>

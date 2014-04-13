@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[CHANGED_OWNER]]></content>
+    <tabTrigger>CHANGED_OWNER</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x80 = 128)</description>
+</snippet>

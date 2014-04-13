@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSetForceAndTorque(${1:vector force}, ${2:vector torque}, ${3:integer boolean});]]></content>
+    <tabTrigger>llSetForceAndTorque</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>function</description>
+</snippet>

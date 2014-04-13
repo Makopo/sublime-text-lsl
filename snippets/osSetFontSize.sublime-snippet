@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osSetFontSize(${1:string drawList}, ${2:integer fontSize})]]></content>
+    <tabTrigger>osSetFontSize</tabTrigger>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>(string) function</description>
+</snippet>

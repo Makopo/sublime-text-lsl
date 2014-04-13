@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[DATA_SIM_STATUS]]></content>
+    <tabTrigger>DATA_SIM_STATUS</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (6)</description>
+</snippet>

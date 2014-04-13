@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PU_FAILURE_TARGET_GONE]]></content>
+    <tabTrigger>PU_FAILURE_TARGET_GONE</tabTrigger>
+    <scope>source.lsl</scope>
+    <description>integer (5)</description>
+</snippet>

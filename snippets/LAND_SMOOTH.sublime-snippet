@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[LAND_SMOOTH]]></content>
+    <tabTrigger>LAND_SMOOTH</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (3)</description>
+</snippet>

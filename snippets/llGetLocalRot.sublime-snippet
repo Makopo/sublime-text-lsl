@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetLocalRot()]]></content>
+    <tabTrigger>llGetLocalRot</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>(rotation) function</description>
+</snippet>

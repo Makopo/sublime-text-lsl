@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PARCEL_MEDIA_COMMAND_AUTO_ALIGN]]></content>
+    <tabTrigger>PARCEL_MEDIA_COMMAND_AUTO_ALIGN</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (9)</description>
+</snippet>

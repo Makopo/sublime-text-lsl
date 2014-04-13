@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PSYS_PART_INTERP_COLOR_MASK]]></content>
+    <tabTrigger>PSYS_PART_INTERP_COLOR_MASK</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x1 = 1)</description>
+</snippet>

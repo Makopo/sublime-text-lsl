@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[VEHICLE_ANGULAR_MOTOR_DECAY_TIMESCALE]]></content>
+    <tabTrigger>VEHICLE_ANGULAR_MOTOR_DECAY_TIMESCALE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (35)</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PSYS_SRC_TARGET_KEY]]></content>
+    <tabTrigger>PSYS_SRC_TARGET_KEY</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (20)</description>
+</snippet>

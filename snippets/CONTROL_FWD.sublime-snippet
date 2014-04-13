@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[CONTROL_FWD]]></content>
+    <tabTrigger>CONTROL_FWD</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x1 = 1)</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ESTATE_ACCESS_BANNED_AGENT_REMOVE]]></content>
+    <tabTrigger>ESTATE_ACCESS_BANNED_AGENT_REMOVE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x80 = 128)</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PSYS_PART_INTERP_SCALE_MASK]]></content>
+    <tabTrigger>PSYS_PART_INTERP_SCALE_MASK</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x2 = 2)</description>
+</snippet>

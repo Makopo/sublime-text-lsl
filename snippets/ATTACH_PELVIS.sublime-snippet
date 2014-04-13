@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ATTACH_PELVIS]]></content>
+    <tabTrigger>ATTACH_PELVIS</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (10)</description>
+</snippet>

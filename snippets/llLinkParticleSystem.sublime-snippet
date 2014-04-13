@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llLinkParticleSystem(${1:integer link}, ${2:list rules});]]></content>
+    <tabTrigger>llLinkParticleSystem</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>function</description>
+</snippet>

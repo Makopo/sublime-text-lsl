@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PI]]></content>
+    <tabTrigger>PI</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>float (3.141593)</description>
+</snippet>

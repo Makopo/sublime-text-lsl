@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ATTACH_RHIP]]></content>
+    <tabTrigger>ATTACH_RHIP</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (22)</description>
+</snippet>

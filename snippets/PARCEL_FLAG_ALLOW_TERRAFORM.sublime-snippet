@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PARCEL_FLAG_ALLOW_TERRAFORM]]></content>
+    <tabTrigger>PARCEL_FLAG_ALLOW_TERRAFORM</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x10 = 16)</description>
+</snippet>

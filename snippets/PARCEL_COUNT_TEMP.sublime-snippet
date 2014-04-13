@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PARCEL_COUNT_TEMP]]></content>
+    <tabTrigger>PARCEL_COUNT_TEMP</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (5)</description>
+</snippet>

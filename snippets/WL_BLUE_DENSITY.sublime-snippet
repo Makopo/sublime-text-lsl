@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[WL_BLUE_DENSITY]]></content>
+    <tabTrigger>WL_BLUE_DENSITY</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

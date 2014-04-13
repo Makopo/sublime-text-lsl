@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[DATA_SIM_RELEASE]]></content>
+    <tabTrigger>DATA_SIM_RELEASE</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

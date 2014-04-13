@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[STATUS_BLOCK_GRAB, ${1:integer boolean}]]></content>
+    <tabTrigger>STATUS_BLOCK_GRAB</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x40 = 64)</description>
+</snippet>

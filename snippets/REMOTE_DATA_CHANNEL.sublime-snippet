@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[REMOTE_DATA_CHANNEL]]></content>
+    <tabTrigger>REMOTE_DATA_CHANNEL</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (1)</description>
+</snippet>

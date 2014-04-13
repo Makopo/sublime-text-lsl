@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[CLICK_ACTION_ZOOM]]></content>
+    <tabTrigger>CLICK_ACTION_ZOOM</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

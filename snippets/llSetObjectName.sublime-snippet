@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSetObjectName(${1:string name});]]></content>
+    <tabTrigger>llSetObjectName</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>function</description>
+</snippet>

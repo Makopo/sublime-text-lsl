@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[dataserver(key ${1:query_id}, string ${2:data})$LSL_SPACE_OR_NEWLINE{
+	$0
+}]]></content>
+	<tabTrigger>dataserver</tabTrigger>
+	<scope>meta.state.body.lsl - meta.event.lsl, meta.state.body.ossl - meta.event.ossl</scope>
+	<description>event</description>
+</snippet>
+

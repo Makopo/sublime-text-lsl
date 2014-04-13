@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PARCEL_DETAILS_DESC]]></content>
+    <tabTrigger>PARCEL_DETAILS_DESC</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (1)</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[VEHICLE_FLAG_LOCK_ROTATION]]></content>
+    <tabTrigger>VEHICLE_FLAG_LOCK_ROTATION</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

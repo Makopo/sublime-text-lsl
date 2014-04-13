@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PING_PONG]]></content>
+    <tabTrigger>PING_PONG</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x8 = 8)</description>
+</snippet>

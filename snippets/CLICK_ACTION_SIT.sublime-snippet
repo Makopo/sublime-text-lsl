@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[CLICK_ACTION_SIT]]></content>
+    <tabTrigger>CLICK_ACTION_SIT</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (1)</description>
+</snippet>

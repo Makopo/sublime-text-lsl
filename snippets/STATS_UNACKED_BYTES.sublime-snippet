@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[STATS_UNACKED_BYTES]]></content>
+    <tabTrigger>STATS_UNACKED_BYTES</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

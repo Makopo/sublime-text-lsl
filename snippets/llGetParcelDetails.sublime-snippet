@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetParcelDetails(${1:vector pos}, ${2:list params})]]></content>
+    <tabTrigger>llGetParcelDetails</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>(list) function</description>
+</snippet>

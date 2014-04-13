@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[WL_UNDERWATER_FOG_MODIFIER]]></content>
+    <tabTrigger>WL_UNDERWATER_FOG_MODIFIER</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[LIST_STAT_MAX]]></content>
+    <tabTrigger>LIST_STAT_MAX</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (2)</description>
+</snippet>

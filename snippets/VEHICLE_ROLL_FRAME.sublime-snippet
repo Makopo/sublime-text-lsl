@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[VEHICLE_ROLL_FRAME]]></content>
+    <tabTrigger>VEHICLE_ROLL_FRAME</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ATTACH_RIGHT_PEC]]></content>
+    <tabTrigger>ATTACH_RIGHT_PEC</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (30)</description>
+</snippet>

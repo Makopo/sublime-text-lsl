@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[state_entry()$LSL_SPACE_OR_NEWLINE{
+	$0
+}]]></content>
+	<tabTrigger>state_entry</tabTrigger>
+	<scope>meta.state.body.lsl - meta.event.lsl, meta.state.body.ossl - meta.event.ossl</scope>
+	<description>event</description>
+</snippet>

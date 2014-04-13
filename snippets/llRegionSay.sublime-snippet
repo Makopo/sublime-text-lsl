@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llRegionSay(${1:integer channel}, ${2:string message});]]></content>
+    <tabTrigger>llRegionSay</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>function</description>
+</snippet>

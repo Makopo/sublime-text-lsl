@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[TEXTURE_TRANSPARENT]]></content>
+    <tabTrigger>TEXTURE_TRANSPARENT</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>string (&quot;8dcd4a48-2d37-4909-9f78-f7a9eb4ef903&quot;)</description>
+</snippet>

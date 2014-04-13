@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[STATS_PHYSICS_MS]]></content>
+    <tabTrigger>STATS_PHYSICS_MS</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

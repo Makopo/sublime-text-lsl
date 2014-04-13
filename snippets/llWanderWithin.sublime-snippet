@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llWanderWithin(${1:vector origin}, ${2:vector dist}, ${3:list options});]]></content>
+    <tabTrigger>llWanderWithin</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
+    <description>function</description>
+</snippet>

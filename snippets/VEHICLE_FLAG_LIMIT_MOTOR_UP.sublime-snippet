@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[VEHICLE_FLAG_LIMIT_MOTOR_UP]]></content>
+    <tabTrigger>VEHICLE_FLAG_LIMIT_MOTOR_UP</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x40 = 64)</description>
+</snippet>

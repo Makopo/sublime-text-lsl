@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGround(${1:vector offset})]]></content>
+    <tabTrigger>llGround</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>(float) function</description>
+</snippet>

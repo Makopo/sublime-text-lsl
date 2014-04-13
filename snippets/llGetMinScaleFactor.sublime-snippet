@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llGetMinScaleFactor()]]></content>
+    <tabTrigger>llGetMinScaleFactor</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
+    <description>(float) function</description>
+</snippet>

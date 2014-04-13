@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[DATA_NAME]]></content>
+    <tabTrigger>DATA_NAME</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (2)</description>
+</snippet>

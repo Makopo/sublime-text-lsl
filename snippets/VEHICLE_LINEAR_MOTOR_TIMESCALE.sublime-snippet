@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[VEHICLE_LINEAR_MOTOR_TIMESCALE]]></content>
+    <tabTrigger>VEHICLE_LINEAR_MOTOR_TIMESCALE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (30)</description>
+</snippet>

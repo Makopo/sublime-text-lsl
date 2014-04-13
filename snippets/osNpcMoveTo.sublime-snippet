@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osNpcMoveTo(${1:key npc}, ${2:vector position})]]></content>
+    <tabTrigger>osNpcMoveTo</tabTrigger>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>function</description>
+</snippet>

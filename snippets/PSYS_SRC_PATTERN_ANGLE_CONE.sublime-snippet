@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PSYS_SRC_PATTERN_ANGLE_CONE]]></content>
+    <tabTrigger>PSYS_SRC_PATTERN_ANGLE_CONE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (8)</description>
+</snippet>

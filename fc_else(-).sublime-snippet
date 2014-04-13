@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[else$LSL_SPACE_OR_NEWLINE{
-	$1
-}
-$0]]></content>
-    <tabTrigger>else</tabTrigger>
-    <scope>meta.event.body.lsl, meta.function.body.lsl, meta.event.body.ossl, meta.function.body.ossl</scope>
-    <description>else …</description>
-</snippet>

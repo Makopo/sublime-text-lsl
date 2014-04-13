@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PARCEL_FLAG_RESTRICT_PUSHOBJECT]]></content>
+    <tabTrigger>PARCEL_FLAG_RESTRICT_PUSHOBJECT</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x200000 = 2097152)</description>
+</snippet>

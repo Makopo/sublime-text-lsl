@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[DATA_PAYINFO]]></content>
+    <tabTrigger>DATA_PAYINFO</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (8)</description>
+</snippet>

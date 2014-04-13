@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ATTACH_LEAR]]></content>
+    <tabTrigger>ATTACH_LEAR</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (13)</description>
+</snippet>

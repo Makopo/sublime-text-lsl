@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osParcelJoin(${1:vector pos1}, ${2:vector pos2})]]></content>
+    <tabTrigger>osParcelJoin</tabTrigger>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>function</description>
+</snippet>

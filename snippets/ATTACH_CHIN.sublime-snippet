@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ATTACH_CHIN]]></content>
+    <tabTrigger>ATTACH_CHIN</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (12)</description>
+</snippet>

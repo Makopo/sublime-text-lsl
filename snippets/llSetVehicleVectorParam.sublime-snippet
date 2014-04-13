@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llSetVehicleVectorParam(${1:integer param}, ${2:vector value});]]></content>
+    <tabTrigger>llSetVehicleVectorParam</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>function</description>
+</snippet>

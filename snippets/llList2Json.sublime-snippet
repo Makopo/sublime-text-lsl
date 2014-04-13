@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llList2Json(${1:integer json_type}, ${2:list values})]]></content>
+    <tabTrigger>llList2Json</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
+    <description>(string) function</description>
+</snippet>

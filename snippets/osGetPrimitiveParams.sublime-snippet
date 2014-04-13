@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osGetPrimitiveParams(${1:key prim}, ${2:list rules})]]></content>
+    <tabTrigger>osGetPrimitiveParams</tabTrigger>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>(list) function</description>
+</snippet>

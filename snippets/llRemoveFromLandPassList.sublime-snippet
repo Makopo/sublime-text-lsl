@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llRemoveFromLandPassList(${1:key agent});]]></content>
+    <tabTrigger>llRemoveFromLandPassList</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>function</description>
+</snippet>

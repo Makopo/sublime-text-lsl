@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osNpcLoadAppearance(${1:key npc}, ${2:string notecard})]]></content>
+    <tabTrigger>osNpcLoadAppearance</tabTrigger>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>function</description>
+</snippet>

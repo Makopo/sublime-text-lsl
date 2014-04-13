@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osAvatarStopAnimation(${1:string avatar}, ${2:string animation})]]></content>
+    <tabTrigger>osAvatarStopAnimation</tabTrigger>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>function</description>
+</snippet>

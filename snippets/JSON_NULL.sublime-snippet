@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[JSON_NULL]]></content>
+    <tabTrigger>JSON_NULL</tabTrigger>
+    <scope>source.lsl</scope>
+    <description>string (&quot;&amp;#xFDD5;&quot;)</description>
+</snippet>

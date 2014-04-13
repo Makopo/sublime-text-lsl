@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[EOF]]></content>
+    <tabTrigger>EOF</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>string (&quot;\n\n\n&quot;)</description>
+</snippet>
+

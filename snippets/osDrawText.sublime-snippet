@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osDrawText(${1:string drawList}, ${2:string text})]]></content>
+    <tabTrigger>osDrawText</tabTrigger>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>(string) function</description>
+</snippet>

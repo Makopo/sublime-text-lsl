@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[WL_MAX_ALTITUDE]]></content>
+    <tabTrigger>WL_MAX_ALTITUDE</tabTrigger>
+    <scope>source.ossl</scope>
+    <description></description>
+</snippet>

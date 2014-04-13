@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[LINK_ALL_CHILDREN]]></content>
+    <tabTrigger>LINK_ALL_CHILDREN</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (-3)</description>
+</snippet>

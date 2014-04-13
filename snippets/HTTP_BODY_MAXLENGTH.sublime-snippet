@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[HTTP_BODY_MAXLENGTH, ${1:integer length}]]></content>
+    <tabTrigger>HTTP_BODY_MAXLENGTH</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (2)</description>
+</snippet>

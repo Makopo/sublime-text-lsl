@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ALL_SIDES]]></content>
+    <tabTrigger>ALL_SIDES</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (-1)</description>
+</snippet>

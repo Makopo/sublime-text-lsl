@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[CHANGED_SHAPE]]></content>
+    <tabTrigger>CHANGED_SHAPE</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x4 = 4)</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[llReturnObjectsByID(${1:list objects})]]></content>
+    <tabTrigger>llReturnObjectsByID</tabTrigger>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
+    <description>(integer) function</description>
+</snippet>

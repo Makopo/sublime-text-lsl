@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[osWindActiveModelPluginName()]]></content>
+    <tabTrigger>osWindActiveModelPluginName</tabTrigger>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <description>(string) function</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[PSYS_PART_FOLLOW_VELOCITY_MASK]]></content>
+    <tabTrigger>PSYS_PART_FOLLOW_VELOCITY_MASK</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>integer (0x20 = 32)</description>
+</snippet>

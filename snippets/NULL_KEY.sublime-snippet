@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[NULL_KEY]]></content>
+    <tabTrigger>NULL_KEY</tabTrigger>
+    <scope>source.lsl, source.ossl</scope>
+    <description>string (&quot;00000000-0000-0000-0000-000000000000&quot;)</description>
+</snippet>
