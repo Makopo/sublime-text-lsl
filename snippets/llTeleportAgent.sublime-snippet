@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llTeleportAgent(${1:key agent}, ${2:string landmark}, ${3:vector pos}, ${4:vector look_at});]]></content>
+    <content><![CDATA[llTeleportAgent(${1:key agent}, ${2:string landmark}, ${3:vector pos}, ${4:vector look_at})]]></content>
     <tabTrigger>llTeleportAgent</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

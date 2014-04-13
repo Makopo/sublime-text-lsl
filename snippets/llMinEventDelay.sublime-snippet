@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llMinEventDelay(${1:float delay});]]></content>
+    <content><![CDATA[llMinEventDelay(${1:float delay})]]></content>
     <tabTrigger>llMinEventDelay</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

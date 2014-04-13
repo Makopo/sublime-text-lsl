@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llSensor(${1:string name}, ${2:key id}, ${3:integer type}, ${4:float range}, ${5:float arc});]]></content>
+    <content><![CDATA[llSensor(${1:string name}, ${2:key id}, ${3:integer type}, ${4:float range}, ${5:float arc})]]></content>
     <tabTrigger>llSensor</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

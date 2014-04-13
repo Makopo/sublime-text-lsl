@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llTakeControls(${1:integer controls}, ${2:integer boolean}, ${3:integer boolean});]]></content>
+    <content><![CDATA[llTakeControls(${1:integer controls}, ${2:integer boolean}, ${3:integer boolean})]]></content>
     <tabTrigger>llTakeControls</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

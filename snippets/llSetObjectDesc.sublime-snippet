@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llSetObjectDesc(${1:string desc});]]></content>
+    <content><![CDATA[llSetObjectDesc(${1:string desc})]]></content>
     <tabTrigger>llSetObjectDesc</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

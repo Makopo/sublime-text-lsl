@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llSetVehicleType(${1:integer type});]]></content>
+    <content><![CDATA[llSetVehicleType(${1:integer type})]]></content>
     <tabTrigger>llSetVehicleType</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

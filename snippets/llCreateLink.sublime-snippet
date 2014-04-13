@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llCreateLink(${1:key target}, ${2:integer boolean});]]></content>
+    <content><![CDATA[llCreateLink(${1:key target}, ${2:integer boolean})]]></content>
     <tabTrigger>llCreateLink</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

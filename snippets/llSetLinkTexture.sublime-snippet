@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llSetLinkTexture(${1:integer link}, ${2:string texture}, ${3:integer face});]]></content>
+    <content><![CDATA[llSetLinkTexture(${1:integer link}, ${2:string texture}, ${3:integer face})]]></content>
     <tabTrigger>llSetLinkTexture</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

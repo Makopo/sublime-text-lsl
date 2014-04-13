@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llRemoveInventory(${1:string item});]]></content>
+    <content><![CDATA[llRemoveInventory(${1:string item})]]></content>
     <tabTrigger>llRemoveInventory</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llSetText(${1:string text}, ${2:vector color}, ${3:float alpha});]]></content>
+    <content><![CDATA[llSetText(${1:string text}, ${2:vector color}, ${3:float alpha})]]></content>
     <tabTrigger>llSetText</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

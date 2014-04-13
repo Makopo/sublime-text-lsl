@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llSetRemoteScriptAccessPin(${1:integer pin});]]></content>
+    <content><![CDATA[llSetRemoteScriptAccessPin(${1:integer pin})]]></content>
     <tabTrigger>llSetRemoteScriptAccessPin</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

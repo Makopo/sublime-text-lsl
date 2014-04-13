@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llStartAnimation(${1:string anim});]]></content>
+    <content><![CDATA[llStartAnimation(${1:string anim})]]></content>
     <tabTrigger>llStartAnimation</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

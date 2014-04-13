@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llSetClickAction(${1:integer action});]]></content>
+    <content><![CDATA[llSetClickAction(${1:integer action})]]></content>
     <tabTrigger>llSetClickAction</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llRotateTexture(${1:float angle}, ${2:integer face});]]></content>
+    <content><![CDATA[llRotateTexture(${1:float angle}, ${2:integer face})]]></content>
     <tabTrigger>llRotateTexture</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

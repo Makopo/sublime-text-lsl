@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llListenRemove(${1:integer handle});]]></content>
+    <content><![CDATA[llListenRemove(${1:integer handle})]]></content>
     <tabTrigger>llListenRemove</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

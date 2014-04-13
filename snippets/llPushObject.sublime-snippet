@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llPushObject(${1:key target}, ${2:vector impulse}, ${3:vector ang_impulse}, ${4:integer boolean});]]></content>
+    <content><![CDATA[llPushObject(${1:key target}, ${2:vector impulse}, ${3:vector ang_impulse}, ${4:integer boolean})]]></content>
     <tabTrigger>llPushObject</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

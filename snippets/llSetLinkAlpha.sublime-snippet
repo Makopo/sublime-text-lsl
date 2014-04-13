@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llSetLinkAlpha(${1:integer link}, ${2:float alpha}, ${3:integer face});]]></content>
+    <content><![CDATA[llSetLinkAlpha(${1:integer link}, ${2:float alpha}, ${3:integer face})]]></content>
     <tabTrigger>llSetLinkAlpha</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

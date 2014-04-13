@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llPlaySound(${1:string sound}, ${2:float volume});]]></content>
+    <content><![CDATA[llPlaySound(${1:string sound}, ${2:float volume})]]></content>
     <tabTrigger>llPlaySound</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

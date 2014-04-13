@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llSetRot(${1:rotation rot});]]></content>
+    <content><![CDATA[llSetRot(${1:rotation rot})]]></content>
     <tabTrigger>llSetRot</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

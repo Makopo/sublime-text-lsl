@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llSetHoverHeight(${1:float height}, ${2:integer boolean}, ${3:float tau});]]></content>
+    <content><![CDATA[llSetHoverHeight(${1:float height}, ${2:integer boolean}, ${3:float tau})]]></content>
     <tabTrigger>llSetHoverHeight</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

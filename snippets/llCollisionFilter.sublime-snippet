@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llCollisionFilter(${1:string name}, ${2:key id}, ${3:integer boolean});]]></content>
+    <content><![CDATA[llCollisionFilter(${1:string name}, ${2:key id}, ${3:integer boolean})]]></content>
     <tabTrigger>llCollisionFilter</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

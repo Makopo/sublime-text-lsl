@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llSetTimerEvent(${1:float sec});]]></content>
+    <content><![CDATA[llSetTimerEvent(${1:float sec})]]></content>
     <tabTrigger>llSetTimerEvent</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

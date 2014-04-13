@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llSetKeyframedMotion(${1:list keyframes}, ${2:list options});]]></content>
+    <content><![CDATA[llSetKeyframedMotion(${1:list keyframes}, ${2:list options})]]></content>
     <tabTrigger>llSetKeyframedMotion</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>function</description>

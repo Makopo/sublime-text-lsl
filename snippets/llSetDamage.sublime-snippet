@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llSetDamage(${1:float damage});]]></content>
+    <content><![CDATA[llSetDamage(${1:float damage})]]></content>
     <tabTrigger>llSetDamage</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

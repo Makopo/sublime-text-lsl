@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llSetLinkPrimitiveParams(${1:integer link}, ${2:list rules});]]></content>
+    <content><![CDATA[llSetLinkPrimitiveParams(${1:integer link}, ${2:list rules})]]></content>
     <tabTrigger>llSetLinkPrimitiveParams</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

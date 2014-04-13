@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llSetSoundRadius(${1:float radius});]]></content>
+    <content><![CDATA[llSetSoundRadius(${1:float radius})]]></content>
     <tabTrigger>llSetSoundRadius</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

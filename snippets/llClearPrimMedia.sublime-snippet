@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llClearPrimMedia(${1:integer face});]]></content>
+    <content><![CDATA[llClearPrimMedia(${1:integer face})]]></content>
     <tabTrigger>llClearPrimMedia</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>(integer) function</description>

@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llMoveToTarget(${1:vector target}, ${2:float tau});]]></content>
+    <content><![CDATA[llMoveToTarget(${1:vector target}, ${2:float tau})]]></content>
     <tabTrigger>llMoveToTarget</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

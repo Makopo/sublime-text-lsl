@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llSetParcelMusicURL(${1:string url});]]></content>
+    <content><![CDATA[llSetParcelMusicURL(${1:string url})]]></content>
     <tabTrigger>llSetParcelMusicURL</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

@@ -1,6 +1,7 @@
 <snippet>
-    <content><![CDATA[llDie();]]></content>
+    <content><![CDATA[llDie()]]></content>
     <tabTrigger>llDie</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>
 </snippet>
+Ï

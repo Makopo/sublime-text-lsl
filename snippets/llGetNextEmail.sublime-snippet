@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llGetNextEmail(${1:string address}, ${2:string subject});]]></content>
+    <content><![CDATA[llGetNextEmail(${1:string address}, ${2:string subject})]]></content>
     <tabTrigger>llGetNextEmail</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

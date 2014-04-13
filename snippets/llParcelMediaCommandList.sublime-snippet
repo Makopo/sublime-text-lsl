@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llParcelMediaCommandList(${1:list commands});]]></content>
+    <content><![CDATA[llParcelMediaCommandList(${1:list commands})]]></content>
     <tabTrigger>llParcelMediaCommandList</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>

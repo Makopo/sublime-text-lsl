@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[llTriggerSoundLimited(${1:string sound}, ${2:float volume}, ${3:vector top_north_east}, ${4:vector bottom_south_west});]]></content>
+    <content><![CDATA[llTriggerSoundLimited(${1:string sound}, ${2:float volume}, ${3:vector top_north_east}, ${4:vector bottom_south_west})]]></content>
     <tabTrigger>llTriggerSoundLimited</tabTrigger>
     <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>function</description>
