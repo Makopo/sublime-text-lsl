@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[CAMERA_BEHINDNESS_ANGLE, ${1:float degrees}]]></content>
     <tabTrigger>CAMERA_BEHINDNESS_ANGLE</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>integer (8)</description>
 </snippet>

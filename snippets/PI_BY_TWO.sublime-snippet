@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[PI_BY_TWO]]></content>
     <tabTrigger>PI_BY_TWO</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>float (1.570796)</description>
 </snippet>

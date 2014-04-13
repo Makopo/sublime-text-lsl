@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[CAMERA_POSITION_LAG, ${1:float seconds}]]></content>
     <tabTrigger>CAMERA_POSITION_LAG</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>integer (5)</description>
 </snippet>

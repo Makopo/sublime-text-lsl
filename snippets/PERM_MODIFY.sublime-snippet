@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[PERM_MODIFY]]></content>
     <tabTrigger>PERM_MODIFY</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>integer (0x4000 = 16384)</description>
 </snippet>

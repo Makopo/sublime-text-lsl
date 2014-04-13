@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[STRING_TRIM_TAIL]]></content>
     <tabTrigger>STRING_TRIM_TAIL</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>integer (2)</description>
 </snippet>

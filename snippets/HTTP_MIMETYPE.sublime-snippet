@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[HTTP_MIMETYPE, ${1:string mimetype}]]></content>
     <tabTrigger>HTTP_MIMETYPE</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>integer (1)</description>
 </snippet>

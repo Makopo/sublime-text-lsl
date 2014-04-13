@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[RC_DATA_FLAGS, ${1:integer flags}]]></content>
     <tabTrigger>RC_DATA_FLAGS</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>integer (2)</description>
 </snippet>

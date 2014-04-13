@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[PERMISSION_RETURN_OBJECTS]]></content>
     <tabTrigger>PERMISSION_RETURN_OBJECTS</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>integer (0x10000 = 65536)</description>
 </snippet>

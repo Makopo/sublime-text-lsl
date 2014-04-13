@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[LINK_ALL_OTHERS]]></content>
     <tabTrigger>LINK_ALL_OTHERS</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>integer (-2)</description>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[ZERO_ROTATION]]></content>
     <tabTrigger>ZERO_ROTATION</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>rotation (&lt;0.0, 0.0, 0.0, 1.0&gt;)</description>
 </snippet>

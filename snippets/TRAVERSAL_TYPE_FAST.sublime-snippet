@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[TRAVERSAL_TYPE_FAST]]></content>
     <tabTrigger>TRAVERSAL_TYPE_FAST</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>integer (1)</description>
 </snippet>

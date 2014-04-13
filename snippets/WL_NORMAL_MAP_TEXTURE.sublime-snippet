@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[WL_NORMAL_MAP_TEXTURE]]></content>
     <tabTrigger>WL_NORMAL_MAP_TEXTURE</tabTrigger>
-    <scope>source.ossl</scope>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
     <description></description>
 </snippet>

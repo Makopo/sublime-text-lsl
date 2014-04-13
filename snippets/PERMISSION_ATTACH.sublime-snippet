@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[PERMISSION_ATTACH]]></content>
     <tabTrigger>PERMISSION_ATTACH</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>integer (0x20 = 32)</description>
 </snippet>

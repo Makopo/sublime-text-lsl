@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[PSYS_PART_BF_DEST_COLOR]]></content>
     <tabTrigger>PSYS_PART_BF_DEST_COLOR</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>integer (2)</description>
 </snippet>

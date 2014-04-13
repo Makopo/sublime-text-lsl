@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[KFM_CMD_SET_MODE]]></content>
     <tabTrigger>KFM_CMD_SET_MODE</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>integer (3)</description>
 </snippet>

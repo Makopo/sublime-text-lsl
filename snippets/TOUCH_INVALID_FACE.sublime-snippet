@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[TOUCH_INVALID_FACE]]></content>
     <tabTrigger>TOUCH_INVALID_FACE</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>integer (-1)</description>
 </snippet>

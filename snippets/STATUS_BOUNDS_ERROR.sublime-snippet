@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[STATUS_BOUNDS_ERROR]]></content>
     <tabTrigger>STATUS_BOUNDS_ERROR</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>integer (1002)</description>
 </snippet>

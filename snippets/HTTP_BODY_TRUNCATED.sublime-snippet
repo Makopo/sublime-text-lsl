@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[HTTP_BODY_TRUNCATED]]></content>
     <tabTrigger>HTTP_BODY_TRUNCATED</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>integer</description>
 </snippet>

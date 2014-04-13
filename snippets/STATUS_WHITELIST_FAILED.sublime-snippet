@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[STATUS_WHITELIST_FAILED]]></content>
     <tabTrigger>STATUS_WHITELIST_FAILED</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>integer (2001)</description>
 </snippet>

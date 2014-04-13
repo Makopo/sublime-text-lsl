@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[CONTENT_TYPE_XHTML]]></content>
     <tabTrigger>CONTENT_TYPE_XHTML</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>integer (3)</description>
 </snippet>

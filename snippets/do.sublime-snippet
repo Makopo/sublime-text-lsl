@@ -3,6 +3,6 @@
 	$0;
 }$LSL_SPACE_OR_NEWLINEwhile (${1:condition});]]></content>
 	<tabTrigger>do</tabTrigger>
-	<scope>source.lsl, source.ossl</scope>
+	<scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
 	<description>flow control</description>
 </snippet>

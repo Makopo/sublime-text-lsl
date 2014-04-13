@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[PARCEL_MEDIA_COMMAND_LOOP_SET]]></content>
     <tabTrigger>PARCEL_MEDIA_COMMAND_LOOP_SET</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>integer (13)</description>
 </snippet>

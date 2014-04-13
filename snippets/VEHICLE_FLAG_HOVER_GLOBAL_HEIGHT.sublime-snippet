@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[VEHICLE_FLAG_HOVER_GLOBAL_HEIGHT]]></content>
     <tabTrigger>VEHICLE_FLAG_HOVER_GLOBAL_HEIGHT</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>integer (0x10 = 16)</description>
 </snippet>

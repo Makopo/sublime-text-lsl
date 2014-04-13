@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[ERR_MALFORMED_PARAMS]]></content>
     <tabTrigger>ERR_MALFORMED_PARAMS</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>integer (-3)</description>
 </snippet>

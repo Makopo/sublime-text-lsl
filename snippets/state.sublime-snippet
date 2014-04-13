@@ -3,6 +3,6 @@
 	$0
 }]]></content>
 	<tabTrigger>state</tabTrigger>
-	<scope>source.lsl, source.ossl</scope>
+	<scope>source.lsl - meta.state.body.lsl, source.ossl - meta.state.body.ossl</scope>
 	<description>state</description>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[RCERR_UNKNOWN]]></content>
     <tabTrigger>RCERR_UNKNOWN</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>integer (-1)</description>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[JSON_DELETE]]></content>
     <tabTrigger>JSON_DELETE</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>string (&quot;&amp;#xFDD8;&quot;)</description>
 </snippet>

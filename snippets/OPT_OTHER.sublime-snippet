@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[OPT_OTHER]]></content>
     <tabTrigger>OPT_OTHER</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>integer (-1)</description>
 </snippet>

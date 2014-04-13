@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[CAMERA_POSITION_THRESHOLD, ${1:float meters}]]></content>
     <tabTrigger>CAMERA_POSITION_THRESHOLD</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>integer (10)</description>
 </snippet>

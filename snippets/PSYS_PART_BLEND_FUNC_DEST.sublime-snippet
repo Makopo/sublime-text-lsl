@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[PSYS_PART_BLEND_FUNC_DEST]]></content>
     <tabTrigger>PSYS_PART_BLEND_FUNC_DEST</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>integer (25)</description>
 </snippet>

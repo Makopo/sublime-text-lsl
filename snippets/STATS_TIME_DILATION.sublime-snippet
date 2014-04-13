@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[STATS_TIME_DILATION]]></content>
     <tabTrigger>STATS_TIME_DILATION</tabTrigger>
-    <scope>source.ossl</scope>
+    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
     <description></description>
 </snippet>

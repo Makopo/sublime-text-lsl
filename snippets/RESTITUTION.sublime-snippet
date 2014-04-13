@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[RESTITUTION]]></content>
     <tabTrigger>RESTITUTION</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>integer (0x4 = 4)</description>
 </snippet>

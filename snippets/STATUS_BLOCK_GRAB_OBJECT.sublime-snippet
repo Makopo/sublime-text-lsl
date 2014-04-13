@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[STATUS_BLOCK_GRAB_OBJECT, ${1:integer boolean}]]></content>
     <tabTrigger>STATUS_BLOCK_GRAB_OBJECT</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>integer (0x400 = 1024)</description>
 </snippet>

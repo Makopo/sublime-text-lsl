@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[KFM_DATA]]></content>
     <tabTrigger>KFM_DATA</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>integer (2)</description>
 </snippet>

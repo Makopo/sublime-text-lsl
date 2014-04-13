@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[PSYS_SRC_ANGLE_END]]></content>
     <tabTrigger>PSYS_SRC_ANGLE_END</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>integer (23)</description>
 </snippet>

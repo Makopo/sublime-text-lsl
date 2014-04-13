@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[CHARACTER_MAX_DECEL]]></content>
     <tabTrigger>CHARACTER_MAX_DECEL</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>integer (9)</description>
 </snippet>

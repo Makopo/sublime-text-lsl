@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[PURSUIT_OFFSET]]></content>
     <tabTrigger>PURSUIT_OFFSET</tabTrigger>
-    <scope>source.lsl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>integer (1)</description>
 </snippet>

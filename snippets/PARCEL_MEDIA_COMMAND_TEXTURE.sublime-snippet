@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[PARCEL_MEDIA_COMMAND_TEXTURE]]></content>
     <tabTrigger>PARCEL_MEDIA_COMMAND_TEXTURE</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>integer (4)</description>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[PERM_MOVE]]></content>
     <tabTrigger>PERM_MOVE</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>integer (0x80000 = 524288)</description>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[VEHICLE_HOVER_EFFICIENCY]]></content>
     <tabTrigger>VEHICLE_HOVER_EFFICIENCY</tabTrigger>
-    <scope>source.lsl, source.ossl</scope>
+    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>integer (25)</description>
 </snippet>
