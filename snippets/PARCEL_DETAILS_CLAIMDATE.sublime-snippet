@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[PARCEL_DETAILS_CLAIMDATE]]></content>
     <tabTrigger>PARCEL_DETAILS_CLAIMDATE</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <scope>source.ossl - meta.state.body.ossl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description></description>
 </snippet>

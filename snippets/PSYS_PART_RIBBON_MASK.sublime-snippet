@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[PSYS_PART_RIBBON_MASK]]></content>
     <tabTrigger>PSYS_PART_RIBBON_MASK</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
+    <scope>source.lsl - meta.state.body.lsl, meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>integer (0x400 = 1024)</description>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[CLICK_ACTION_OPEN]]></content>
     <tabTrigger>CLICK_ACTION_OPEN</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
+    <scope>source.lsl - meta.state.body.lsl, source.ossl - meta.state.body.ossl, meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>integer (4)</description>
 </snippet>

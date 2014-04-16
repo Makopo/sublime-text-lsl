@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[KFM_CMD_PAUSE]]></content>
     <tabTrigger>KFM_CMD_PAUSE</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
+    <scope>source.lsl - meta.state.body.lsl, meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>integer (2)</description>
 </snippet>

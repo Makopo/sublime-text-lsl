@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[JSON_ARRAY]]></content>
     <tabTrigger>JSON_ARRAY</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
+    <scope>source.lsl - meta.state.body.lsl, meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>string (&quot;&amp;#xFDD2;&quot;)</description>
 </snippet>

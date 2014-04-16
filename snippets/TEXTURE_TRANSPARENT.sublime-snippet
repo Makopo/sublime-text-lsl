@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[TEXTURE_TRANSPARENT]]></content>
     <tabTrigger>TEXTURE_TRANSPARENT</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
+    <scope>source.lsl - meta.state.body.lsl, source.ossl - meta.state.body.ossl, meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>string (&quot;8dcd4a48-2d37-4909-9f78-f7a9eb4ef903&quot;)</description>
 </snippet>

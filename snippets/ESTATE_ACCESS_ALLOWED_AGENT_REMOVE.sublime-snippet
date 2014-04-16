@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[ESTATE_ACCESS_ALLOWED_AGENT_REMOVE]]></content>
     <tabTrigger>ESTATE_ACCESS_ALLOWED_AGENT_REMOVE</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
+    <scope>source.lsl - meta.state.body.lsl, source.ossl - meta.state.body.ossl, meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>integer (0x8 = 8)</description>
 </snippet>
