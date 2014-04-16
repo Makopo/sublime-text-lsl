@@ -4,9 +4,9 @@ import sublime
 
 def chmod_lslint():
 	# add permissions to lslint executables
-	binaryPath = os.path.join(sublime.packages_path(), "LSL/build/osx/lslint")
+	binaryPath = os.path.join(sublime.packages_path(), "LSL/support/build/osx/lslint")
 	os.chmod(binaryPath, stat.S_IRUSR|stat.S_IWUSR|stat.S_IXUSR|stat.S_IRGRP|stat.S_IXGRP|stat.S_IROTH|stat.S_IXOTH)
-	binaryPath = os.path.join(sublime.packages_path(), "LSL/build/linux/lslint")
+	binaryPath = os.path.join(sublime.packages_path(), "LSL/support/build/linux/lslint")
 	os.chmod(binaryPath, stat.S_IRUSR|stat.S_IWUSR|stat.S_IXUSR|stat.S_IRGRP|stat.S_IXGRP|stat.S_IROTH|stat.S_IXOTH)
 
 # When Sublime Text 2, we can use any sublime API during initialization.
