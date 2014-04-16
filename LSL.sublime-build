@@ -4,17 +4,17 @@
 
 	"windows":
 	{
-		"cmd": ["$packages\\LSL\\windows\\lslint.exe", "-p", "$file"]
+		"cmd": ["$packages\\LSL\\build\\windows\\lslint.exe", "-p", "$file"]
 	},
 
 	"osx":
 	{
-		"cmd": ["$packages/LSL/osx/lslint", "-p", "$file"]
+		"cmd": ["$packages/LSL/build/osx/lslint", "-p", "$file"]
 	},
 
 	"linux":
 	{
-		"cmd": ["$packages/LSL/linux/lslint", "-p", "$file"]
+		"cmd": ["$packages/LSL/build/linux/lslint", "-p", "$file"]
 	}
 
 }
