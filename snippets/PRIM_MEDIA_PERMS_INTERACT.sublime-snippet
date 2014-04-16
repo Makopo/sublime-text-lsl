@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[PRIM_MEDIA_PERMS_INTERACT]]></content>
     <tabTrigger>PRIM_MEDIA_PERMS_INTERACT</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
+    <scope>source.lsl - meta.state.body.lsl, source.ossl - meta.state.body.ossl, meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description>integer (13)</description>
 </snippet>

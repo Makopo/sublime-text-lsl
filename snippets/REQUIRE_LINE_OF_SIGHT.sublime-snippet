@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[REQUIRE_LINE_OF_SIGHT, ${1:integer boolean}]]></content>
     <tabTrigger>REQUIRE_LINE_OF_SIGHT</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
+    <scope>source.lsl - meta.state.body.lsl, meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>integer (2)</description>
 </snippet>

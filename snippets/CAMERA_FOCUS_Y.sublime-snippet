@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[CAMERA_FOCUS_Y]]></content>
     <tabTrigger>CAMERA_FOCUS_Y</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <scope>source.ossl - meta.state.body.ossl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description></description>
 </snippet>

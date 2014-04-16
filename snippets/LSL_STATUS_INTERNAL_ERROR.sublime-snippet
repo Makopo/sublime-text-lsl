@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[LSL_STATUS_INTERNAL_ERROR]]></content>
     <tabTrigger>LSL_STATUS_INTERNAL_ERROR</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <scope>source.ossl - meta.state.body.ossl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description></description>
 </snippet>

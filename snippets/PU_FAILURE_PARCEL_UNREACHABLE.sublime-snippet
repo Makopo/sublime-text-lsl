@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[PU_FAILURE_PARCEL_UNREACHABLE]]></content>
     <tabTrigger>PU_FAILURE_PARCEL_UNREACHABLE</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
+    <scope>source.lsl - meta.state.body.lsl, meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>integer (11)</description>
 </snippet>

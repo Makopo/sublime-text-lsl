@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[LSL_STATUS_WHITELIST_FAILED]]></content>
     <tabTrigger>LSL_STATUS_WHITELIST_FAILED</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
+    <scope>source.ossl - meta.state.body.ossl, meta.function.body.ossl, meta.event.body.ossl</scope>
     <description></description>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[STATUS_TYPE_MISMATCH]]></content>
     <tabTrigger>STATUS_TYPE_MISMATCH</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
+    <scope>source.lsl - meta.state.body.lsl, meta.function.body.lsl, meta.event.body.lsl</scope>
     <description>integer (1001)</description>
 </snippet>

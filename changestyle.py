@@ -7,7 +7,7 @@ class ChangeStyleCommand(sublime_plugin.WindowCommand):
 	_is_checked = False
 
 	def __init__(self, view):
-		srcdir = os.path.join(sublime.packages_path(), "LSL")
+		srcdir = os.path.join(sublime.packages_path(), "LSL/preferences")
 		destdir = os.path.join(sublime.packages_path(), "User")
 		destfile = os.path.join(destdir, "lsl_settings_style.tmPreferences")
 		if os.path.exists(destfile):
@@ -17,7 +17,7 @@ class ChangeStyleCommand(sublime_plugin.WindowCommand):
 			shutil.copyfile(os.path.join(srcdir, "settings_style.tmPreferences.allman"), destfile)
 
 	def run(self):
-		srcdir = os.path.join(sublime.packages_path(), "LSL")
+		srcdir = os.path.join(sublime.packages_path(), "LSL/preferences")
 		destdir = os.path.join(sublime.packages_path(), "User")
 		destfile = os.path.join(destdir, "lsl_settings_style.tmPreferences")
 		if not self._is_checked:
