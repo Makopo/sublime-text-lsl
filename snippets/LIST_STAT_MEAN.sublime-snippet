@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[LIST_STAT_MEAN]]></content>
-    <tabTrigger>LIST_STAT_MEAN</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (3)</description>
-</snippet>

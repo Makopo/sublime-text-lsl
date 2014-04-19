@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PERMISSION_TRACK_CAMERA]]></content>
-    <tabTrigger>PERMISSION_TRACK_CAMERA</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (0x400 = 1024)</description>
-</snippet>

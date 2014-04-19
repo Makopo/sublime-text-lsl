@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llStopAnimation(${1:string anim})]]></content>
-    <tabTrigger>llStopAnimation</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

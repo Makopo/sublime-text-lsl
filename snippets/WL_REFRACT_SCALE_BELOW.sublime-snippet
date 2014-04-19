@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[WL_REFRACT_SCALE_BELOW]]></content>
-    <tabTrigger>WL_REFRACT_SCALE_BELOW</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

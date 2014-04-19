@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PUBLIC_CHANNEL]]></content>
-    <tabTrigger>PUBLIC_CHANNEL</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (0)</description>
-</snippet>

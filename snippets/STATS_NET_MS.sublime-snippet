@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[STATS_NET_MS]]></content>
-    <tabTrigger>STATS_NET_MS</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

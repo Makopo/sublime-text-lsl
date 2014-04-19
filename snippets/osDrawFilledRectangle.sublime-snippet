@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osDrawFilledRectangle(${1:string drawList}, ${2:integer width}, ${3:integer height})]]></content>
-    <tabTrigger>osDrawFilledRectangle</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(string) function</description>
-</snippet>

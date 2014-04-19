@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[AGENT_IN_AIR]]></content>
-    <tabTrigger>AGENT_IN_AIR</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (0x100 = 256)</description>
-</snippet>

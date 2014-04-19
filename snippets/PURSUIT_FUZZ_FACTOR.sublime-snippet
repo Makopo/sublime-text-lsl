@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PURSUIT_FUZZ_FACTOR]]></content>
-    <tabTrigger>PURSUIT_FUZZ_FACTOR</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (3)</description>
-</snippet>

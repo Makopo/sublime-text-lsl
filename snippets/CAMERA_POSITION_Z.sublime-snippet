@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[CAMERA_POSITION_Z]]></content>
-    <tabTrigger>CAMERA_POSITION_Z</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PERM_ALL]]></content>
-    <tabTrigger>PERM_ALL</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (0x7FFFFFFF = 2147483647)</description>
-</snippet>

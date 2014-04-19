@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llAbs(${1:integer val})]]></content>
-    <tabTrigger>llAbs</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(integer) function</description>
-</snippet>

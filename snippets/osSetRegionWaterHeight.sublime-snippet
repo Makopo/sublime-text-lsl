@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osSetRegionWaterHeight(${1:float height})]]></content>
-    <tabTrigger>osSetRegionWaterHeight</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llJsonValueType(${1:string json}, ${2:list specifiers})]]></content>
-    <tabTrigger>llJsonValueType</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>(string) function</description>
-</snippet>

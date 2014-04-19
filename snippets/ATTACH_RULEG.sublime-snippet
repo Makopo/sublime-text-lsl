@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[ATTACH_RULEG]]></content>
-    <tabTrigger>ATTACH_RULEG</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (23)</description>
-</snippet>

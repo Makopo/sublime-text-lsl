@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[LIST_STAT_NUM_COUNT]]></content>
-    <tabTrigger>LIST_STAT_NUM_COUNT</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (8)</description>
-</snippet>

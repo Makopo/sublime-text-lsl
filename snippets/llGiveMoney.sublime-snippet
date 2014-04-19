@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llGiveMoney(${1:key agent}, ${2:integer amount})]]></content>
-    <tabTrigger>llGiveMoney</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(integer) function</description>
-</snippet>

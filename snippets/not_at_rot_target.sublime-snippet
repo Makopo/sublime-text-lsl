@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[not_at_rot_target()$LSL_SPACE_OR_NEWLINE{
-	$0
-}]]></content>
-	<tabTrigger>not_at_rot_target</tabTrigger>
-	<scope>meta.state.body.lsl - meta.event.lsl, meta.state.body.ossl - meta.event.ossl</scope>
-	<description>event</description>
-</snippet>

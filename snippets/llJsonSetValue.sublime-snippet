@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llJsonSetValue(${1:string json}; ${2:list specifiers}, ${3:string newValue})]]></content>
-    <tabTrigger>llJsonSetValue</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>(string) function</description>
-</snippet>

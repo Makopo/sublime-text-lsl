@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PRIM_BUMP_CONCRETE]]></content>
-    <tabTrigger>PRIM_BUMP_CONCRETE</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (7)</description>
-</snippet>

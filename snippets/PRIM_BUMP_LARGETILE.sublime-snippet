@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PRIM_BUMP_LARGETILE]]></content>
-    <tabTrigger>PRIM_BUMP_LARGETILE</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (14)</description>
-</snippet>

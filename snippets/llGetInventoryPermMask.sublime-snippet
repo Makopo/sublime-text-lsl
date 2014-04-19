@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llGetInventoryPermMask(${1:string item}, ${2:integer mask})]]></content>
-    <tabTrigger>llGetInventoryPermMask</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(integer) function</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[OS_NPC_CREATOR_OWNED]]></content>
-    <tabTrigger>OS_NPC_CREATOR_OWNED</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

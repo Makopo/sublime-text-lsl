@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llEdgeOfWorld(${1:vector pos}, ${2:vector dir})]]></content>
-    <tabTrigger>llEdgeOfWorld</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(integer) function</description>
-</snippet>

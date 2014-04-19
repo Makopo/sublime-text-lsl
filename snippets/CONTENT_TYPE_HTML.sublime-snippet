@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[CONTENT_TYPE_HTML]]></content>
-    <tabTrigger>CONTENT_TYPE_HTML</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (1)</description>
-</snippet>

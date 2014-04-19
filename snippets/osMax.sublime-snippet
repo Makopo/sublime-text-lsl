@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osMax(${1:float a}, ${2:float b})]]></content>
-    <tabTrigger>osMax</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(float) function</description>
-</snippet>

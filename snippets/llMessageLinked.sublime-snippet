@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llMessageLinked(${1:integer link}, ${2:integer num}, ${3:string str}, ${4:key id})]]></content>
-    <tabTrigger>llMessageLinked</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

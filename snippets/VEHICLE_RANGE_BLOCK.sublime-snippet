@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[VEHICLE_RANGE_BLOCK]]></content>
-    <tabTrigger>VEHICLE_RANGE_BLOCK</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

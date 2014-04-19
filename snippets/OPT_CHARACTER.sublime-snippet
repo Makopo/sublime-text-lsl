@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[OPT_CHARACTER]]></content>
-    <tabTrigger>OPT_CHARACTER</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (2)</description>
-</snippet>

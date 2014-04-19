@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[RC_DETECT_PHANTOM, ${1:integer boolean}]]></content>
-    <tabTrigger>RC_DETECT_PHANTOM</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (1)</description>
-</snippet>

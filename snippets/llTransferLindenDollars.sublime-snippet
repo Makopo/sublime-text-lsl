@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llTransferLindenDollars(${1:key destination}, ${2:integer amount})]]></content>
-    <tabTrigger>llTransferLindenDollars</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>(key) function</description>
-</snippet>

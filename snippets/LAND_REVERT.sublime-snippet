@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[LAND_REVERT]]></content>
-    <tabTrigger>LAND_REVERT</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (5)</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PRIM_MEDIA_MAX_WHITELIST_COUNT]]></content>
-    <tabTrigger>PRIM_MEDIA_MAX_WHITELIST_COUNT</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (64)</description>
-</snippet>

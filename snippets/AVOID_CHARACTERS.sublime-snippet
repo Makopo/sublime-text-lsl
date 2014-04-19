@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[AVOID_CHARACTERS]]></content>
-    <tabTrigger>AVOID_CHARACTERS</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (1)</description>
-</snippet>

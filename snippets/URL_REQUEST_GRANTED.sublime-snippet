@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[URL_REQUEST_GRANTED]]></content>
-    <tabTrigger>URL_REQUEST_GRANTED</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>string (&quot;URL_REQUEST_GRANTED&quot;)</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llSetRegionPos(${1:vector pos})]]></content>
-    <tabTrigger>llSetRegionPos</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(integer) function</description>
-</snippet>

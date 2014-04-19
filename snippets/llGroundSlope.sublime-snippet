@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llGroundSlope(${1:vector offset})]]></content>
-    <tabTrigger>llGroundSlope</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(vector) function</description>
-</snippet>

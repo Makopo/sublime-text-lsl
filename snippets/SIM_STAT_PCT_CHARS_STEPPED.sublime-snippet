@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[SIM_STAT_PCT_CHARS_STEPPED]]></content>
-    <tabTrigger>SIM_STAT_PCT_CHARS_STEPPED</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (0)</description>
-</snippet>

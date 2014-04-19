@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osTerrainFlush()]]></content>
-    <tabTrigger>osTerrainFlush</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

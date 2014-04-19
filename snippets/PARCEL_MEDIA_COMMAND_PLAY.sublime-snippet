@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PARCEL_MEDIA_COMMAND_PLAY]]></content>
-    <tabTrigger>PARCEL_MEDIA_COMMAND_PLAY</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (2)</description>
-</snippet>

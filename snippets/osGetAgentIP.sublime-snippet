@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osGetAgentIP(${1:string agent})]]></content>
-    <tabTrigger>osGetAgentIP</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(string) function</description>
-</snippet>

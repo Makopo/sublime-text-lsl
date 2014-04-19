@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osGetSunParam(${1:string param})]]></content>
-    <tabTrigger>osGetSunParam</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(float) function</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PARCEL_COUNT_SELECTED]]></content>
-    <tabTrigger>PARCEL_COUNT_SELECTED</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (4)</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[ATTACH_NOSE]]></content>
-    <tabTrigger>ATTACH_NOSE</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (17)</description>
-</snippet>

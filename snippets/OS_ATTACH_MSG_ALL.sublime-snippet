@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[OS_ATTACH_MSG_ALL]]></content>
-    <tabTrigger>OS_ATTACH_MSG_ALL</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

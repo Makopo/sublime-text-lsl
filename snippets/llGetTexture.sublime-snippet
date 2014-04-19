@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llGetTexture(${1:integer face})]]></content>
-    <tabTrigger>llGetTexture</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(string) function</description>
-</snippet>

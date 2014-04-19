@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[CHANGED_SCALE]]></content>
-    <tabTrigger>CHANGED_SCALE</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (0x8 = 8)</description>
-</snippet>

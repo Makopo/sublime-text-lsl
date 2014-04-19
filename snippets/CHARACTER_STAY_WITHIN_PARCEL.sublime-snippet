@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[CHARACTER_STAY_WITHIN_PARCEL, ${1:integer boolean}]]></content>
-    <tabTrigger>CHARACTER_STAY_WITHIN_PARCEL</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (15)</description>
-</snippet>

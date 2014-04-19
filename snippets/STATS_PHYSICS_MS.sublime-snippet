@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[STATS_PHYSICS_MS]]></content>
-    <tabTrigger>STATS_PHYSICS_MS</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

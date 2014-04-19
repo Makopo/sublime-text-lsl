@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[CONTENT_TYPE_JSON]]></content>
-    <tabTrigger>CONTENT_TYPE_JSON</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (5)</description>
-</snippet>

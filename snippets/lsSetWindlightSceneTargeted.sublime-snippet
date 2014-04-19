@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[lsSetWindlightSceneTargeted(${1:list rules}, ${2:key target})]]></content>
-    <tabTrigger>lsSetWindlightSceneTargeted</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(integer) function</description>
-</snippet>

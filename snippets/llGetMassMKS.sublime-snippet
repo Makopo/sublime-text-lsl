@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llGetMassMKS()]]></content>
-    <tabTrigger>llGetMassMKS</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>(float) function</description>
-</snippet>

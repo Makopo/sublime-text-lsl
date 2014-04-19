@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[WL_STAR_BRIGHTNESS]]></content>
-    <tabTrigger>WL_STAR_BRIGHTNESS</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

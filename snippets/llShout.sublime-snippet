@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llShout(${1:integer channel}, ${2:string message})]]></content>
-    <tabTrigger>llShout</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

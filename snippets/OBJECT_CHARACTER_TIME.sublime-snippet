@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[OBJECT_CHARACTER_TIME]]></content>
-    <tabTrigger>OBJECT_CHARACTER_TIME</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (17)</description>
-</snippet>

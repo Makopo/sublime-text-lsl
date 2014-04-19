@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llSetScale(${1:vector size})]]></content>
-    <tabTrigger>llSetScale</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

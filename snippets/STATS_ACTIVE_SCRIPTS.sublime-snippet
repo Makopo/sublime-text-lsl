@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[STATS_ACTIVE_SCRIPTS]]></content>
-    <tabTrigger>STATS_ACTIVE_SCRIPTS</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

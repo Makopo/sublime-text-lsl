@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llSetPos(${1:vector pos})]]></content>
-    <tabTrigger>llSetPos</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

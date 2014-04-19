@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[OS_ATTACH_MSG_INVERT_POINTS]]></content>
-    <tabTrigger>OS_ATTACH_MSG_INVERT_POINTS</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

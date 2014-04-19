@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[STATUS_MALFORMED_PARAMS]]></content>
-    <tabTrigger>STATUS_MALFORMED_PARAMS</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (1000)</description>
-</snippet>

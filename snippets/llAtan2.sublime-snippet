@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llAtan2(${1:float y}, ${2:float x})]]></content>
-    <tabTrigger>llAtan2</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(float) function</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llGetSubString(${1:string src}, ${2:integer start}, ${3:integer end})]]></content>
-    <tabTrigger>llGetSubString</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(string) function</description>
-</snippet>

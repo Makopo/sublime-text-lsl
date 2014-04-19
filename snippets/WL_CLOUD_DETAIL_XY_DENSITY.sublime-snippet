@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[WL_CLOUD_DETAIL_XY_DENSITY]]></content>
-    <tabTrigger>WL_CLOUD_DETAIL_XY_DENSITY</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

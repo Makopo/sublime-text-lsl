@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[CHANGED_MEDIA]]></content>
-    <tabTrigger>CHANGED_MEDIA</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (0x800 = 2048)</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osConsoleCommand(${1:string Command})]]></content>
-    <tabTrigger>osConsoleCommand</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

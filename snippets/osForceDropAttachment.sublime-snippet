@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osForceDropAttachment()]]></content>
-    <tabTrigger>osForceDropAttachment</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

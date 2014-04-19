@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llRotLookAt(${1:rotation target_direction}, ${2:float strength}, ${3:float damping})]]></content>
-    <tabTrigger>llRotLookAt</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

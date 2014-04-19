@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PSYS_PART_END_GLOW]]></content>
-    <tabTrigger>PSYS_PART_END_GLOW</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (27)</description>
-</snippet>

@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[EOF]]></content>
-    <tabTrigger>EOF</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>string (&quot;\n\n\n&quot;)</description>
-</snippet>
-

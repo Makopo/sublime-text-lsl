@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[link_message(integer ${1:sender_num}, integer ${2:num}, string ${3:str}, key ${4:id})$LSL_SPACE_OR_NEWLINE{
-    $0
-}]]></content>
-    <tabTrigger>link_message</tabTrigger>
-    <scope>meta.state.body.lsl - meta.event.lsl, meta.state.body.ossl - meta.event.ossl</scope>
-    <description>event</description>
-</snippet>

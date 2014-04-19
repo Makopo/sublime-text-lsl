@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PSYS_SRC_OMEGA]]></content>
-    <tabTrigger>PSYS_SRC_OMEGA</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (21)</description>
-</snippet>

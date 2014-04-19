@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[STATS_IN_PACKETS_PER_SECOND]]></content>
-    <tabTrigger>STATS_IN_PACKETS_PER_SECOND</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

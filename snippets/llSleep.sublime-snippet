@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llSleep(${1:float sec})]]></content>
-    <tabTrigger>llSleep</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

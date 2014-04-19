@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PARCEL_FLAG_ALLOW_GROUP_OBJECT_ENTRY]]></content>
-    <tabTrigger>PARCEL_FLAG_ALLOW_GROUP_OBJECT_ENTRY</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (0x10000000 = 268435456)</description>
-</snippet>

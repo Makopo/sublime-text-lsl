@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llPursue(${1:key target}, ${2:list options})]]></content>
-    <tabTrigger>llPursue</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>function</description>
-</snippet>

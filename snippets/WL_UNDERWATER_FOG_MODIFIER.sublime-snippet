@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[WL_UNDERWATER_FOG_MODIFIER]]></content>
-    <tabTrigger>WL_UNDERWATER_FOG_MODIFIER</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

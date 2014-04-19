@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[ATTACH_RIGHT_PEC]]></content>
-    <tabTrigger>ATTACH_RIGHT_PEC</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (30)</description>
-</snippet>

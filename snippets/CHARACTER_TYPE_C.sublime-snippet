@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[CHARACTER_TYPE_C]]></content>
-    <tabTrigger>CHARACTER_TYPE_C</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (2)</description>
-</snippet>

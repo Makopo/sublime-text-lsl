@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llGetAnimationList(${1:key agent})]]></content>
-    <tabTrigger>llGetAnimationList</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(list) function</description>
-</snippet>

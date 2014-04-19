@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PU_FAILURE_TARGET_GONE]]></content>
-    <tabTrigger>PU_FAILURE_TARGET_GONE</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (5)</description>
-</snippet>

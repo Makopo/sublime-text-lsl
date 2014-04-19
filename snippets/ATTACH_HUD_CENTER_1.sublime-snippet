@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[ATTACH_HUD_CENTER_1]]></content>
-    <tabTrigger>ATTACH_HUD_CENTER_1</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (35)</description>
-</snippet>

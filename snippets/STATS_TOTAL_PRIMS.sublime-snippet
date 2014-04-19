@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[STATS_TOTAL_PRIMS]]></content>
-    <tabTrigger>STATS_TOTAL_PRIMS</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llDetectedTouchBinormal(${1:integer number})]]></content>
-    <tabTrigger>llDetectedTouchBinormal</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(vector) function</description>
-</snippet>

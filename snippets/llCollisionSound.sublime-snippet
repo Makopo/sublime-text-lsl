@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llCollisionSound(${1:string impact_sound}, ${2:float impact_volume})]]></content>
-    <tabTrigger>llCollisionSound</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

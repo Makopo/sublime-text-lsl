@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llGetListEntryType(${1:list src}, ${2:integer index})]]></content>
-    <tabTrigger>llGetListEntryType</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(integer) function</description>
-</snippet>

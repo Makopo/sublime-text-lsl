@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PRIM_MATERIAL_FLESH]]></content>
-    <tabTrigger>PRIM_MATERIAL_FLESH</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (4)</description>
-</snippet>

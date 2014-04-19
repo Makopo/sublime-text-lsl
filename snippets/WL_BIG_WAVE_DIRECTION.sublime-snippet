@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[WL_BIG_WAVE_DIRECTION]]></content>
-    <tabTrigger>WL_BIG_WAVE_DIRECTION</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

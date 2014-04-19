@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[OPT_MATERIAL_VOLUME]]></content>
-    <tabTrigger>OPT_MATERIAL_VOLUME</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (5)</description>
-</snippet>

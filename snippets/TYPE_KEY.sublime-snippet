@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[TYPE_KEY]]></content>
-    <tabTrigger>TYPE_KEY</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (4)</description>
-</snippet>

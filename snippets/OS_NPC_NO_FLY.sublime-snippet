@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[OS_NPC_NO_FLY]]></content>
-    <tabTrigger>OS_NPC_NO_FLY</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

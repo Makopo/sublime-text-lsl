@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llOpenRemoteDataChannel()]]></content>
-    <tabTrigger>llOpenRemoteDataChannel</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

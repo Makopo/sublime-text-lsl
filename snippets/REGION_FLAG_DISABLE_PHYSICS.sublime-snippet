@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[REGION_FLAG_DISABLE_PHYSICS]]></content>
-    <tabTrigger>REGION_FLAG_DISABLE_PHYSICS</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (0x4000 = 16384)</description>
-</snippet>

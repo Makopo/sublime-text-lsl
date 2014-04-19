@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[CHANGED_REGION_RESTART]]></content>
-    <tabTrigger>CHANGED_REGION_RESTART</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

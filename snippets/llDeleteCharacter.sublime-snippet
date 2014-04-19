@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llDeleteCharacter()]]></content>
-    <tabTrigger>llDeleteCharacter</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>function</description>
-</snippet>

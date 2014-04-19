@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[JSON_STRING]]></content>
-    <tabTrigger>JSON_STRING</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>string (&quot;&amp;#xFDD4;&quot;)</description>
-</snippet>

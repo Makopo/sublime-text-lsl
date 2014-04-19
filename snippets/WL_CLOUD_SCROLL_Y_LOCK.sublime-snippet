@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[WL_CLOUD_SCROLL_Y_LOCK]]></content>
-    <tabTrigger>WL_CLOUD_SCROLL_Y_LOCK</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

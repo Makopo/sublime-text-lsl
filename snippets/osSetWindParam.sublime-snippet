@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osSetWindParam(${1:string plugin}, ${2:string param}, ${3:float value})]]></content>
-    <tabTrigger>osSetWindParam</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[LSL_STATUS_BOUNDS_ERROR]]></content>
-    <tabTrigger>LSL_STATUS_BOUNDS_ERROR</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

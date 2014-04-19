@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[STATUS_CAST_SHADOWS, ${1:integer boolean}]]></content>
-    <tabTrigger>STATUS_CAST_SHADOWS</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (0x200 = 512)</description>
-</snippet>

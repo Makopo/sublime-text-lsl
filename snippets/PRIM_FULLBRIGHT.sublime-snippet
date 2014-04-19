@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PRIM_FULLBRIGHT]]></content>
-    <tabTrigger>PRIM_FULLBRIGHT</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (20)</description>
-</snippet>

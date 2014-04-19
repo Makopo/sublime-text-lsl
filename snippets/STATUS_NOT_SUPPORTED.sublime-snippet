@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[STATUS_NOT_SUPPORTED]]></content>
-    <tabTrigger>STATUS_NOT_SUPPORTED</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (1004)</description>
-</snippet>

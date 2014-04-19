@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[CAMERA_POSITION_LOCKED, ${1:integer boolean}]]></content>
-    <tabTrigger>CAMERA_POSITION_LOCKED</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (21)</description>
-</snippet>

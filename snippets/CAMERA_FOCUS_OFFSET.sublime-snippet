@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[CAMERA_FOCUS_OFFSET, ${1:vector meters}]]></content>
-    <tabTrigger>CAMERA_FOCUS_OFFSET</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (1)</description>
-</snippet>

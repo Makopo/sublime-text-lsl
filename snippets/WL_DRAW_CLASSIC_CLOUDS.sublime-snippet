@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[WL_DRAW_CLASSIC_CLOUDS]]></content>
-    <tabTrigger>WL_DRAW_CLASSIC_CLOUDS</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

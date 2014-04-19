@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[INVENTORY_SCRIPT]]></content>
-    <tabTrigger>INVENTORY_SCRIPT</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (10)</description>
-</snippet>

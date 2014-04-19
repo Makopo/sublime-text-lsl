@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PARCEL_MEDIA_COMMAND_SIZE]]></content>
-    <tabTrigger>PARCEL_MEDIA_COMMAND_SIZE</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (11)</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[AGENT_MOUSELOOK]]></content>
-    <tabTrigger>AGENT_MOUSELOOK</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (0x8 = 8)</description>
-</snippet>

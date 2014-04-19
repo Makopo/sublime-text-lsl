@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llList2Key(${1:list src}, ${2:integer index})]]></content>
-    <tabTrigger>llList2Key</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(key) function</description>
-</snippet>

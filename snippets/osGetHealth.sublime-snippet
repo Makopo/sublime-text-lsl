@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osGetHealth(${1:string avatar})]]></content>
-    <tabTrigger>osGetHealth</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(float) function</description>
-</snippet>

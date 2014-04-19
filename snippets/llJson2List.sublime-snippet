@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llJson2List(${1:string json})]]></content>
-    <tabTrigger>llJson2List</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>(list) function</description>
-</snippet>

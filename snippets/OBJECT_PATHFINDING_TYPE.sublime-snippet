@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[OBJECT_PATHFINDING_TYPE]]></content>
-    <tabTrigger>OBJECT_PATHFINDING_TYPE</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (20)</description>
-</snippet>

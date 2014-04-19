@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PSYS_PART_BF_ONE_MINUS_SOURCE_ALPHA]]></content>
-    <tabTrigger>PSYS_PART_BF_ONE_MINUS_SOURCE_ALPHA</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (9)</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osUnixTimeToTimestamp(${1:integer time})]]></content>
-    <tabTrigger>osUnixTimeToTimestamp</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(string) function</description>
-</snippet>

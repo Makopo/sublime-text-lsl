@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[INVENTORY_GESTURE]]></content>
-    <tabTrigger>INVENTORY_GESTURE</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (21)</description>
-</snippet>

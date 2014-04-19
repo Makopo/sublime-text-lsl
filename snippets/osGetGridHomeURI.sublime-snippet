@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osGetGridHomeURI()]]></content>
-    <tabTrigger>osGetGridHomeURI</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(string) function</description>
-</snippet>

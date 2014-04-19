@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[WL_FRESNEL_SCALE]]></content>
-    <tabTrigger>WL_FRESNEL_SCALE</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

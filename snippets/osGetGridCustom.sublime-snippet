@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osGetGridCustom(${1:string id})]]></content>
-    <tabTrigger>osGetGridCustom</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(string) function</description>
-</snippet>

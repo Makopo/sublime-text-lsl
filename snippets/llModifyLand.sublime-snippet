@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llModifyLand(${1:integer action}, ${2:integer brush})]]></content>
-    <tabTrigger>llModifyLand</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

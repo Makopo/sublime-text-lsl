@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[ERR_RUNTIME_PERMISSIONS]]></content>
-    <tabTrigger>ERR_RUNTIME_PERMISSIONS</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (-4)</description>
-</snippet>

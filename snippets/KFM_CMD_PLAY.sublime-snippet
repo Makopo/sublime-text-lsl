@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[KFM_CMD_PLAY]]></content>
-    <tabTrigger>KFM_CMD_PLAY</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (0)</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[REMOTE_DATA_REPLY]]></content>
-    <tabTrigger>REMOTE_DATA_REPLY</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (3)</description>
-</snippet>

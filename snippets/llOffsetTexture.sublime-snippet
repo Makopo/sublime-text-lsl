@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llOffsetTexture(${1:float u}, ${2:float v}, ${3:integer face})]]></content>
-    <tabTrigger>llOffsetTexture</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

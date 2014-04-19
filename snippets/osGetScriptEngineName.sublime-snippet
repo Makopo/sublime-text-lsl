@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osGetScriptEngineName()]]></content>
-    <tabTrigger>osGetScriptEngineName</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(string) function</description>
-</snippet>

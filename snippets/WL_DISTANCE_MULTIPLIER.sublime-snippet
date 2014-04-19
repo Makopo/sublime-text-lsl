@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[WL_DISTANCE_MULTIPLIER]]></content>
-    <tabTrigger>WL_DISTANCE_MULTIPLIER</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

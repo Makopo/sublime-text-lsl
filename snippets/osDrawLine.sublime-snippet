@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osDrawLine(${1:string drawList}, ${2:integer startX}, ${3:integer startY}, ${4:integer endX}, ${5:integer endY})]]></content>
-    <tabTrigger>osDrawLine</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(string) function</description>
-</snippet>

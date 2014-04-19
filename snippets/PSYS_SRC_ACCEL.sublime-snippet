@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PSYS_SRC_ACCEL]]></content>
-    <tabTrigger>PSYS_SRC_ACCEL</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (8)</description>
-</snippet>

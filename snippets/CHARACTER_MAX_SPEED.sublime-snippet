@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[CHARACTER_MAX_SPEED]]></content>
-    <tabTrigger>CHARACTER_MAX_SPEED</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (13)</description>
-</snippet>

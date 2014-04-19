@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llCastRay(${1:vector start}, ${2:vector end}, ${3:list options})]]></content>
-    <tabTrigger>llCastRay</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(list) function</description>
-</snippet>

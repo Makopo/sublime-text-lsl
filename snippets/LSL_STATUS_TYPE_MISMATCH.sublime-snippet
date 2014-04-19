@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[LSL_STATUS_TYPE_MISMATCH]]></content>
-    <tabTrigger>LSL_STATUS_TYPE_MISMATCH</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

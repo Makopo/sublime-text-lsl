@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llList2ListStrided(${1:list src}, ${2:integer start}, ${3:integer end}, ${4:integer stride})]]></content>
-    <tabTrigger>llList2ListStrided</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(list) function</description>
-</snippet>

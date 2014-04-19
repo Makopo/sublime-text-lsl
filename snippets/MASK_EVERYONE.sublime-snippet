@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[MASK_EVERYONE]]></content>
-    <tabTrigger>MASK_EVERYONE</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (3)</description>
-</snippet>

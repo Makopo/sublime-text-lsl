@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[ATTACH_BELLY]]></content>
-    <tabTrigger>ATTACH_BELLY</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (28)</description>
-</snippet>

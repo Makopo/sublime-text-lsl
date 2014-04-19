@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[WL_CLOUD_COVERAGE]]></content>
-    <tabTrigger>WL_CLOUD_COVERAGE</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

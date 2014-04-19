@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[STATS_PENDING_UPLOADS]]></content>
-    <tabTrigger>STATS_PENDING_UPLOADS</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[CHARACTER_DESIRED_SPEED, ${1:float speed}]]></content>
-    <tabTrigger>CHARACTER_DESIRED_SPEED</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (1)</description>
-</snippet>

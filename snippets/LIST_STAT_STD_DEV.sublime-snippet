@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[LIST_STAT_STD_DEV]]></content>
-    <tabTrigger>LIST_STAT_STD_DEV</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (5)</description>
-</snippet>

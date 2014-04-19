@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[WL_SUN_MOON_POSITION]]></content>
-    <tabTrigger>WL_SUN_MOON_POSITION</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

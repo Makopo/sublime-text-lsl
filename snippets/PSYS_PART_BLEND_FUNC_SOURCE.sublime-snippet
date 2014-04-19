@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PSYS_PART_BLEND_FUNC_SOURCE]]></content>
-    <tabTrigger>PSYS_PART_BLEND_FUNC_SOURCE</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (24)</description>
-</snippet>

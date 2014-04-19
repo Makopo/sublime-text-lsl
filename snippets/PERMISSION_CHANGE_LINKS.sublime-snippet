@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PERMISSION_CHANGE_LINKS]]></content>
-    <tabTrigger>PERMISSION_CHANGE_LINKS</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (0x80 = 128)</description>
-</snippet>

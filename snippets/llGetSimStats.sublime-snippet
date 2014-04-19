@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llGetSimStats(${1:integer stat_type})]]></content>
-    <tabTrigger>llGetSimStats</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>(float) function</description>
-</snippet>

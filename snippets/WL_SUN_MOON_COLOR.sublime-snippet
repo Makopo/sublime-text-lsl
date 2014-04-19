@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[WL_SUN_MOON_COLOR]]></content>
-    <tabTrigger>WL_SUN_MOON_COLOR</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

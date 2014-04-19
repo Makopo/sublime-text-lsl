@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[VEHICLE_LINEAR_MOTOR_OFFSET]]></content>
-    <tabTrigger>VEHICLE_LINEAR_MOTOR_OFFSET</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (20)</description>
-</snippet>

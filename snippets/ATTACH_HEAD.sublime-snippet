@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[ATTACH_HEAD]]></content>
-    <tabTrigger>ATTACH_HEAD</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (2)</description>
-</snippet>

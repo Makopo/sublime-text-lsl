@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osSetDynamicTextureData(${1:string dynamicID}, ${2:string contentType}, ${3:string data}, ${4:string extraParams}, ${5:integer timer})]]></content>
-    <tabTrigger>osSetDynamicTextureData</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(string) function</description>
-</snippet>

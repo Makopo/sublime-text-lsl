@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[TYPE_VECTOR]]></content>
-    <tabTrigger>TYPE_VECTOR</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (5)</description>
-</snippet>

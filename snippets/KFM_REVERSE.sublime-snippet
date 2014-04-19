@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[KFM_REVERSE]]></content>
-    <tabTrigger>KFM_REVERSE</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (3)</description>
-</snippet>

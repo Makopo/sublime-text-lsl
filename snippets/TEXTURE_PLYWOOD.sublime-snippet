@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[TEXTURE_PLYWOOD]]></content>
-    <tabTrigger>TEXTURE_PLYWOOD</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>string (&quot;89556747-24cb-43ed-920b-47caed15465f&quot; = TEXTURE_DEFAULT)</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[VEHICLE_FLAG_NO_Y]]></content>
-    <tabTrigger>VEHICLE_FLAG_NO_Y</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

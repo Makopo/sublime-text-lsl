@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llGetClosestNavPoint(${1:vector point}, ${2:list options})]]></content>
-    <tabTrigger>llGetClosestNavPoint</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>(list) function</description>
-</snippet>

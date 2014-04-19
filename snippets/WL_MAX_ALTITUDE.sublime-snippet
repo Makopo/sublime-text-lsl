@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[WL_MAX_ALTITUDE]]></content>
-    <tabTrigger>WL_MAX_ALTITUDE</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

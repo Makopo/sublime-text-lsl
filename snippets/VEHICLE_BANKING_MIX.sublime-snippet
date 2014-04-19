@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[VEHICLE_BANKING_MIX]]></content>
-    <tabTrigger>VEHICLE_BANKING_MIX</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (39)</description>
-</snippet>

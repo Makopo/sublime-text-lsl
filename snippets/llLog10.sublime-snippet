@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llLog10(${1:float val})]]></content>
-    <tabTrigger>llLog10</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(float) function</description>
-</snippet>

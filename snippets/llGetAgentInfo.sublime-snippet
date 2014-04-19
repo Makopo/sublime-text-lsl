@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llGetAgentInfo(${1:key id})]]></content>
-    <tabTrigger>llGetAgentInfo</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(integer) function</description>
-</snippet>

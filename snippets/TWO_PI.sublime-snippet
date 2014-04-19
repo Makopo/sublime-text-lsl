@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[TWO_PI]]></content>
-    <tabTrigger>TWO_PI</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>float (6.283185)</description>
-</snippet>

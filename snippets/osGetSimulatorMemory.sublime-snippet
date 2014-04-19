@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osGetSimulatorMemory()]]></content>
-    <tabTrigger>osGetSimulatorMemory</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(integer) function</description>
-</snippet>

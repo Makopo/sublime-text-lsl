@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llListen(${1:integer channel}, ${2:string name}, ${3:key id}, ${4:string msg})]]></content>
-    <tabTrigger>llListen</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(integer) function</description>
-</snippet>

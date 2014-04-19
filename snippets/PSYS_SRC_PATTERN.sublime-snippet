@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PSYS_SRC_PATTERN]]></content>
-    <tabTrigger>PSYS_SRC_PATTERN</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (9)</description>
-</snippet>

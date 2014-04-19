@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[CHARACTER_CMD_SMOOTH_STOP]]></content>
-    <tabTrigger>CHARACTER_CMD_SMOOTH_STOP</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (2)</description>
-</snippet>

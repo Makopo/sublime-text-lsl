@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osGetNotecard(${1:string name})]]></content>
-    <tabTrigger>osGetNotecard</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(string) function</description>
-</snippet>

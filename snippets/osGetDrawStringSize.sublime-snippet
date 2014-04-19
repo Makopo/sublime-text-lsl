@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osGetDrawStringSize(${1:string contentType}, ${2:string text}, ${3:string fontName}, ${4:integer fontSize})]]></content>
-    <tabTrigger>osGetDrawStringSize</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

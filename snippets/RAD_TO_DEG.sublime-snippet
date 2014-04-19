@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[RAD_TO_DEG]]></content>
-    <tabTrigger>RAD_TO_DEG</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>float (57.29578)</description>
-</snippet>

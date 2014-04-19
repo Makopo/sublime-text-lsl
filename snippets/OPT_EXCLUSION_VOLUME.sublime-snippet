@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[OPT_EXCLUSION_VOLUME]]></content>
-    <tabTrigger>OPT_EXCLUSION_VOLUME</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (6)</description>
-</snippet>

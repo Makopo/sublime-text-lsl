@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[STATUS_INTERNAL_ERROR]]></content>
-    <tabTrigger>STATUS_INTERNAL_ERROR</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (1999)</description>
-</snippet>

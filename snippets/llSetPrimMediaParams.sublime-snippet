@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llSetPrimMediaParams(${1:integer face}, ${2:list params})]]></content>
-    <tabTrigger>llSetPrimMediaParams</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(integer) function</description>
-</snippet>

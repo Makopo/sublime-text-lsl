@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[WL_SUN_GLOW_SIZE]]></content>
-    <tabTrigger>WL_SUN_GLOW_SIZE</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

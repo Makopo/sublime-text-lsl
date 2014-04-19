@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PERMISSION_TAKE_CONTROLS]]></content>
-    <tabTrigger>PERMISSION_TAKE_CONTROLS</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (0x4 = 4)</description>
-</snippet>

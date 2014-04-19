@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[ATTACH_HUD_TOP_LEFT]]></content>
-    <tabTrigger>ATTACH_HUD_TOP_LEFT</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (36)</description>
-</snippet>

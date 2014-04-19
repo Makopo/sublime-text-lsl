@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llGetBoundingBox(${1:key object})]]></content>
-    <tabTrigger>llGetBoundingBox</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(list) function</description>
-</snippet>

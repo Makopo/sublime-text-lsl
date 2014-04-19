@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[CHARACTER_CMD_JUMP]]></content>
-    <tabTrigger>CHARACTER_CMD_JUMP</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (1)</description>
-</snippet>

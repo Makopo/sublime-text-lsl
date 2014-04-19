@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osDropAttachmentAt(${1:vector pos}, ${2:rotation rot})]]></content>
-    <tabTrigger>osDropAttachmentAt</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

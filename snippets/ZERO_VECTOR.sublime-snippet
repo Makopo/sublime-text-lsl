@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[ZERO_VECTOR]]></content>
-    <tabTrigger>ZERO_VECTOR</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>vector (&lt;0.0, 0.0, 0.0&gt;)</description>
-</snippet>

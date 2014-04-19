@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llVecDist(${1:vector a}, ${2:vector b})]]></content>
-    <tabTrigger>llVecDist</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(float) function</description>
-</snippet>

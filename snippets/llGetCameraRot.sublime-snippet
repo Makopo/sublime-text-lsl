@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llGetCameraRot()]]></content>
-    <tabTrigger>llGetCameraRot</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(rotation) function</description>
-</snippet>

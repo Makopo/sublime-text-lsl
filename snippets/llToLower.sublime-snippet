@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llToLower(${1:string src})]]></content>
-    <tabTrigger>llToLower</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(string) function</description>
-</snippet>

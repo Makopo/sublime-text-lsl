@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osDrawFilledPolygon(${1:string drawList}, ${2:list x}, ${3:list y})]]></content>
-    <tabTrigger>osDrawFilledPolygon</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(string) function</description>
-</snippet>

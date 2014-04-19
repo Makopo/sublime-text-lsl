@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PSYS_PART_EMISSIVE_MASK]]></content>
-    <tabTrigger>PSYS_PART_EMISSIVE_MASK</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (0x100 = 256)</description>
-</snippet>

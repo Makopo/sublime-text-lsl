@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[WL_SCENE_GAMMA]]></content>
-    <tabTrigger>WL_SCENE_GAMMA</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PRIM_PHYSICS_SHAPE_CONVEX]]></content>
-    <tabTrigger>PRIM_PHYSICS_SHAPE_CONVEX</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (2)</description>
-</snippet>

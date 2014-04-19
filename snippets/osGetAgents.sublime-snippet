@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osGetAgents()]]></content>
-    <tabTrigger>osGetAgents</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(list) function</description>
-</snippet>

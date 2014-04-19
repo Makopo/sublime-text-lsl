@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llExecCharacterCmd(${1:integer command}, ${2:list options})]]></content>
-    <tabTrigger>llExecCharacterCmd</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>function</description>
-</snippet>

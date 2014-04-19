@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[KFM_LOOP]]></content>
-    <tabTrigger>KFM_LOOP</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (1)</description>
-</snippet>

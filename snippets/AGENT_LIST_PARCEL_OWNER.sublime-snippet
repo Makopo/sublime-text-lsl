@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[AGENT_LIST_PARCEL_OWNER]]></content>
-    <tabTrigger>AGENT_LIST_PARCEL_OWNER</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (2)</description>
-</snippet>

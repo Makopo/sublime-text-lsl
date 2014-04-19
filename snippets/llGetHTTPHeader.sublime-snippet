@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llGetHTTPHeader(${1:key request_id}, ${2:string header})]]></content>
-    <tabTrigger>llGetHTTPHeader</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(string) function</description>
-</snippet>

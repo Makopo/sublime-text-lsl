@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[OS_LISTEN_REGEX_MESSAGE]]></content>
-    <tabTrigger>OS_LISTEN_REGEX_MESSAGE</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

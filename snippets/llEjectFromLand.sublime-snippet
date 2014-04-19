@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llEjectFromLand(${1:key agent})]]></content>
-    <tabTrigger>llEjectFromLand</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[AGENT_LIST_REGION]]></content>
-    <tabTrigger>AGENT_LIST_REGION</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (4)</description>
-</snippet>

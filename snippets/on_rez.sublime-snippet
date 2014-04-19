@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[on_rez(integer ${1:start_param})$LSL_SPACE_OR_NEWLINE{
-	$0
-}]]></content>
-	<tabTrigger>on_rez</tabTrigger>
-	<scope>meta.state.body.lsl - meta.event.lsl, meta.state.body.ossl - meta.event.ossl</scope>
-	<description>event</description>
-</snippet>

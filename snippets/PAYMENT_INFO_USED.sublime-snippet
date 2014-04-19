@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PAYMENT_INFO_USED]]></content>
-    <tabTrigger>PAYMENT_INFO_USED</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (2)</description>
-</snippet>

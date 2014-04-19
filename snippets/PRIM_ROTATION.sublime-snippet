@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PRIM_ROTATION]]></content>
-    <tabTrigger>PRIM_ROTATION</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (8)</description>
-</snippet>

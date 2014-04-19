@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llRequestSecureURL()]]></content>
-    <tabTrigger>llRequestSecureURL</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(key) function</description>
-</snippet>

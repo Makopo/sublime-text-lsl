@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osSetContentType(${1:key id}, ${2:string type})]]></content>
-    <tabTrigger>osSetContentType</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osEjectFromGroup(${1:key agentId})]]></content>
-    <tabTrigger>osEjectFromGroup</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(integer) function</description>
-</snippet>

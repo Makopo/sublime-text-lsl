@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[STATUS_NOT_FOUND]]></content>
-    <tabTrigger>STATUS_NOT_FOUND</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (1003)</description>
-</snippet>

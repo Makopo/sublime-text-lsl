@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osForceAttachToOtherAvatarFromInventory(${1:string rawAvatarId}, ${2:string itemName}, ${3:integer attachmentPoint})]]></content>
-    <tabTrigger>osForceAttachToOtherAvatarFromInventory</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

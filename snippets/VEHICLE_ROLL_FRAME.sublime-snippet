@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[VEHICLE_ROLL_FRAME]]></content>
-    <tabTrigger>VEHICLE_ROLL_FRAME</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

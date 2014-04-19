@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[CAMERA_BEHINDNESS_LAG, ${1:float seconds}]]></content>
-    <tabTrigger>CAMERA_BEHINDNESS_LAG</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (9)</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[INVENTORY_NOTECARD]]></content>
-    <tabTrigger>INVENTORY_NOTECARD</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (7)</description>
-</snippet>

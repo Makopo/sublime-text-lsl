@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[FORCE_DIRECT_PATH]]></content>
-    <tabTrigger>FORCE_DIRECT_PATH</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (1)</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PERMISSION_TELEPORT]]></content>
-    <tabTrigger>PERMISSION_TELEPORT</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (0x1000 = 4096)</description>
-</snippet>

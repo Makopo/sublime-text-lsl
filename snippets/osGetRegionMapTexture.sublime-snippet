@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osGetRegionMapTexture(${1:string regionName})]]></content>
-    <tabTrigger>osGetRegionMapTexture</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(key) function</description>
-</snippet>

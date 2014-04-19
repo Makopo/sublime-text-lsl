@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PARCEL_FLAG_USE_ACCESS_GROUP]]></content>
-    <tabTrigger>PARCEL_FLAG_USE_ACCESS_GROUP</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (0x100 = 256)</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[OBJECT_OWNER]]></content>
-    <tabTrigger>OBJECT_OWNER</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (6)</description>
-</snippet>

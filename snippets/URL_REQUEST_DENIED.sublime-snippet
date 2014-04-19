@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[URL_REQUEST_DENIED]]></content>
-    <tabTrigger>URL_REQUEST_DENIED</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>string (&quot;URL_REQUEST_DENIED&quot;)</description>
-</snippet>

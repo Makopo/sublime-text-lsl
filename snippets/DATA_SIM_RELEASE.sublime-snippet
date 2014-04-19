@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[DATA_SIM_RELEASE]]></content>
-    <tabTrigger>DATA_SIM_RELEASE</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

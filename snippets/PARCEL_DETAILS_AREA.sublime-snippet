@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PARCEL_DETAILS_AREA]]></content>
-    <tabTrigger>PARCEL_DETAILS_AREA</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (4)</description>
-</snippet>

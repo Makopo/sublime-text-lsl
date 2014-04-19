@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osGetRegionStats()]]></content>
-    <tabTrigger>osGetRegionStats</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(list) function</description>
-</snippet>

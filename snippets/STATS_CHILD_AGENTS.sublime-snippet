@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[STATS_CHILD_AGENTS]]></content>
-    <tabTrigger>STATS_CHILD_AGENTS</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

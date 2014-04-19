@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llWind(${1:vector offset})]]></content>
-    <tabTrigger>llWind</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(vector) function</description>
-</snippet>

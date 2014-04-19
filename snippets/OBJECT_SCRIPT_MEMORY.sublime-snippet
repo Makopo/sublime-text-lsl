@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[OBJECT_SCRIPT_MEMORY]]></content>
-    <tabTrigger>OBJECT_SCRIPT_MEMORY</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (11)</description>
-</snippet>

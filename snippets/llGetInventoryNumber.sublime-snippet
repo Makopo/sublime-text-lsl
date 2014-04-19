@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llGetInventoryNumber(${1:integer type})]]></content>
-    <tabTrigger>llGetInventoryNumber</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(integer) function</description>
-</snippet>

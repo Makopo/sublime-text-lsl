@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[KFM_CMD_STOP]]></content>
-    <tabTrigger>KFM_CMD_STOP</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (1)</description>
-</snippet>

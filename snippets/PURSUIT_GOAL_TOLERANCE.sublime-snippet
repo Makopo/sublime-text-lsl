@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[PURSUIT_GOAL_TOLERANCE]]></content>
-    <tabTrigger>PURSUIT_GOAL_TOLERANCE</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (5)</description>
-</snippet>

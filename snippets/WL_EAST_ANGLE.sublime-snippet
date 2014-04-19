@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[WL_EAST_ANGLE]]></content>
-    <tabTrigger>WL_EAST_ANGLE</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[ATTACH_CHIN]]></content>
-    <tabTrigger>ATTACH_CHIN</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (12)</description>
-</snippet>

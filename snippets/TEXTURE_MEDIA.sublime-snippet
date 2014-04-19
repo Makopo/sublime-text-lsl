@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[TEXTURE_MEDIA]]></content>
-    <tabTrigger>TEXTURE_MEDIA</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>string (&quot;8b5fec65-8d8d-9dc5-cda8-8fdf2716e361&quot;)</description>
-</snippet>

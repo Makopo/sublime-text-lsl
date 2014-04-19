@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[OBJECT_PRIM_EQUIVALENCE]]></content>
-    <tabTrigger>OBJECT_PRIM_EQUIVALENCE</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>integer (13)</description>
-</snippet>

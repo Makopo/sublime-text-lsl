@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llSetLinkColor(${1:integer link}, ${2:vector color}, ${3:integer face})]]></content>
-    <tabTrigger>llSetLinkColor</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

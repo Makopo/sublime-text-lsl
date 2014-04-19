@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[osNpcSetRot(${1:key npc}, ${2:rotation rot})]]></content>
-    <tabTrigger>osNpcSetRot</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>function</description>
-</snippet>

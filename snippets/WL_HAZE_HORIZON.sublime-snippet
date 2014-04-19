@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[WL_HAZE_HORIZON]]></content>
-    <tabTrigger>WL_HAZE_HORIZON</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

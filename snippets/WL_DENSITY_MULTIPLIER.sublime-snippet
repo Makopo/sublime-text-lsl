@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[WL_DENSITY_MULTIPLIER]]></content>
-    <tabTrigger>WL_DENSITY_MULTIPLIER</tabTrigger>
-    <scope>meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description></description>
-</snippet>

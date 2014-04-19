@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[llRotTarget(${1:rotation rot}, ${float error})]]></content>
-    <tabTrigger>llRotTarget</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>(integer) function</description>
-</snippet>

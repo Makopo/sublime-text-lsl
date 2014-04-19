@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[OBJECT_RENDER_WEIGHT]]></content>
-    <tabTrigger>OBJECT_RENDER_WEIGHT</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl</scope>
-    <description>integer (24)</description>
-</snippet>
