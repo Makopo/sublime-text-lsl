@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[list ]]></content>
-    <tabTrigger>list</tabTrigger>
-    <scope>source.lsl - meta.state.body.lsl, source.ossl - meta.state.body.ossl, meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>type</description>
-</snippet>

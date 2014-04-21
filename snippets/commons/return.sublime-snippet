@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[return ${1:value};]]></content>
-    <tabTrigger>return</tabTrigger>
-    <scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
-    <description>flow control</description>
-</snippet>
