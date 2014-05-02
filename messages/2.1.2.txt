@@ -1,0 +1,12 @@
+LSL 2.1.2
+-------------------------
+If you see the message that says 
+
+Error loading colour scheme Packages/LSL/lsl.tmTheme: Error parsing plist xml: "Failed to open file In file "Packages/LSL/lsl.tmTheme"
+
+or so, click "OK" and just restart Sublime Text application. Once you have restarted, you won't see this message anymore.
+
+At 2.1.1, I renamed "lsl.tmTheme" to "lsl.hidden-tmTheme" so that it won't be shown up on the general theme list. However, I couldn't handle the way Sublime Text read the user settings - it seems to be before loading our plugin.
+
+I'm sorry for the inconvenience.
+
