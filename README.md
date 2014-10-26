@@ -17,11 +17,11 @@ LSL/OSSL Bundle for Sublime Text
 
 # Current supported language
 
-* LSL [\*.lsl]: Second Life 14.06.20.291351
+* LSL [\*.lsl]: Second Life 14.07.18.292162
 * OSSL [\*.ossl]: OpenSimulator v0.7.5-rc1
   - Including mod\*, os\*, wl\*(LightShare) functions
 
-[kwdb](https://bitbucket.org/Sei_Lisa/kwdb) version 0.0.20140625000
+[kwdb](https://bitbucket.org/Sei_Lisa/kwdb) version 0.0.20140731000
 
 **I try to update the keyword list as soon as it is updated by kwdb, however, I sometimes may not be able to do that. Please refrain from requesting maintenance for at least one month after the kwdb have higher version than the version above. If you want to make an urgent request, please poke me via [@makopo](https://www.twitter.com/makopo) on Twitter or send an inworld IM to [Mako Nozaki](https://my.secondlife.com/mako.nozaki).**
 
