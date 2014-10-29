@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[do$LSL_SPACE_OR_NEWLINE{
 	$0;
-}$LSL_SPACE_OR_NEWLINE while (${1:condition});]]></content>
+}${LSL_SPACE_OR_NEWLINE}while (${1:condition});]]></content>
 	<tabTrigger>do</tabTrigger>
 	<scope>meta.function.body.lsl, meta.event.body.lsl, meta.function.body.ossl, meta.event.body.ossl</scope>
 	<description>flow control</description>
