@@ -13,7 +13,7 @@ LSL/OSSL Bundle for Sublime Text
 * [Changing Snippet Insertion Style](#changing-snippet-insertion-style)
 * [lslint Build System](#lslint-build-system)
 * [non-ascii system issue](#non-ascii-system-issue)
-* [LSL/OSSL sidebar icons](#lsl-ossl-sidebar-icons)
+* [LSL/OSSL sidebar icons](#lslossl-sidebar-icons)
 * [About Keyword Database](#about-keyword-database)
 
 # Current supported language
