@@ -13,6 +13,7 @@ LSL/OSSL Bundle for Sublime Text
 * [Changing Snippet Insertion Style](#changing-snippet-insertion-style)
 * [lslint Build System](#lslint-build-system)
 * [non-ascii system issue](#non-ascii-system-issue)
+* [LSL/OSSL sidebar icons](#lsl-ossl-sidebar-icons)
 * [About Keyword Database](#about-keyword-database)
 
 # Current supported language
@@ -153,6 +154,37 @@ Additionally if your system encoding isn't UTF-8, you may need to modify "Packag
 ```
 
 This example above is for Japanese version of Windows. Change the corresponding block(windows/linux/osx) with your environment.
+
+## LSL/OSSL sidebar icons
+
+Starting from Sublime Text 3062, you can assign file icons on the sidebar. However, since this plugin is not a theme, I can't provide this feature, instead you can assign your favorite icon to LSL/OSSL entries by yourself.
+
+In short: scope "source.lsl" for LSL and "source.ossl" for OSSL.
+
+1. Create or fetch a 16x16 image. FYI, you can find SecondLife icons in [BitBucket repository](https://bitbucket.org/lindenlab/viewer-release/src/5b51b28e057c/indra/newview/icons/release/?at=default).
+2. Rename the image to "file_type_lsl.png".
+3. You can even add secondary 32x32 image as "file_type_lsl@2x.png". I don't know how it will be used though.
+4. Create a file "icon_lsl.tmPreferences" with the following contents.
+5. Put the file above and PNG image(s) into your active theme folder.
+
+icon_lsl.tmPreferences:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+      <key>scope</key>
+      <string>source.lsl</string>
+      <key>settings</key>
+      <dict>
+          <key>icon</key>
+          <string>file_type_lsl</string>
+      </dict>
+  </dict>
+</plist>
+```
+
+For ossl, put 16x16 "file_type_ossl.png" and "icon_ossl.tmPreferences" with scope "source.ossl" into the theme folder.
 
 ## About Keyword Database
 
