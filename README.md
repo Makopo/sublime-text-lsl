@@ -186,6 +186,13 @@ icon_lsl.tmPreferences:
 
 For ossl, put 16x16 "file_type_ossl.png" and "icon_ossl.tmPreferences" with scope "source.ossl" into the theme folder.
 
+## API Reference Tooltip
+
+Starting from Sublime Text 3070, you can look in the API reference by context meny on the keywords.
+Due to performance overhead, I created anothe plugin "TooltipLSL". The project is [here](https://github.com/Makopo/sublime-text-tooltip-lsl).
+
+In short, install "TooltipLSL" with Package Control, then place the caret on functions/constants/events before choosing "Show LSL Reference" from the right-click context menu.
+
 ## About Keyword Database
 
 This bundle uses [kwdb](https://bitbucket.org/Sei_Lisa/kwdb) as source of its LSL/OSSL funcion/event/constant names. The LSL/OSSL keywords in .tmLanguage and .sublime-completions are automatically generated from the file kwdb.xml within. I have the automation tool in [another project(kwdb_to_sublime)](https://github.com/Makopo/kwdb_to_sublime). Thus, if you find any flaw in the keywords, please first search for the keyword you want to use in `kwdb.xml`. Then compare kwdb version at the top of this readme to that in `kwdb.xml`. If you find mine is way behind of `kwdb.xml`, please be patient or poke me [@makopo](https://www.twitter.com/makopo) on Twitter or send an inworld IM to [Mako Nozaki](https://my.secondlife.com/mako.nozaki).
