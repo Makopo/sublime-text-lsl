@@ -24,8 +24,6 @@ LSL/OSSL Bundle for Sublime Text
 
 [kwdb](https://bitbucket.org/Sei_Lisa/kwdb) version 0.0.20180509000
 
-**I try to update the keyword list as soon as it is updated by kwdb, however, I sometimes may not be able to do that. Please refrain from requesting maintenance for at least one month after the kwdb have higher version than the version above. If you want to make an urgent request, please poke me via [@makopo](https://www.twitter.com/makopo) on Twitter or send an inworld IM to [Mako Nozaki](https://my.secondlife.com/mako.nozaki).**
-
 # Features
 
 * More quick completion of functions & events.
@@ -72,13 +70,30 @@ While inside the `Packages` directory, clone the plugin repository using the com
 
 ### Download Manually
 
-* Download the files using the GitHub [*.zip](https://github.com/makopo/sublime-text-lsl/archive/master.zip) and [*.tar.gz](https://github.com/makopo/sublime-text-lsl/archive/master.tar.gz) download options.
+* Download the files using the GitHub [\*.zip](https://github.com/makopo/sublime-text-lsl/archive/master.zip) or [\*.tar.gz](https://github.com/makopo/sublime-text-lsl/archive/master.tar.gz) download options.
 * Unzip the files and rename the folder to `LSL`.
 * Copy the folder to your Sublime Text `Packages` directory.
 
-## Additional Features
+# Upgrade
 
-### Second Life Viewer Theme
+**I try to update the keyword list as soon as it is updated by kwdb, however, I sometimes may not be able to do that. Please refrain from requesting maintenance for at least one month after the kwdb have higher version than the version above. If you want to make an urgent request, please poke me via [@makopo](https://www.twitter.com/makopo) on Twitter or send an inworld IM to [Mako Nozaki](https://my.secondlife.com/mako.nozaki).**
+
+### Using Sublime Package Control
+
+Having `auto_upgrade` option in your setting file, or due to some other cause, Packate Control may not upgrade this package. If you feel your version is behind, try to upgrade it:
+
+ * Bring up the Command Palette (<kbd>Command</kbd><kbd>Shift</kbd><kbd>P</kbd> on OS X, <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd> on Linux/Windows).
+ * Select "Package Control: Upgrade Package" (it'll take a few seconds)
+ * Type and select "LSL" when the list appears.
+
+### Download Manually
+
+Since nothing will take care of your version, you will need to maintain it by yourself. Simply re-download the [\*.zip](https://github.com/makopo/sublime-text-lsl/archive/master.zip) or [\*.tar.gz](https://github.com/makopo/sublime-text-lsl/archive/master.tar.gz) and overwrite it in the `Packages` directory.
+
+
+# Additional Features
+
+## Second Life Viewer Theme
 
 You can use the bundled theme for only .lsl or .ossl files to the same look-and-feel with inworld editor.
 
@@ -88,7 +103,7 @@ The same steps to deactivate it.
 
 Note that you need to have this bundle in "LSL" package directory to use it.
 
-### Changing Snippet Insertion Style
+## Changing Snippet Insertion Style
 
 You can change insertion style of snippets from default Allman style to K&R style.
 
@@ -96,7 +111,7 @@ To activate it, use the menu item `Preferences -> Package Settings -> LSL/OSSL -
 
 The same steps to deactivate it.
 
-### lslint Build System
+## lslint Build System
 
 You can run lslint as LSL/OSSL build system.
 
