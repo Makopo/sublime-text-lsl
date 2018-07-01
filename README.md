@@ -1,21 +1,6 @@
 LSL/OSSL Bundle for Sublime Text
 ==========
 
-* [Current supported language](#current-supported-language)
-* [Features](#features)
-* [Syntax Indentation](#syntax-indentation)
-* [Installation](#installation)
-* [Using Sublime Package Control](#using-sublime-package-control)
-* [Using Git](#using-git)
-* [Download Manually](#download-manually)
-* [Additional Features](#additional-features)
-* [Second Life Viewer Theme](#second-life-viewer-theme)
-* [Changing Snippet Insertion Style](#changing-snippet-insertion-style)
-* [lslint Build System](#lslint-build-system)
-* [non-ascii system issue](#non-ascii-system-issue)
-* [LSL/OSSL sidebar icons](#lslossl-sidebar-icons)
-* [About Keyword Database](#about-keyword-database)
-
 # Current supported language
 
 * LSL [\*.lsl]: Second Life 18.06.14.516474
@@ -208,6 +193,6 @@ Due to performance overhead, I created anothe plugin "TooltipLSL". The project i
 
 In short, install "TooltipLSL" with Package Control, then place the caret on functions/constants/events before choosing "Show LSL Reference" from the right-click context menu.
 
-## About Keyword Database
+# About Keyword Database
 
 This bundle uses [kwdb](https://bitbucket.org/Sei_Lisa/kwdb) as source of its LSL/OSSL funcion/event/constant names. The LSL/OSSL keywords in .tmLanguage and .sublime-completions are automatically generated from the file kwdb.xml within. I have the automation tool in [another project(kwdb_to_sublime)](https://github.com/Makopo/kwdb_to_sublime). Thus, if you find any flaw in the keywords, please first search for the keyword you want to use in `kwdb.xml`. Then compare kwdb version at the top of this readme to that in `kwdb.xml`. If you find mine is way behind of `kwdb.xml`, please be patient or poke me [@makopo](https://www.twitter.com/makopo) on Twitter or send an inworld IM to [Mako Nozaki](https://my.secondlife.com/mako.nozaki).
