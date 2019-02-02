@@ -113,23 +113,22 @@ If you want to change the key bindings, use "build" command for it in your Defau
 
 ```json
 [
-	{
-		"keys": ["super+l"],
-		"command": "build",
-		"context":[
-			{ "key": "selector", "operator": "equal", "operand": "source.lsl" }
-		]
-	},
-	{
-		"keys": ["super+l"],
-		"command": "build",
-		"context":[
-			{ "key": "selector", "operator": "equal", "operand": "source.ossl" }
-		]
-	}
+    {
+        "keys": ["super+l"],
+        "command": "build",
+        "context":[
+            { "key": "selector", "operator": "equal", "operand": "source.lsl" }
+        ]
+    },
+    {
+        "keys": ["super+l"],
+        "command": "build",
+        "context":[
+            { "key": "selector", "operator": "equal", "operand": "source.ossl" }
+        ]
+    }
 ]
 ```
-
 
 #### non-ascii system issue
 
@@ -146,11 +145,11 @@ You may workaround this issue by inserting a line after line 99 in "Packages/Def
 Additionally if your system encoding isn't UTF-8, you may need to modify "Packages/LSL/LSL.sublime-build".
 
 ```python
-	"windows":
-	{
-		"encoding": "cp932",
-		"cmd": ["$packages\\LSL\\windows\\lslint.exe", "-p", "$file"]
-	},
+    "windows":
+    {
+        "encoding": "cp932",
+        "cmd": ["$packages\\LSL\\windows\\lslint.exe", "-p", "$file"]
+    },
 ```
 
 This example above is for Japanese version of Windows. Change the corresponding block(windows/linux/osx) with your environment.
