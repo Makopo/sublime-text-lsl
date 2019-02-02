@@ -162,33 +162,46 @@ You can use other build systems than lslint for some dialects.
 
 You can use [LSL-PyOptimizer](http://lsl.blacktulip-virtual.com/lsl-pyoptimizer/) for optimizing your lsl code.
 
-After `Preferences` -> `Browse Packages...`, navigate to `LSL` folder. `LSL.sublime-build` file is what you need to edit.
-Here is an example for windows and osx.
+Navigate `Tools` -> `Build System` -> `New Build System...` and edit the newly created file like that:
 
+For windows:
 ```
-    "windows":
+{
+    "file_regex": "^(..[^:]*)::[^:]*::[^(]*\\(\\s*([0-9]+)",
+    "selector": "source.lsl",
+    "cmd": ["C:\\Python27\\python.exe", "PYOPTIMIZER_PATH\\main.py", "--bom", "$file", "-o", "$file_path/${file_base_name}_optimized.$file_extension"],
+    "env": 
     {
-        "cmd": ["C:\\Python27\\python.exe", "PYOPTIMIZER_PATH\\main.py", "--bom", "$file", "-o", "$file_path/${file_base_name}_optimized.$file_extension"],
-        "env": 
-        {
-            "PYTHONIOENCODING": "utf-8"
-        }
-    },
-    "osx":
+        "PYTHONIOENCODING": "utf-8"
+    }
+}
+```
+
+For osx:
+```
+{
+    "file_regex": "^(..[^:]*)::[^:]*::[^(]*\\(\\s*([0-9]+)",
+    "selector": "source.lsl",
+    "cmd": ["python2.7", "PYOPTIMIZER_PATH/main.py", "--bom", "$file", "-o", "$file_path/${file_base_name}_optimized.$file_extension"],
+    "env": 
     {
-        "cmd": ["python2.7", "PYOPTIMIZER_PATH/main.py", "--bom", "$file", "-o", "$file_path/${file_base_name}_optimized.$file_extension"],
-        "env": 
-        {
-            "PYTHONIOENCODING": "utf-8"
-        }
-    },
+        "PYTHONIOENCODING": "utf-8"
+    }
+}
 ```
 
 * In this example, output will be created as `SOURCE_FILE_NAME_optimized.SOURCE_EXTENSION`.
 * [Official document](http://lsl.blacktulip-virtual.com/lsl-pyoptimizer/) says you need to use Python 2.7.
 * Outputs are streamed as utf-8 so you need `PYTHONIOENCODING` environment variable to successfully decode them.
 * Currently, there seems to no way to jump-to-line.
-* You may need to redo this modification after each LSL plugin update.
+
+Save this file as `LSL-PyOptimizer.sublime-build`.
+
+Now you'll find `LSL-PyOptimizer` in `Tools` -> `Build System`.
+
+Select `Tools` -> `Build With...`(<kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>B</kbd> or <kbd>Command</kbd><kbd>Shift</kbd><kbd>B</kbd>) and choose `LSL-PyOptimizer`.
+
+From now on, your source will be compiled with LSL-PyOptimizer. `Tools` -> `Build With...` again to switch back to lslint.
 
 ## LSL/OSSL sidebar icons
 
