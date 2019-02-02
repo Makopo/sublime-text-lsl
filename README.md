@@ -154,6 +154,42 @@ Additionally if your system encoding isn't UTF-8, you may need to modify "Packag
 
 This example above is for Japanese version of Windows. Change the corresponding block(windows/linux/osx) with your environment.
 
+## Using other build systems for dialects
+
+You can use other build systems than lslint for some dialects.
+
+### LSL-PyOptimizer
+
+You can use [LSL-PyOptimizer](http://lsl.blacktulip-virtual.com/lsl-pyoptimizer/) for optimizing your lsl code.
+
+After `Preferences` -> `Browse Packages...`, navigate to `LSL` folder. `LSL.sublime-build` file is what you need to edit.
+Here is an example for windows and osx.
+
+```
+    "windows":
+    {
+        "cmd": ["C:\\Python27\\python.exe", "PYOPTIMIZER_PATH\\main.py", "--bom", "$file", "-o", "$file_path/${file_base_name}_optimized.$file_extension"],
+        "env": 
+        {
+            "PYTHONIOENCODING": "utf-8"
+        }
+    },
+    "osx":
+    {
+        "cmd": ["python2.7", "PYOPTIMIZER_PATH/main.py", "--bom", "$file", "-o", "$file_path/${file_base_name}_optimized.$file_extension"],
+        "env": 
+        {
+            "PYTHONIOENCODING": "utf-8"
+        }
+    },
+```
+
+* In this example, output will be created as `SOURCE_FILE_NAME_optimized.SOURCE_EXTENSION`.
+* [Official document](http://lsl.blacktulip-virtual.com/lsl-pyoptimizer/) says you need to use Python 2.7.
+* Outputs are streamed as utf-8 so you need `PYTHONIOENCODING` environment variable to successfully decode them.
+* Currently, there seems to no way to jump-to-line.
+* You may need to redo this modification after each LSL plugin update.
+
 ## LSL/OSSL sidebar icons
 
 Starting from Sublime Text 3062, you can assign file icons on the sidebar. However, since this plugin is not a theme, I can't provide this feature, instead you can assign your favorite icon to LSL/OSSL entries by yourself.
