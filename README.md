@@ -167,9 +167,9 @@ Navigate `Tools` -> `Build System` -> `New Build System...` and edit the newly c
 For windows:
 ```
 {
-    "file_regex": "^(..[^:]*)::[^:]*::[^(]*\\(\\s*([0-9]+)",
+    "file_regex": "^::[A-Z]++::\"((?:\\\\.|[^\"\\\\])*+)\":(\\d++):(\\d++): (.*+)",
     "selector": "source.lsl",
-    "cmd": ["C:\\Python27\\python.exe", "PYOPTIMIZER_PATH\\main.py", "--bom", "$file", "-o", "$file_path/${file_base_name}_optimized.$file_extension"],
+    "cmd": ["C:\\Python27\\python.exe", "PYOPTIMIZER_PATH\\main.py", "--emap", "--bom", "$file", "-o", "$file_path/${file_base_name}_optimized.$file_extension"],
     "env": 
     {
         "PYTHONIOENCODING": "utf-8"
@@ -180,9 +180,9 @@ For windows:
 For osx:
 ```
 {
-    "file_regex": "^(..[^:]*)::[^:]*::[^(]*\\(\\s*([0-9]+)",
+    "file_regex": "^::[A-Z]++::\"((?:\\\\.|[^\"\\\\])*+)\":(\\d++):(\\d++): (.*+)",
     "selector": "source.lsl",
-    "cmd": ["python2.7", "PYOPTIMIZER_PATH/main.py", "--bom", "$file", "-o", "$file_path/${file_base_name}_optimized.$file_extension"],
+    "cmd": ["python2.7", "PYOPTIMIZER_PATH/main.py", "--emap", "--bom", "$file", "-o", "$file_path/${file_base_name}_optimized.$file_extension"],
     "env": 
     {
         "PYTHONIOENCODING": "utf-8"
@@ -190,10 +190,10 @@ For osx:
 }
 ```
 
+* These samples assume that LSL-PyOptimizer revision is 7282e53 (Feb 5, 2019) or later.
 * In this example, output will be created as `SOURCE_FILE_NAME_optimized.SOURCE_EXTENSION`.
 * [Official document](http://lsl.blacktulip-virtual.com/lsl-pyoptimizer/) says you need to use Python 2.7.
 * Outputs are streamed as utf-8 so you need `PYTHONIOENCODING` environment variable to successfully decode them.
-* Currently, there seems to no way to jump-to-line.
 
 Save this file as `LSL-PyOptimizer.sublime-build`.
 
