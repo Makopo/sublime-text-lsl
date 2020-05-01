@@ -3,11 +3,11 @@ LSL/OSSL Bundle for Sublime Text
 
 # Current supported language
 
-* LSL [\*.lsl]: Second Life 19.06.11.528038
+* LSL [\*.lsl]: Second Life 2020-04-14T23:08:20.540213
 * OSSL [\*.ossl]: OpenSimulator v0.9.0.0-rc2
   - Including mod\*, os\*, wl\*(LightShare) functions
 
-[kwdb](https://bitbucket.org/Sei_Lisa/kwdb) version 0.0.20190623001
+[kwdb](https://github.com/Sei-Lisa/kwdb) version 0.0.20200422000
 
 # Features
 
@@ -243,4 +243,4 @@ In short, install "TooltipLSL" with Package Control, then place the caret on fun
 
 # About Keyword Database
 
-This bundle uses [kwdb](https://bitbucket.org/Sei_Lisa/kwdb) as source of its LSL/OSSL funcion/event/constant names. The LSL/OSSL keywords in .tmLanguage and .sublime-completions are automatically generated from the file kwdb.xml within. I have the automation tool in [another project(kwdb_to_sublime)](https://github.com/Makopo/kwdb_to_sublime). Thus, if you find any flaw in the keywords, please first search for the keyword you want to use in `kwdb.xml`. Then compare kwdb version at the top of this readme to that in `kwdb.xml`. If you find mine is way behind of `kwdb.xml`, please be patient or poke me [@makopo](https://www.twitter.com/makopo) on Twitter or send an inworld IM to [Mako Nozaki](https://my.secondlife.com/mako.nozaki).
+This bundle uses [kwdb](https://github.com/Sei-Lisa/kwdb) as source of its LSL/OSSL funcion/event/constant names. The LSL/OSSL keywords in .tmLanguage and .sublime-completions are automatically generated from the file kwdb.xml within. I have the automation tool in [another project(kwdb_to_sublime)](https://github.com/Makopo/kwdb_to_sublime). Thus, if you find any flaw in the keywords, please first search for the keyword you want to use in `kwdb.xml`. Then compare kwdb version at the top of this readme to that in `kwdb.xml`. If you find mine is way behind of `kwdb.xml`, please be patient or poke me [@makopo](https://www.twitter.com/makopo) on Twitter or send an inworld IM to [Mako Nozaki](https://my.secondlife.com/mako.nozaki).
