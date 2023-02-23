@@ -41,6 +41,13 @@ jobs:
             python lsl2dfg/LSL2dfg.py -u -d kwdb.xml -f sublime_tmLanguage -g sl -t LSL -i inputs/convertkeywords.pl.in | perl > "${OUTPUT_DIR}/lsl.tmLanguage"
             python lsl2dfg/LSL2dfg.py -u -d kwdb.xml -f sublime_tmLanguage -g os -t OSSL -i inputs/convertkeywords.pl.in | perl > "${OUTPUT_DIR}/ossl.tmLanguage"
             python lsl2dfg/LSL2dfg.py --version --grid=sl,os --database=kwdb.xml > ${OUTPUT_DIR}/kwdb_version.txt
+      - run:
+          name: update README.md
+          command: |
+            SL_VERSION=$(awk '/Second Life/{print $NF}' kwdb_version.txt)
+            OSSL_VERSION=$(awk '/OpenSimulator/{print $NF}' kwdb_version.txt)
+            KWDB_VERSION=$(awk '/Generator/{print $NF}' kwdb_version.txt)
+            sed -i -e "s/^* LSL .*/* LSL [\\\*.lsl]: Second Life ${SL_VERSION}/; s/^* OSSL.*/* OSSL [\\\*.ossl]: OpenSimulator ${OSSL_VERSION}/; s/^\[kwdb\].*/\[kwdb\](https:\/\/github.com\/Sei-Lisa\/kwdb) version ${KWDB_VERSION}/" README.md
       - add_ssh_keys:
           fingerprints:
             - "65:60:85:2d:b9:dd:8a:5c:7b:d7:3c:f7:f5:62:b0:e7"
