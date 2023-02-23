@@ -1,0 +1,74 @@
+version: 2.1
+
+jobs:
+  merge-from-other-repositories:
+    docker:
+      - image: cimg/python:3.11
+    resource_class: small
+    steps:
+      - checkout
+      - run:
+          name: fetch lslint binaries from my repository
+          command: |
+            curl -L https://github.com/Makopo/lslint/releases/download/<< pipeline.parameters.version >>/lslint_<< pipeline.parameters.version >>_linux64.zip -o /tmp/lslint_<< pipeline.parameters.version >>_linux64.zip
+            curl -L https://github.com/Makopo/lslint/releases/download/<< pipeline.parameters.version >>/lslint_<< pipeline.parameters.version >>_win64.zip -o /tmp/lslint_<< pipeline.parameters.version >>_win64.zip
+            curl -L https://github.com/Makopo/lslint/releases/download/<< pipeline.parameters.version >>/lslint_<< pipeline.parameters.version >>_osx.zip -o /tmp/lslint_<< pipeline.parameters.version >>_osx.zip
+            unzip -o /tmp/lslint_<< pipeline.parameters.version >>_linux64.zip -d linux/
+            unzip -o /tmp/lslint_<< pipeline.parameters.version >>_win64.zip -d windows/
+            unzip -o /tmp/lslint_<< pipeline.parameters.version >>_osx.zip -d osx/
+      - run:
+          name: clone kwdb-sublime
+          command: |
+            cd /tmp
+            git clone --depth 1 https://github.com/Makopo/kwdb_to_sublime
+      - run:
+          name: install perl modules
+          command: |
+            curl -L https://cpanmin.us | sudo perl - App::cpanminus
+            sudo cpanm install Text::Template Regexp::Assemble
+      - run:
+          name: run kwdb-sublime
+          command: |
+            cd /tmp/kwdb_to_sublime
+            curl https://raw.githubusercontent.com/Sei-Lisa/kwdb/master/lsl2dfg/LSL2dfg.py -o lsl2dfg/LSL2dfg.py
+            curl https://raw.githubusercontent.com/Sei-Lisa/kwdb/master/database/kwdb.xml -o kwdb.xml
+            export OUTPUT_DIR="${CIRCLE_WORKING_DIRECTORY/#\~/$HOME}"
+            python lsl2dfg/LSL2dfg.py -u -d kwdb.xml -f sublime_completions_constants -g sl -i inputs/LSLConstants.sublime-completions.in -o "${OUTPUT_DIR}/LSLConstants.sublime-completions" -y
+            python lsl2dfg/LSL2dfg.py -u -d kwdb.xml -f sublime_completions_constants -g os -i inputs/OSSLConstants.sublime-completions.in -o "${OUTPUT_DIR}/OSSLConstants.sublime-completions" -y
+            python lsl2dfg/LSL2dfg.py -u -d kwdb.xml -f sublime_completions_functions -g sl -i inputs/LSLFunctions.sublime-completions.in -o "${OUTPUT_DIR}/LSLFunctions.sublime-completions" -y
+            python lsl2dfg/LSL2dfg.py -u -d kwdb.xml -f sublime_completions_functions -g os -i inputs/OSSLFunctions.sublime-completions.in -o "${OUTPUT_DIR}/OSSLFunctions.sublime-completions" -y
+            python lsl2dfg/LSL2dfg.py -u -d kwdb.xml -f sublime_completions_events -g sl,os -i inputs/makesnippets.pl.in | perl
+            python lsl2dfg/LSL2dfg.py -u -d kwdb.xml -f sublime_tmLanguage -g sl -t LSL -i inputs/convertkeywords.pl.in | perl > "${OUTPUT_DIR}/lsl.tmLanguage"
+            python lsl2dfg/LSL2dfg.py -u -d kwdb.xml -f sublime_tmLanguage -g os -t OSSL -i inputs/convertkeywords.pl.in | perl > "${OUTPUT_DIR}/ossl.tmLanguage"
+            python lsl2dfg/LSL2dfg.py --version --grid=sl,os --database=kwdb.xml > ${OUTPUT_DIR}/kwdb_version.txt
+      - add_ssh_keys:
+          fingerprints:
+            - "65:60:85:2d:b9:dd:8a:5c:7b:d7:3c:f7:f5:62:b0:e7"
+      - run:
+          name: git push
+          command: |
+            git add .
+            CONTINUE=0 && git diff --cached --exit-code --quiet || CONTINUE=1
+            if [ $CONTINUE -eq 1 ] ; then
+              git config user.name "Makopoppo(via CircleCI)"
+              git config user.email "bokemako@gmail.com"
+              LSLINT_VERSION=$(./linux/lslint --version 2>&1)
+              KWDB_VERSION=$(tail -n +2 kwdb_version.txt)
+              git commit -m "${LSLINT_VERSION} [skip ci]
+              
+            kwdb ${KWDB_VERSION}"
+              git push --set-upstream origin ${CIRCLE_BRANCH}
+            fi
+
+parameters:
+    version:
+        type: string
+        default: "0.0"
+
+workflows:
+  merge-binaries:
+    when:
+      not:
+        equal: [ "0.0", << pipeline.parameters.version >> ]
+    jobs:
+      - merge-from-other-repositories
