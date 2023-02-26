@@ -1,0 +1,70 @@
+{
+    "rules":
+    [
+        {
+            "name": "lsl",
+            "scope": "source.lsl",
+            "background": "#F4F4F4",
+            "caret": "#000000",
+            "foreground": "#000000",
+            "invisibles": "#BFBFBF",
+            "lineHighlight": "#BFBFBF",
+            "selection": "#8BC5B0"
+        },
+        {
+            "name": "sections",
+            "scope": "entity.name.class.state.begin.lsl, constant.language.state.lsl",
+            "foreground": "#801a4d"
+        },
+        {
+            "name": "data types",
+            "scope": "storage.type.lsl",
+            "foreground": "#006600",
+        },
+        {
+            "name": "events",
+            "scope": "support.function.event.lsl",
+            "foreground": "#004d80",
+        },
+        {
+            "name": "comment",
+            "scope": "comment.block.lsl,comment.line.double-slash.lsl",
+            "foreground": "#cd4d26",
+        },
+        {
+            "name": "string literals",
+            "scope": "string.quoted.double.lsl",
+            "foreground": "#006600",
+        },
+        {
+            "name": "functions",
+            "scope": "support.function.ll.lsl, support.function.ossl.lsl",
+            "foreground": "#820124",
+        },
+        {
+            "name": "integer constants",
+            "scope": "constant.language.integer.lsl, constant.language.ll.integer.lsl, constant.language.ossl.integer.lsl",
+            "foreground": "#242687",
+        },
+        {
+            "name": "string constants",
+            "scope": "constant.language.string.lsl, constant.language.ll.string.lsl",
+            "foreground": "#336699",
+        },
+        {
+            "name": "float constants",
+            "scope": "constant.language.ll.float.lsl",
+            "foreground": "#4c1a80",
+        },
+        {
+            "name": "compound constants",
+            "scope": "constant.language.ll.compound.lsl",
+            "foreground": "#774477",
+        },
+        {
+            "name": "flow control keywords",
+            "scope": "keyword.control.flow.lsl",
+            "foreground": "#0000cd",
+        }
+    ]
+}
