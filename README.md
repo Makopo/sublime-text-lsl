@@ -203,6 +203,18 @@ Select `Tools` -> `Build With...`(<kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>B</kbd> or
 
 From now on, your source will be compiled with LSL-PyOptimizer. `Tools` -> `Build With...` again to switch back to lslint.
 
+## Using lslint as Build System for files with non-ascii characters in their paths
+
+lslint prints output in ascii characters. When calling lslint on the Build System, Python tries to decode the output as utf8, which translates most non-ASCII characters incorrectly. To avoid this, add an argument and specify your system encoding in `LSL.sublime-build`. The encoding value must be one of the codecs in [this list](https://docs.python.org/3.3/library/codecs.html#id3).
+
+```
+    "windows":
+    {
+        "cmd": ["$packages\\LSL\\windows\\lslint.exe", "-p", "$file"],
+        "encoding": "YOUR_CODEC"
+    },
+```
+
 ## LSL/OSSL sidebar icons
 
 Starting from Sublime Text 3062, you can assign file icons on the sidebar. However, since this plugin is not a theme, I can't provide this feature, instead you can assign your favorite icon to LSL/OSSL entries by yourself.
