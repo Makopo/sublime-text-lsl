@@ -46,7 +46,7 @@ jobs:
           command: |
             SL_VERSION=$(awk '/Second Life/{print $NF}' kwdb_version.txt)
             OSSL_VERSION=$(awk '/OpenSimulator/{print $NF}' kwdb_version.txt)
-            KWDB_VERSION=$(awk '/Generator/{print $NF}' kwdb_version.txt)
+            KWDB_VERSION=$(awk '/Database/{print $NF}' kwdb_version.txt)
             sed -i -e "s/^* LSL .*/* LSL [\\\*.lsl]: Second Life ${SL_VERSION}/; s/^* OSSL.*/* OSSL [\\\*.ossl]: OpenSimulator ${OSSL_VERSION}/; s/^\[kwdb\].*/\[kwdb\](https:\/\/github.com\/Sei-Lisa\/kwdb) version ${KWDB_VERSION}/" README.md
       - add_ssh_keys:
           fingerprints:
