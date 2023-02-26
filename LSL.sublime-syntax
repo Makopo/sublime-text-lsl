@@ -1,0 +1,196 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/syntax.html
+name: LSL
+file_extensions:
+  - lsl
+scope: source.lsl
+contexts:
+  main:
+    - include: value
+  array:
+    - match: '\['
+      captures:
+        0: punctuation.definition.array.begin.lsl
+      push:
+        - meta_scope: meta.inarray.lsl
+        - match: '\]'
+          captures:
+            0: punctuation.definition.array.end.lsl
+          pop: true
+        - include: infunc
+  avoid:
+    - match: '\b(?:ll(?:S(?:et(?:(?:Inventory|Object)PermMask|PrimURL)|oun(?:dPreloa)?d|topPointAt)|Re(?:mote(?:DataSetRegion|LoadScript)|freshPrimURL|leaseCamera)|C(?:l(?:earExperiencePermissions|oud)|ollisionSprite)|(?:G(?:etExperienceLis|odLikeRezObjec)|PointA)t|Make(?:F(?:ountain|ire)|Explosion|Smoke)|XorBase64Strings(?:Correct)?|OpenFloater|TakeCamera)|P(?:ERMISSION_(?:RE(?:LEASE_OWNERSHIP|MAP_CONTROLS)|CHANGE_(?:PERMISSION|JOINT)S)|SYS_SRC_(?:O(?:BJ_REL_MASK|UTERANGLE)|INNERANGLE)|RIM_(?:MATERIAL_LIGHT|CAST_SHADOWS))|S(?:KY_(?:(?:ABSORPTION|RAYLEIGH|MIE)_CONFIG|(?:DENSITY_PROFILE_COUNT|TRACK)S)|TATUS_CAST_SHADOWS)|LAND_(?:MEDIUM|LARGE|SMALL)_BRUSH|TARGETED_EMAIL_ROOT_CREATOR|VEHICLE_FLAG_NO_FLY_UP|ATTACH_[LR]PEC|DATA_RATING|event)\b'
+      scope: invalid.deprecated.lsl
+  begin_end:
+    - match: '\{'
+      push:
+        - meta_scope: meta.incode.lsl
+        - match: '\}'
+          pop: true
+        - include: infunc
+  commentblock:
+    - match: /\*
+      push:
+        - meta_scope: comment.block.lsl
+        - match: \*/
+          pop: true
+  commentline:
+    - match: (//).*$\n?
+      scope: comment.line.double-slash.lsl
+  constant:
+    - match: \b(default|state)\b
+      scope: constant.language.state.lsl
+    - match: \b(TRUE|FALSE)\b
+      scope: constant.language.integer.lsl
+    - match: \b(NULL_KEY|EOF)\b
+      scope: constant.language.string.lsl
+  event:
+    - match: ^\s*(?:l(?:i(?:nk(?:_message|set_data)|sten)|and_collision(?:_(?:start|end))?)|t(?:ouch(?:_(?:start|end))?|ransaction_result|imer)|c(?:o(?:llision(?:_(?:start|end))?|ntrol)|hanged)|e(?:xperience_permissions(?:_denied)?|mail)|r(?:un_time_permissions|emote_data)|no(?:t_a(?:t_ro)?t_target|_sensor)|s(?:tate_e(?:ntry|xit)|ensor)|mo(?:ving_(?:start|end)|ney)|at(?:(?:_rot)?_target|tach)|http_re(?:sponse|quest)|o(?:bject|n)_rez|path_update|dataserver)\b
+      captures:
+        0: support.function.event.lsl
+      push:
+        - meta_scope: meta.event.lsl
+        - match: '\}'
+          captures:
+            0: punctuation.definition.event.end.lsl
+          pop: true
+        - match: \(
+          push:
+            - meta_scope: meta.event.parameters.lsl
+            - match: \)
+              pop: true
+            - include: inparam
+        - match: '{'
+          push:
+            - meta_scope: meta.event.body.lsl
+            - match: '(?=})'
+              pop: true
+            - include: infunc
+        - include: commentblock
+        - include: commentline
+  flow_control:
+    - match: \b(jump|return|if|else|for|do|while|@)\b
+      scope: keyword.control.flow.lsl
+  functiondef:
+    - match: (?:\w+\s+)?(\w+)?\s*(?=\(.*?)
+      captures:
+        0: punctuation.definition.function.begin.lsl
+        1: entity.name.function.lsl
+      push:
+        - meta_scope: meta.function.lsl
+        - match: '}'
+          captures:
+            0: punctuation.definition.function.end.lsl
+          pop: true
+        - match: \(
+          push:
+            - meta_scope: meta.function.parameters.lsl
+            - match: \)
+              pop: true
+            - include: inparam
+        - match: '{'
+          push:
+            - meta_scope: meta.function.body.lsl
+            - match: '(?=})'
+              pop: true
+            - include: infunc
+        - include: commentblock
+        - include: commentline
+  infunc:
+    - include: begin_end
+    - include: commentblock
+    - include: commentline
+    - include: array
+    - include: quoted
+    - include: flow_control
+    - include: constant
+    - include: storage_type
+    - include: llconstant
+    - include: avoid
+    - include: reserved
+    - include: llfunction
+    - include: number
+    - include: operator
+  inparam:
+    - include: storage_type
+    - include: commentblock
+    - include: commentline
+  llconstant:
+    - match: '\b(?:P(?:R(?:IM_(?:M(?:EDIA_(?:MAX_(?:W(?:HITELIST_(?:COUNT|SIZE)|IDTH_PIXELS)|HEIGHT_PIXELS|URL_LENGTH)|P(?:ERM(?:_(?:(?:ANY|N)ONE|GROUP|OWNER)|S_(?:INTERACT|CONTROL))|ARAM_MAX)|A(?:UTO_(?:SCALE|LOOP|PLAY|ZOOM)|LT_IMAGE_ENABLE)|C(?:ONTROLS(?:_(?:STANDARD|MINI))?|URRENT_URL)|W(?:HITELIST(?:_ENABLE)?|IDTH_PIXELS)|H(?:EIGHT_PIXELS|OME_URL)|FIRST_CLICK_INTERACT)|ATERIAL(?:_(?:PLASTIC|RUBBER|FLESH|GLASS|METAL|STONE|WOOD))?)|S(?:C(?:ULPT_(?:TYPE_(?:(?:SPHER|PLAN)E|CYLINDER|TORUS|MASK)|FLAG_(?:INVERT|MIRROR))|RIPTED_SIT_ONLY)|HINY_(?:MEDIUM|HIGH|NONE|LOW)|I(?:T_TARGET|ZE)|PECULAR|LICE)|BUMP_(?:S(?:T(?:UCCO|ONE)|UCTION|IDING|HINY)|B(?:RI(?:CKS|GHT)|LOBS|ARK)|(?:(?:LARGE)?TIL|NON)E|C(?:ONCRETE|HECKER)|D(?:ISKS|ARK)|W(?:EAVE|OOD)|GRAVEL)|T(?:YPE(?:_(?:S(?:CULPT|PHERE)|T(?:ORUS|UBE)|CYLINDER|PRISM|RING|BOX))?|E(?:X(?:GEN(?:_(?:DEFAULT|PLANAR))?|T(?:URE)?)|MP_ON_REZ))|P(?:H(?:YSICS(?:_SHAPE_(?:(?:NON|TYP)E|CONVEX|PRIM))?|ANTOM)|O(?:S(?:_LOCAL|ITION)|INT_LIGHT)|ROJECTOR)|AL(?:PHA_MODE(?:_(?:(?:EMISSIV|NON)E|BLEND|MASK))?|LOW_UNSIT)|HOLE_(?:(?:(?:TRIANG|CIRC)L|SQUAR)E|DEFAULT)|F(?:ULLBRIGHT|LEXIBLE)|ROT(?:_LOCAL|ATION)|N(?:ORMAL|AME)|LINK_TARGET|COLOR|OMEGA|DESC|GLOW)|OFILE_(?:SCRIPT_MEMORY|NONE))|A(?:RCEL_(?:FLAG_(?:ALLOW_(?:(?:CREATE(?:_GROUP)?_OBJEC|SCRIP)TS|GROUP_(?:OBJECT_ENTRY|SCRIPTS)|(?:ALL_OBJECT_ENTR|FL)Y|TERRAFORM|LANDMARK|DAMAGE)|USE_(?:(?:LAND_PASS|BAN)_LIST|ACCESS_(?:GROUP|LIST))|RESTRICT_PUSHOBJECT|LOCAL_SOUND_ONLY)|DETAILS_(?:S(?:CRIPT_DANGER|EE_AVATARS)|LANDING_(?:LOOKA|POIN)T|PRIM_(?:CAPACITY|USED)|TP_ROUTING|FLAGS|GROUP|OWNER|AREA|DESC|NAME|ID)|MEDIA_COMMAND_(?:A(?:UTO_ALIGN|GENT)|T(?:EXTUR|IM|YP)E|LOOP(?:_SET)?|P(?:AUSE|LAY)|U(?:NLOAD|RL)|S(?:IZE|TOP)|DESC)|COUNT_(?:T(?:OTAL|EMP)|O(?:TH|WN)ER|SELECTED|GROUP))|Y(?:MENT_INFO_(?:ON_FILE|USED)|_(?:DEFAULT|HIDE))|SS(?:_(?:IF_NOT_HANDLED|ALWAYS|NEVER)|IVE)|TROL_PAUSE_AT_WAYPOINTS)|SYS_(?:PART_(?:B(?:F_(?:ONE(?:_MINUS_(?:SOURCE_(?:ALPHA|COLOR)|DEST_COLOR))?|SOURCE_(?:ALPHA|COLOR)|DEST_COLOR|ZERO)|LEND_FUNC_(?:SOURCE|DEST)|OUNCE_MASK)|(?:INTERP_(?:COLOR|SCALE)|TARGET_(?:LINEAR|POS)|RIBBON|WIND)_MASK|E(?:ND_(?:ALPHA|COLOR|SCALE|GLOW)|MISSIVE_MASK)|F(?:OLLOW_(?:VELOCITY|SRC)_MASK|LAGS)|START_(?:ALPHA|COLOR|SCALE|GLOW)|MAX_AGE)|SRC_(?:PATTERN(?:_(?:ANGLE(?:_CONE(?:_EMPTY)?)?|EXPLODE|DROP))?|BURST_(?:SPEED_M(?:AX|IN)|RA(?:DIUS|TE)|PART_COUNT)|A(?:NGLE_(?:BEGIN|END)|CCEL)|T(?:ARGET_KEY|EXTURE)|MAX_AGE|OMEGA))|U(?:_(?:FAILURE_(?:(?:(?:PARCEL_)?UNREACHABL|TARGET_GON)E|NO_(?:VALID_DESTINATION|NAVMESH)|DYNAMIC_PATHFINDING_DISABLED|INVALID_(?:START|GOAL)|OTHER)|(?:SLOWDOWN_DISTANCE|GOAL)_REACHED|EVADE_(?:SPOTTED|HIDDEN))|RSUIT_(?:(?:INTERCEP|OFFSE)T|GOAL_TOLERANCE|FUZZ_FACTOR)|BLIC_CHANNEL)|ERM(?:ISSION_(?:T(?:R(?:IGGER_ANIMATION|ACK_CAMERA)|AKE_CONTROLS|ELEPORT)|(?:OVERRIDE_ANIMATION|RETURN_OBJECT)S|(?:SILENT_ESTATE_MANAGEMEN|DEBI)T|C(?:ONTROL_CAMERA|HANGE_LINKS)|ATTACH)|_(?:MO(?:DIFY|VE)|TRANSFER|COPY|ALL))|I(?:NG_PONG|_BY_TWO)?)|O(?:BJECT_(?:R(?:E(?:TURN_(?:PARCEL(?:_OWNER)?|REGION)|Z(?:ZER_KEY|_TIME)|NDER_WEIGHT)|(?:UNNING_SCRIPT_COUN|O?O)T)|T(?:E(?:XT(?:_(?:ALPHA|COLOR))?|MP_(?:ATTACHED|ON_REZ))|OTAL_(?:INVENTORY|SCRIPT)_COUNT)|A(?:NIMATED_(?:SLOTS_AVAILABLE|COUNT)|TTACHED_(?:SLOTS_AVAILABLE|POINT)|CCOUNT_LEVEL)|S(?:(?:E(?:LECT_COUN|RVER_COS)|TREAMING_COS|IT_COUN)T|C(?:RIPT_(?:MEMORY|TIME)|ALE))|P(?:H(?:YSICS(?:_COST)?|ANTOM)|RIM_(?:EQUIVALENCE|COUNT)|ATHFINDING_TYPE|OS)|C(?:REAT(?:ION_TIME|OR)|HARACTER_TIME|LICK_ACTION)|L(?:AST_OWNER_ID|INK_NUMBER)|(?:BODY_SHAPE_TYP|NAM)E|MA(?:TERIAL|SS)|GROUP(?:_TAG)?|O(?:MEGA|WNER)|UNKNOWN_DETAIL|HOVER_HEIGHT|VELOCITY|DESC)|PT_(?:(?:(?:EXCLUSION|MATERIAL)_VOLUM|(?:STATIC_OBSTAC|WALKAB)L)E|(?:(?:CHARACT|OTH)E|AVATA)R|LEGACY_LINKSET))|C(?:HA(?:RACTER_(?:A(?:CCOUNT_FOR_SKIPPED_FRAMES|VOIDANCE_MODE)|MAX_(?:(?:AC|DE)CEL|TURN_RADIUS|SPEED)|CMD_(?:(?:SMOOTH_)?STO|JUM)P|TYPE(?:_(?:[ABCD]|NONE))?|DESIRED(?:_TURN)?_SPEED|STAY_WITHIN_PARCEL|ORIENTATION|LENGTH|RADIUS)|NGED_(?:TE(?:LEPORT|XTURE)|REGION(?:_START)?|(?:COLO|OWNE)R|S(?:CAL|HAP)E|ALLOWED_DROP|INVENTORY|MEDIA|LINK))|AMERA_(?:P(?:OSITION(?:_(?:L(?:OCKED|AG)|THRESHOLD))?|ITCH)|FOCUS(?:_(?:L(?:OCKED|AG)|THRESHOLD|OFFSET))?|BEHINDNESS_(?:ANGLE|LAG)|(?:DISTANC|ACTIV)E)|ONT(?:ROL_(?:R(?:OT_(?:RIGH|LEF)|IGH)T|(?:ML_LBUTTO|DOW)N|L(?:BUTTON|EFT)|BACK|FWD|UP)|ENT_TYPE_(?:(?:X(?:HT)?|HT)ML|(?:ATO|FOR)M|JSON|LLSD|TEXT|RSS))|LICK_ACTION_(?:OPEN(?:_MEDIA)?|(?:PL?A|BU)Y|DISABLED|TOUCH|NONE|ZOOM|SIT))|A(?:TTACH_(?:H(?:UD_(?:TOP_(?:(?:RIGH|LEF)T|CENTER)|BOTTOM(?:_(?:RIGH|LEF)T)?|CENTER_[12])|IND_[LR]FOOT|EAD)|R(?:H(?:AND(?:_RING1)?|IP)|L(?:ARM|LEG)|U(?:ARM|LEG)|E(?:AR|YE)|IGHT_PEC|SHOULDER|FOOT|WING)|L(?:H(?:AND(?:_RING1)?|IP)|E(?:FT_PEC|AR|YE)|L(?:ARM|LEG)|U(?:ARM|LEG)|SHOULDER|FOOT|WING)|FACE_(?:LE(?:AR|YE)|RE(?:AR|YE)|TONGUE|JAW)|TAIL_(?:BASE|TIP)|AVATAR_CENTER|B(?:ELLY|ACK)|CH(?:EST|IN)|N(?:ECK|OSE)|PELVIS|GROIN|MOUTH)|GENT(?:_(?:A(?:TTACHMENTS|LWAYS_RUN|UTOPILOT|WAY)|LIST_(?:PARCEL(?:_OWNER)?|REGION)|B(?:Y_(?:LEGACY_|USER)NAME|USY)|(?:CROUCH|WALK|FLY|TYP)ING|S(?:CRIPTED|ITTING)|MOUSELOOK|ON_OBJECT|IN_AIR))?|VOID_(?:(?:DYNAMIC_OBSTACLE|CHARACTER)S|NONE)|LL_SIDES|NIM_ON|CTIVE)|S(?:T(?:ATUS_(?:(?:NOT_(?:SUPPORTE|FOUN)|WHITELIST_FAILE)D|B(?:LOCK_GRAB(?:_OBJECT)?|OUNDS_ERROR)|R(?:ETURN_AT_EDGE|OTATE_[XYZ])|DIE_AT_(?:NO_ENTRY|EDGE)|PH(?:ANTOM|YSICS)|MALFORMED_PARAMS|INTERNAL_ERROR|TYPE_MISMATCH|SANDBOX|OK)|RING_TRIM(?:_(?:HEAD|TAIL))?)|KY_(?:S(?:UN(?:_TEXTURE)?|TAR_BRIGHTNESS)|(?:AMBIEN|PLANE|LIGH)T|CLOUD(?:_TEXTURE|S)|MOON(?:_TEXTURE)?|(?:BLU|DOM|HAZ)E|TEXTURE_DEFAULTS|G(?:AMMA|LOW)|REFRACTION)|I(?:T_(?:NO(?:_(?:EXPERIENCE_PERMISSION|SIT_TARGET|ACCESS)|T_EXPERIENCE)|INVALID_(?:(?:OBJEC|AGEN)T|LINK))|M_STAT_PCT_CHARS_STEPPED)|OUND_(?:TRIGGER|LOOP|PLAY|SYNC)|C(?:RIPTED|ALE)|MOOTH|QRT2)|VE(?:HICLE_(?:FLAG_(?:HOVER_(?:(?:TERRAIN|WATER|UP)_ONLY|GLOBAL_HEIGHT)|LIMIT_(?:ROLL_ONLY|MOTOR_UP)|MOUSELOOK_(?:STEER|BANK)|CAMERA_DECOUPLED|NO_DEFLECTION_UP)|LINEAR_(?:MOTOR_(?:D(?:ECAY_TIMESCALE|IRECTION)|TIMESCALE|OFFSET)|DEFLECTION_(?:EFFICIENCY|TIMESCALE)|FRICTION_TIMESCALE)|ANGULAR_(?:MOTOR_(?:D(?:ECAY_TIMESCALE|IRECTION)|TIMESCALE)|DEFLECTION_(?:EFFICIENCY|TIMESCALE)|FRICTION_TIMESCALE)|TYPE_(?:(?:AIRPLA|NO)NE|B(?:ALLOON|OAT)|SLED|CAR)|B(?:ANKING_(?:EFFICIENCY|TIMESCALE|MIX)|UOYANCY)|VERTICAL_ATTRACTION_(?:EFFICIENCY|TIMESCALE)|HOVER_(?:EFFICIENCY|TIMESCALE|HEIGHT)|REFERENCE_FRAME)|RTICAL)|R(?:E(?:GION_FLAG_(?:BLOCK_(?:FLY(?:OVER)?|TERRAFORM)|ALLOW_D(?:IRECT_TELEPORT|AMAGE)|DISABLE_(?:COLLISION|PHYSIC)S|RESTRICT_PUSHOBJECT|FIXED_SUN|SANDBOX)|MOTE_DATA_(?:RE(?:QUEST|PLY)|CHANNEL)|QUIRE_LINE_OF_SIGHT|STITUTION|VERSE)|C(?:_(?:REJECT_(?:(?:NON)?PHYSICAL|(?:AGENT|TYPE)S|LAND)|GET_(?:LINK_NUM|ROOT_KEY|NORMAL)|D(?:ETECT_PHANTOM|ATA_FLAGS)|MAX_HITS)|ERR_(?:CAST_TIME_EXCEEDED|SIM_PERF_LOW|UNKNOWN))|AD_TO_DEG|OTATE)|E(?:NV(?:_(?:NO(?:_(?:E(?:XPERIENCE_(?:PERMISSION|LAND)|NVIRONMENT)|PERMISSIONS)|T_EXPERIENCE)|INVALID_(?:AGENT|RULE)|VALIDATION_FAIL|THROTTLE)|IRONMENT_DAYINFO)|STATE_ACCESS_(?:ALLOWED_(?:AGENT_(?:REMOVE|ADD)|GROUP_(?:REMOVE|ADD))|BANNED_AGENT_(?:REMOVE|ADD))|RR_(?:(?:(?:RUNTIME|PARCEL)_PERMISSION|MALFORMED_PARAM)S|THROTTLED|GENERIC)|OF)|L(?:I(?:NK(?:SETDATA_(?:E(?:(?:MEMOR|NOKE)Y|PROTECTED)|NO(?:TFOUND|UPDATE)|(?:DELE|UPDA)TE|RESET|OK)|_(?:ALL_(?:CHILDREN|OTHERS)|(?:ROO|SE)T|THIS))|ST_STAT_(?:S(?:UM(?:_SQUARES)?|TD_DEV)|M(?:(?:E(?:DI)?A|I)N|AX)|GEOMETRIC_MEAN|NUM_COUNT|RANGE))|AND_(?:R(?:EVERT|AISE)|L(?:EVEL|OWER)|SMOOTH|NOISE)|OOP)|XP_ERROR_(?:(?:(?:EXPERIENCE(?:_(?:SUSPEND|DISABL)|S_DISABL)|(?:MATURITY|QUOTA)_EXCEED|THROTTL)E|KEY_NOT_FOUN)D|NO(?:T_(?:PERMITTE(?:D_LAN)?|FOUN)D|(?:_EXPERIENC|N)E)|RE(?:QUEST_PERM_TIMEOUT|TRY_UPDATE)|INVALID_(?:EXPERIENCE|PARAMETERS)|STOR(?:AGE_EXCEPTION|E_DISABLED)|UNKNOWN_ERROR)|T(?:YPE_(?:IN(?:TEGER|VALID)|ROTATION|STRING|VECTOR|FLOAT|KEY)|EXTURE_(?:(?:TRANSPAREN|DEFAUL)T|PLYWOOD|BLANK|MEDIA)|R(?:AVERSAL_TYPE(?:_(?:FAST|NONE|SLOW))?|UE)|OUCH_INVALID_(?:TEXCOORD|VECTOR|FACE)|P_ROUTING_(?:LANDINGP|BLOCKED|FREE)|ARGETED_EMAIL_OBJECT_OWNER|WO_PI)|I(?:NVENTORY_(?:S(?:ETTING|CRIPT|OUND)|(?:BODYPAR|OBJEC)T|A(?:NIMATION|LL)|(?:GES|TEX)TURE|NO(?:TECARD|NE)|CLOTHING|LANDMARK)|MG_USE_BAKED_(?:L(?:EFT(?:ARM|LEG)|OWER)|H(?:AIR|EAD)|AUX[123]|SKIRT|UPPER|EYES))|H(?:TTP_(?:(?:EXTENDED_ERRO|CUSTOM_HEADE)R|VER(?:BOSE_THROTTLE|IFY_CERT)|BODY_(?:MAXLENGTH|TRUNCATED)|(?:USER_AGEN|ACCEP)T|M(?:IMETYPE|ETHOD)|PRAGMA_NO_CACHE)|ORIZONTAL)|WA(?:TER_(?:(?:WAVE_DIRE|REFRA)CTION|NORMAL_(?:TEXTUR|SCAL)E|TEXTURE_DEFAULTS|BLUR_MULTIPLIER|F(?:RESNEL|OG))|NDER_PAUSE_AT_WAYPOINTS)|KFM_(?:C(?:MD_(?:P(?:AUSE|LAY)|STOP)|OMMAND)|R(?:OTATION|EVERSE)|TRANSLATION|PING_PONG|FORWARD|DATA|LOOP|MODE)|D(?:ATA_(?:SIM_(?:(?:STATU|PO)S|RATING)|(?:ONLIN|NAM)E|PAYINFO|BORN)|E(?:BUG_CHANNEL|G_TO_RAD|NSITY))|JSON_(?:(?:DELET|FALS|TRU)E|A(?:PPEND|RRAY)|NU(?:MBER|LL)|INVALID|OBJECT|STRING)|G(?:CNP_(?:RADIUS|STATIC)|RAVITY_MULTIPLIER)|MASK_(?:(?:EVERYON|BAS)E|GROUP|OWNER|NEXT)|F(?:ORCE_DIRECT_PATH|RICTION|ALSE)|URL_REQUEST_(?:GRANT|DENI)ED|ZERO_(?:ROTATION|VECTOR)|NULL_KEY)\b'
+      scope: constant.language.ll.integer.lsl
+    - match: \b(TEXTURE_(BLANK|DEFAULT|MEDIA|PLYWOOD|TRANSPARENT))\b
+      scope: constant.language.ll.string.lsl
+    - match: \b(PI|TWO_PI|PI_BY_TWO|DEG_TO_RAD|RAD_TO_DEG|SQRT2)\b
+      scope: constant.language.ll.float.lsl
+    - match: \b(ZERO_(VECTOR|ROTATION))\b
+      scope: constant.language.ll.compound.lsl
+  llfunction:
+    - match: '\bll(?:G(?:e(?:t(?:R(?:egion(?:(?:Moo|Su)n(?:Direc|Rota)tion|Time(?:Dilation|OfDay)|Day(?:Length|Offset)|F(?:lags|PS)|AgentCount|Corner|Name)|o(?:ot(?:Posi|Rota)tion|t))|P(?:arcel(?:M(?:axPrims|usicURL)|Prim(?:Owners|Count)|(?:Detail|Flag)s)|(?:rim(?:Media|itive)Param|o)s|ermissions(?:Key)?|hysicsMaterial)|S(?:ta(?:t(?:icPath|us)|rtParameter)|u(?:n(?:Direc|Rota)tion|bString)|im(?:ulatorHostname|Stats)|c(?:ript(?:Stat|Nam)|al)e|PMaxMemory)|L(?:i(?:nk(?:N(?:umber(?:OfSides)?|ame)|PrimitiveParams|Media|Key)|st(?:EntryType|Length))|ocal(?:Pos|Rot)|andOwnerAt)|A(?:n(?:imation(?:Override|List)?|dResetTime)|gent(?:L(?:anguage|ist)|Info|Size)|ttached(?:List)?|ccel|lpha)|O(?:bject(?:(?:AnimationName|Mas)s|P(?:rimCount|ermMask)|De(?:tails|sc)|LinkKey|Name)|wner(?:Key)?|mega)|M(?:a(?:xScaleFactor|ss(?:MKS)?)|oon(?:Direc|Rota)tion|inScaleFactor|emoryLimit)|Inventory(?:(?:AcquireTim|Typ)e|N(?:umber|ame)|PermMask|Creator|Key)|E(?:xperience(?:ErrorMessage|Details)|n(?:v(?:ironment)?|ergy))|N(?:umberOf(?:(?:NotecardLin|Sid)e|Prim)s|otecardLine|extEmail)|C(?:amera(?:Pos|Rot)|losestNavPoint|(?:reat|ol)or|enterOfMass)|T(?:exture(?:(?:Offse|Ro)t|Scale)?|ime(?:OfDay|stamp)?|orque)|D(?:a(?:y(?:Length|Offset)|te)|isplayName)|U(?:se(?:dMemory|rname)|nixTime)|F(?:ree(?:Memory|URLs)|orce)|G(?:eometricCenter|MTclock)|V(?:isualParams|el)|BoundingBox|HTTPHeader|Wallclock|Key)|nerateKey)|round(?:(?:Norma|Repe)l|Contour|Slope)?|ive(?:Inventory(?:List)?|Money))|S(?:e(?:t(?:L(?:ink(?:PrimitiveParams(?:Fast)?|Texture(?:Anim)?|C(?:amera|olor)|(?:Alph|Medi)a)|ocalRot)|P(?:(?:rim(?:Media|itive)Param|o)s|a(?:rcelMusicURL|yPrice)|hysicsMaterial)|Ve(?:hicle(?:(?:Rotation|Vector)Param|Fl(?:oatParam|ags)|Type)|locity)|C(?:amera(?:(?:Eye|At)Offset|Params)|o(?:ntentType|lor)|lickAction)|A(?:n(?:imationOverride|gularVelocity)|gentEnvironment|lpha)|S(?:ound(?:Queueing|Radius)|c(?:riptStat|al)e|itText|tatus)|T(?:ext(?:ure(?:Anim)?)?|o(?:uchText|rque)|imerEvent)|R(?:e(?:moteScriptAccessPin|gionPos)|ot)|(?:Environmen|HoverHeigh|MemoryLimi)t|(?:Forc(?:eAndTorqu)?|Damag)e|Object(?:Desc|Name)|KeyframedMotion|Buoyancy)|n(?:sor(?:Re(?:move|peat))?|dRemoteData))|t(?:op(?:(?:MoveToTarge|LookA)t|(?:Object)?Animation|Hover|Sound)|ring(?:T(?:oBase64|rim)|Length)|ar(?:tObjec)?tAnimation)|c(?:ale(?:ByFactor|Texture)|ript(?:Profil|Dang)er)|i(?:t(?:OnLink|Target)|n)|HA(?:256|1)String|a(?:meGroup|y)|ubStringIndex|(?:hou|qr)t|leep)|R(?:e(?:quest(?:(?:Experience)?Permissions|S(?:imulatorData|ecureURL)|(?:Inventory|Agent)Data|U(?:ser(?:name|Key)|RL)|DisplayName)|mo(?:ve(?:FromLand(?:Pass|Ban)List|VehicleFlags|Inventory)|te(?:LoadScriptPin|DataReply))|set(?:(?:Land(?:Pass|Ban)Lis|(?:Other)?Scrip)t|(?:AnimationOverrid|Tim)e)|(?:place(?:Agent)?Environmen|z(?:AtRoo|Objec))t|turnObjectsBy(?:Owner|ID)|lease(?:Controls|URL)|gionSay(?:To)?|adKeyValue)|o(?:t(?:2(?:A(?:ngle|xis)|Euler|Left|Fwd|Up)|Target(?:Remove)?|ateTexture|Between|LookAt)|und))|L(?:i(?:n(?:k(?:setData(?:(?:(?:Coun|Lis)t|Find)Keys|Re(?:a(?:dProtecte)?d|set)|Delete(?:Protected)?|Write(?:Protected)?|Available)|S(?:etSound(?:Queueing|Radius)|itTarget|topSound)|P(?:articleSystem|laySound)|AdjustSoundVolume)|ear2sRGB)|st(?:2(?:(?:Intege|Vecto)r|List(?:Strided)?|(?:Floa|Ro)t|String|Json|CSV|Key)|R(?:eplaceList|andomize)|en(?:Control|Remove)?|(?:Insert|Find)List|S(?:tatistics|ort)))|o(?:o(?:pSound(?:Master|Slave)?|kAt)|g(?:10)?|adURL))|D(?:e(?:t(?:ected(?:T(?:ouch(?:(?:Bin|N)ormal|Face|Pos|ST|UV)|ype)|(?:LinkNumb|Own)er|Gr(?:oup|ab)|Name|Key|Pos|Rot|Vel)|achFromAvatar)|lete(?:Sub(?:String|List)|Character|KeyValue))|ataSizeKeyValue|umpList2String|i(?:alog|e))|A(?:(?:vatarOn(?:Link)?SitTarge|x(?:isAngle|es)2Ro)t|(?:pply(?:Rotational)?Impuls|gentInExperienc)e|d(?:dToLand(?:Pass|Ban)List|justSoundVolume)|t(?:tachToAvatar(?:Temp)?|an2)|(?:ngleBetwee|si)n|llowInventoryDrop|(?:co|b)s)|P(?:a(?:r(?:celMedia(?:CommandList|Query)|seString(?:KeepNulls|2List)|ticleSystem)|(?:ss(?:Collision|Touche)|trolPoint)s)|laySound(?:Slave)?|u(?:shObject|rsue)|reloadSound|ow)|T(?:a(?:rget(?:edEmail|Remove|Omega)?|keControls|n)|r(?:iggerSoun(?:dLimite)?d|ansferLindenDollars)|e(?:leportAgent(?:GlobalCoords|Home)?|xtBox)|o(?:Low|Upp)er)|C(?:l(?:ear(?:(?:Link|Prim)Media|CameraParams)|oseRemoteDataChannel)|reate(?:Character|KeyValue|Link)|o(?:llision(?:Filter|Sound)|s)|SV2List|astRay|eil|har)|M(?:a(?:nageEstateAccess|pDestination)|o(?:d(?:ifyLand|Pow)|veToTarget)|essageLinked|inEventDelay|D5String)|E(?:(?:xecCharacterCm|jectFromLan|dgeOfWorl)d|scapeURL|uler2Rot|mail|vade)|O(?:penRemoteDataChannel|(?:verMyLan|r)d|ffsetTexture|wnerSay)|B(?:ase64To(?:Integer|String)|reak(?:AllLinks|Link))|U(?:pdate(?:Character|KeyValue)|n(?:escapeURL|Sit))|In(?:s(?:tantMessage|ertString)|tegerToBase64)|F(?:l(?:eeFrom|oor)|orceMouselook|rand|abs)|Json(?:(?:[GS]etValu|ValueTyp)e|2List)|V(?:ec(?:Dist|Norm|Mag)|olumeDetect)|W(?:a(?:nderWithin|ter)|hisper|ind)|Key(?:(?:Count|s)KeyValu|2Nam)e|H(?:TTPRe(?:sponse|quest)|ash)|Na(?:vigateTo|me2Key)|sRGB2Linear|XorBase64)\b'
+      scope: support.function.ll.lsl
+  number:
+    - match: '\b(?i:(\d+\.\d*(e[\-\+]?\d+)?))(?=[^a-zA-Z_])'
+      scope: constant.numeric.float.lsl
+    - match: '(?<=[^0-9a-zA-Z_])(?i:(\.\d+(e[\-\+]?\d+)?))'
+      scope: constant.numeric.float.lsl
+    - match: '\b(?i:(\d+e[\-\+]?\d+))'
+      scope: constant.numeric.float.lsl
+    - match: \b(?i:(0x\h*))
+      scope: constant.numeric.integer.hexadecimal.lsl
+    - match: '\b(0[0-7]+)'
+      scope: constant.numeric.integer.octal.lsl
+    - match: '\b([1-9]+[0-9]*|0)'
+      scope: constant.numeric.integer.decimal.lsl
+  operator:
+    - match: '[\=\+\-%&<>^|\*!~]'
+      scope: keyword.operator.lsl
+  quoted:
+    - match: '"'
+      captures:
+        0: punctuation.definition.string.begin.lsl
+      push:
+        - meta_scope: string.quoted.double.lsl
+        - match: '"'
+          captures:
+            0: punctuation.definition.string.end.lsl
+          pop: true
+        - match: '\\(x\h{2}|[0-2][0-7]{,2}|3[0-6][0-7]|37[0-7]?|[4-7][0-7]?|.)'
+          scope: constant.character.escape.lsl
+  reserved:
+    - match: \b(event|print)\b
+      scope: variable.language.lsl
+  state:
+    - match: ^\s*((?:state)\s+\w+|default)\b
+      captures:
+        0: entity.name.class.state.begin.lsl
+      push:
+        - meta_scope: meta.state.lsl
+        - match: '\}'
+          captures:
+            0: punctuation.definition.state.end.lsl
+          pop: true
+        - match: '{'
+          push:
+            - meta_scope: meta.state.body.lsl
+            - match: '(?=})'
+              pop: true
+            - include: commentblock
+            - include: commentline
+            - include: event
+        - include: commentblock
+        - include: commentline
+  storage_type:
+    - match: \b(integer|float|string|key|vector|quaternion|rotation|list)\b
+      scope: storage.type.lsl
+  value:
+    - include: commentblock
+    - include: commentline
+    - include: state
+    - include: storage_type
+    - include: quoted
+    - include: constant
+    - include: reserved
+    - include: number
+    - include: operator
+    - include: array
+    - include: functiondef
