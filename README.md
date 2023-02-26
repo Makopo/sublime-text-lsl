@@ -7,7 +7,7 @@ LSL/OSSL Bundle for Sublime Text
 * OSSL [\*.ossl]: OpenSimulator v0.9.0.0-rc2
   - Including mod\*, os\*, wl\*(LightShare) functions
 
-[kwdb](https://github.com/Sei-Lisa/kwdb) version 0.0.20140116001
+[kwdb](https://github.com/Sei-Lisa/kwdb) version 0.0.20230203000
 
 # Features
 
