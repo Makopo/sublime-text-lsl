@@ -20,7 +20,7 @@ jobs:
           name: clone kwdb-sublime
           command: |
             cd /tmp
-            git clone --depth 1 -b migrating-syntax-files https://github.com/Makopo/kwdb_to_sublime
+            git clone --depth 1 https://github.com/Makopo/kwdb_to_sublime
       - run:
           name: install perl modules
           command: |
