@@ -8,8 +8,8 @@ class ChangeEditorSchemeCommand(sublime_plugin.WindowCommand):
 		ossl = sublime.load_settings("ossl.sublime-settings")
 		self._is_checked = sl.has("color_scheme")
 		if self._is_checked:
-			sl.set("color_scheme", "Packages/LSL/lsl.hidden-tmTheme")
-			ossl.set("color_scheme", "Packages/LSL/lsl.hidden-tmTheme")
+			sl.set("color_scheme", "Packages/LSL/LSL.sublime-color-scheme")
+			ossl.set("color_scheme", "Packages/LSL/LSL.sublime-color-scheme")
 		else:
 			sl.erase("color_scheme")
 			ossl.erase("color_scheme")
@@ -20,8 +20,8 @@ class ChangeEditorSchemeCommand(sublime_plugin.WindowCommand):
 		sl = sublime.load_settings("lsl.sublime-settings")
 		ossl = sublime.load_settings("ossl.sublime-settings")
 		if not self._is_checked:
-			sl.set("color_scheme", "Packages/LSL/lsl.hidden-tmTheme")
-			ossl.set("color_scheme", "Packages/LSL/lsl.hidden-tmTheme")
+			sl.set("color_scheme", "Packages/LSL/LSL.sublime-color-scheme")
+			ossl.set("color_scheme", "Packages/LSL/LSL.sublime-color-scheme")
 		else:
 			sl.erase("color_scheme")
 			ossl.erase("color_scheme")
