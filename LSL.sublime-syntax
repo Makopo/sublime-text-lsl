@@ -155,12 +155,12 @@ contexts:
   quoted:
     - match: '"'
       captures:
-        0: punctuation.section.string.begin.lsl
+        0: punctuation.definition.string.begin.lsl
       push:
         - meta_scope: string.quoted.double.lsl
         - match: '"'
           captures:
-            0: punctuation.section.string.end.lsl
+            0: punctuation.definition.string.end.lsl
           pop: true
         - match: '\\(x\h{2}|[0-2][0-7]{,2}|3[0-6][0-7]|37[0-7]?|[4-7][0-7]?|.)'
           scope: constant.character.escape.lsl

@@ -155,12 +155,12 @@ contexts:
   quoted:
     - match: '"'
       captures:
-        0: punctuation.section.string.begin.ossl
+        0: punctuation.definition.string.begin.ossl
       push:
         - meta_scope: string.quoted.double.ossl
         - match: '"'
           captures:
-            0: punctuation.section.string.end.ossl
+            0: punctuation.definition.string.end.ossl
           pop: true
         - match: '\\(x\h{2}|[0-2][0-7]{,2}|3[0-6][0-7]|37[0-7]?|[4-7][0-7]?|.)'
           scope: constant.character.escape.ossl
