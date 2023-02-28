@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>spellcheck</string>
 	<key>scope</key>
-	<string>punctuation.definition.comment.lsl, string.quoted.double.lsl, punctuation.definition.comment.ossl, string.quoted.double.ossl</string>
+	<string>punctuation.section.comment.lsl, string.quoted.double.lsl, punctuation.section.comment.ossl, string.quoted.double.ossl</string>
 	<key>settings</key>
 	<dict>
 		<key>spellChecking</key>

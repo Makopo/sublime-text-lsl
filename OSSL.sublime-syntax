@@ -19,12 +19,12 @@ contexts:
   array:
     - match: '\['
       captures:
-        0: punctuation.definition.array.begin.ossl
+        0: punctuation.section.array.begin.ossl
       push:
         - meta_scope: meta.inarray.ossl
         - match: '\]'
           captures:
-            0: punctuation.definition.array.end.ossl
+            0: punctuation.section.array.end.ossl
           pop: true
         - include: infunc
   avoid:
@@ -61,7 +61,7 @@ contexts:
         - meta_scope: meta.event.ossl
         - match: '\}'
           captures:
-            0: punctuation.definition.event.end.ossl
+            0: punctuation.section.event.end.ossl
           pop: true
         - match: \(
           push:
@@ -83,13 +83,13 @@ contexts:
   functiondef:
     - match: (?:\w+\s+)?(\w+)?\s*(?=\(.*?)
       captures:
-        0: punctuation.definition.function.begin.ossl
+        0: punctuation.section.function.begin.ossl
         1: entity.name.function.ossl
       push:
         - meta_scope: meta.function.ossl
         - match: '}'
           captures:
-            0: punctuation.definition.function.end.ossl
+            0: punctuation.section.function.end.ossl
           pop: true
         - match: \(
           push:
@@ -155,12 +155,12 @@ contexts:
   quoted:
     - match: '"'
       captures:
-        0: punctuation.definition.string.begin.ossl
+        0: punctuation.section.string.begin.ossl
       push:
         - meta_scope: string.quoted.double.ossl
         - match: '"'
           captures:
-            0: punctuation.definition.string.end.ossl
+            0: punctuation.section.string.end.ossl
           pop: true
         - match: '\\(x\h{2}|[0-2][0-7]{,2}|3[0-6][0-7]|37[0-7]?|[4-7][0-7]?|.)'
           scope: constant.character.escape.ossl
@@ -175,7 +175,7 @@ contexts:
         - meta_scope: meta.state.ossl
         - match: '\}'
           captures:
-            0: punctuation.definition.state.end.ossl
+            0: punctuation.section.state.end.ossl
           pop: true
         - match: '{'
           push:
