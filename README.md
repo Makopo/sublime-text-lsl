@@ -3,11 +3,11 @@ LSL/OSSL Bundle for Sublime Text
 
 # Current supported language
 
-* LSL [\*.lsl]: Second Life 2023-01-11.577595
+* LSL [\*.lsl]: Second Life 2023-03-24.579022
 * OSSL [\*.ossl]: OpenSimulator v0.9.2.1
   - Including mod\*, os\*, wl\*(LightShare) functions
 
-[kwdb](https://github.com/Sei-Lisa/kwdb) version 0.0.20230304000
+[kwdb](https://github.com/Sei-Lisa/kwdb) version 0.0.20230409000
 
 # Features
 
